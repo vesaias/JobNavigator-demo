@@ -49,7 +49,7 @@ describe('screen loads', () => {
     const shelf = await get('/api/resumes/shelf')
     expect(shelf.bases.map((b) => b.name)).toContain('PM – Platform')
     expect(await get('/api/resumes?is_base=true')).toHaveLength(2)
-    expect((await get('/api/resumes/res-1')).json_data.header.name).toBe('Daniel Reyes')
+    expect((await get('/api/resumes/res-1')).json_data.header.name).toBe('Daniel Smith')
     await get('/api/resumes/templates')
   })
   it('Cover letters', async () => {
@@ -57,7 +57,7 @@ describe('screen loads', () => {
     await get('/api/cover-letters/templates')
   })
   it('Persona', async () => {
-    expect((await get('/api/persona')).contact.name).toBe('Daniel Reyes')
+    expect((await get('/api/persona')).contact.name).toBe('Daniel Smith')
     expect((await handle('PATCH', '/api/persona', { qa_bank: [{ q: 'a' }] })).data.qa_bank).toHaveLength(1)
     expect((await get('/api/persona')).qa_bank).toHaveLength(1)
   })
@@ -77,10 +77,10 @@ describe('screen loads', () => {
   })
   it('Auth', async () => {
     const me = await get('/api/auth/me')
-    expect(me.account.name).toBe('Daniel Reyes')
+    expect(me.account.name).toBe('Daniel Smith')
     expect(me.accounts_count).toBe(2)
     const acc = await get('/api/accounts')
-    expect(acc.accounts.map((a) => a.name)).toEqual(['Daniel Reyes', 'Elena Reyes'])
+    expect(acc.accounts.map((a) => a.name)).toEqual(['Daniel Smith', 'Elena Smith'])
     expect(acc.accounts[1].disabled).toBe(true)
     expect((await handle('POST', '/api/auth/switch', {})).status).toBe(403)
     expect((await handle('POST', '/api/auth/verify-pin', {})).status).toBe(403)

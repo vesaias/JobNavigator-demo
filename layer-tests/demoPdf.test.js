@@ -2,17 +2,17 @@ import { describe, it, expect, vi, afterEach } from 'vitest'
 import { mkdirSync, writeFileSync } from 'node:fs'
 import fixture from '../demo/fixture.json'
 import { RESUME_TEMPLATES, COVER_LETTER_TEMPLATES } from '../demo/templates.js'
-import { renderResumeHtml, renderCoverLetterHtml, printHtml } from '../demo/pdf.js'
+import { renderResumeHtml, renderCoverLetterHtml, pageGeometry, cutAt } from '../demo/pdf.js'
 import { clearRoutes, handle } from '../demo/server.js'
 import { loadStore } from '../demo/store.js'
 import { register } from '../demo/routes/documents.js'
 
 const resume = fixture.resumes[0].json_data
 const letter = {
-  header: { name: 'Daniel Reyes', contact_items: [{ text: 'daniel@example.com', url: 'mailto:daniel@example.com' }, { text: 'Austin, TX', url: '' }] },
+  header: { name: 'Daniel Smith', contact_items: [{ text: 'daniel@example.com', url: 'mailto:daniel@example.com' }, { text: 'Austin, TX', url: '' }] },
   date: 'October 19, 2026', recipient: { manager: 'Hiring Manager', company: 'Acme', address: '1 Main St' },
   greeting: 'Dear Hiring Manager,', body_paragraphs: ['I **led** growth at Foo & Bar.', 'Second paragraph.'],
-  closing: 'Sincerely,', signature: 'Daniel Reyes',
+  closing: 'Sincerely,', signature: 'Daniel Smith',
 }
 
 describe('demo templates', () => {
@@ -50,25 +50,17 @@ describe('demo templates', () => {
   })
 })
 
-describe('printHtml', () => {
-  afterEach(() => { vi.restoreAllMocks(); document.body.innerHTML = '' })
-
-  const stubWindow = (win) => vi.spyOn(HTMLIFrameElement.prototype, 'contentWindow', 'get').mockReturnValue(win)
-  const doc = () => ({ open() {}, write() {}, close() {}, fonts: { ready: Promise.resolve() } })
-
-  it('removes its iframe when print throws', async () => {
-    stubWindow({ document: doc(), addEventListener() {}, focus() {}, print() { throw new Error('blocked') } })
-    expect(await printHtml('<p>x</p>')).toBe(false)
-    expect(document.querySelector('iframe')).toBeNull()
+describe('pdf download geometry', () => {
+  it('reads size and margins from @page', () => {
+    const g = pageGeometry('<style>@page { size: A4; margin: 0.5in 0.55in; }</style>')
+    expect(g.format).toBe('a4')
+    expect(g.margin.top).toBeCloseTo(48)
+    expect(g.margin.left).toBeCloseTo(52.8)
+    expect(pageGeometry('<style>@page { size: letter; margin: 0.7in; }</style>').width).toBeCloseTo(816)
   })
-
-  it('removes the iframe after afterprint (also a cancelled dialog)', async () => {
-    let after
-    stubWindow({ document: doc(), addEventListener: (n, f) => { if (n === 'afterprint') after = f }, focus() {}, print() {} })
-    expect(await printHtml('<p>x</p>')).toBe(true)
-    expect(document.querySelector('iframe')).not.toBeNull()
-    after()
-    expect(document.querySelector('iframe')).toBeNull()
+  it('cuts pages between lines, never through one', () => {
+    expect(cutAt([[0, 20], [90, 110]], 100)).toBe(90)
+    expect(cutAt([[0, 20], [40, 60]], 100)).toBe(100)
   })
 })
 

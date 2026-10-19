@@ -5,7 +5,7 @@
   "template": "inter",
   "json_data": {
    "header": {
-    "name": "Daniel Reyes",
+    "name": "Daniel Smith",
     "title": "Product Manager, Consumer Growth",
     "contact_items": [
      {
@@ -13,8 +13,8 @@
       "url": ""
      },
      {
-      "text": "daniel.reyes.pm@example.com",
-      "url": "mailto:daniel.reyes.pm@example.com"
+      "text": "daniel.smith.pm@example.com",
+      "url": "mailto:daniel.smith.pm@example.com"
      },
      {
       "text": "(206) 555-0142",
@@ -96,7 +96,7 @@
   "template": "inter",
   "json_data": {
    "header": {
-    "name": "Daniel Reyes",
+    "name": "Daniel Smith",
     "title": "Product Manager, Platform and Experimentation",
     "contact_items": [
      {
@@ -104,8 +104,8 @@
       "url": ""
      },
      {
-      "text": "daniel.reyes.pm@example.com",
-      "url": "mailto:daniel.reyes.pm@example.com"
+      "text": "daniel.smith.pm@example.com",
+      "url": "mailto:daniel.smith.pm@example.com"
      },
      {
       "text": "(206) 555-0142",

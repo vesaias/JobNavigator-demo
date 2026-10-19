@@ -86,7 +86,9 @@ def letter_json(base_key, c):
 # ── jobs ─────────────────────────────────────────────────────────────────────
 def main():
     exp = load("work/export.json")
-    ok = load("data/snapshots/index.json")["ok"]
+    ix = load("data/snapshots/index.json")
+    ok = ix["ok"]
+    expired = set(ix.get("expired", []))   # featured, but the posting had closed before capture: no snapshot
     pool = {j["id"]: j for j in exp["featured_pool"]}
     featured = [pool[i] for i in ok]
     content = {}
@@ -146,11 +148,14 @@ def main():
         return j
 
     # featured: prepared results
-    feat_days = {"Perplexity": 3, "Twitch": 5, "Discord": 8, "Luma": 2, "WHOOP": 11, "MrBeast": 1, "Otter": 4, "OnePay": 6,
+    feat_days = {"Anthropic": 3, "Twitch": 5, "Discord": 8, "Luma": 2, "WHOOP": 11, "MrBeast": 1, "Otter": 4, "OnePay": 6,
                  "Robinhood": 9, "Kikoff": 2, "Earnin": 7, "Mudflap": 10, "Plaid": 3, "Glean": 12, "Ramp": 5}
     feat_status = {"Ramp": "skip", "Glean": "skip",
                    "Twitch": "applied", "WHOOP": "applied", "Discord": "applied"}
-    pre = ("WHOOP", "Discord", "Twitch", "Perplexity")
+    pre = ("Anthropic", "Robinhood", "Plaid", "WHOOP")   # copies with a cover letter already made
+    # Two more copies tailored straight from the Persona (no base parent), so every group in
+    # Résumés has some (Robinhood and Plaid above are the PM – Platform ones).
+    extra_copies = {"Otter": "persona", "Kikoff": "persona"}
     feat_company = {}
     for j in featured:
         key = next(k for k in feat_days if j["company"].startswith(k))
@@ -168,21 +173,26 @@ def main():
                              "length": "standard", "json_data": letter_json(cl["resume"], cl)},
             "autofill": c["autofill"],
         }
+        if j["id"] in expired:
+            prepared[j["id"]]["snapshot"] = False
         job_scores = dict(scores)
         row = finish_job(j, feat_days[key], feat_status.get(key, "new"), scores, reports)
-        if key in pre:
+        if key in pre or key in extra_copies:
             short = key.lower()
             rid = f"res-tailored-{short}"
-            resumes.append({"id": rid, "name": t["name"], "is_base": False, "parent_id": RES_ID[t["base"]], "job_id": j["id"],
+            parent = None if extra_copies.get(key) == "persona" else RES_ID[t["base"]]
+            resumes.append({"id": rid, "name": t["name"], "is_base": False, "parent_id": parent, "job_id": j["id"],
                             "template": "inter", "page_format": "letter", "created_at": row["discovered_at"], "updated_at": row["discovered_at"],
                             "json_data": tj})
+            row["cv_scores"]["Tailored"] = t["score"]
+            row["best_score"] = max(row["best_score"], t["score"])
+            row["best_cv_score"] = row["best_score"]
+        if key in pre:
+            short = key.lower()
             cover_letters.append({"id": f"cl-{short}", "name": cl["name"], "job_id": j["id"], "resume_id": RES_ID[cl["resume"]],
                                   "template": "inter", "page_format": "letter", "voice": "professional", "length": "standard",
                                   "from_persona": False, "created_at": row["discovered_at"], "updated_at": row["discovered_at"],
                                   "json_data": letter_json(cl["resume"], cl)})
-            row["cv_scores"]["Tailored"] = t["score"]
-            row["best_score"] = max(row["best_score"], t["score"])
-            row["best_cv_score"] = row["best_score"]
 
     # applications
     applications = []
@@ -303,7 +313,6 @@ def main():
         company("co-whoop", "WHOOP", "https://jobs.ashbyhq.com/whoop", "ashby", 1, 2, 83),
         company("co-discord", "Discord", "https://boards.greenhouse.io/discord", "greenhouse", 1, 4, 80),
         company("co-twitch", "Twitch", "https://boards.greenhouse.io/twitch", "greenhouse", 2, 2, 72),
-        company("co-perplexity", "Perplexity", "https://jobs.ashbyhq.com/perplexity", "ashby", 2, 3, 71),
         company("co-otter", "Otter", "https://boards.greenhouse.io/otter", "greenhouse", 2, 1, 70),
         company("co-onepay", "OnePay", "https://jobs.ashbyhq.com/oneapp", "ashby", 2, 2, 74),
         company("co-robinhood", "Robinhood", "https://boards.greenhouse.io/robinhood", "greenhouse", 3, 6, 58),

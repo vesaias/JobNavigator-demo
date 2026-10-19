@@ -51,7 +51,7 @@ jobs:
         working-directory: jn/frontend
         run: |
           npm install --no-audit --no-fund --no-package-lock
-          npm install --no-save --no-audit --no-fund --no-package-lock nunjucks@3.2.4
+          npm install --no-save --no-audit --no-fund --no-package-lock nunjucks@3.2.4 html2canvas@1.4.1 jspdf@3.0.1 docx@8.5.0
 
       - name: Test the layer
         working-directory: jn/frontend

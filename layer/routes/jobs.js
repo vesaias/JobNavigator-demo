@@ -58,12 +58,25 @@ const counts = (rows, key) => {
   return m
 }
 
-// A reader-style page for postings that have no snapshot.
+// A reader-style page for postings that have no snapshot. Saved descriptions are usually
+// HTML (ATS feeds), sometimes plain text: render the first, keep line breaks for the second.
+const esc = (s) => String(s ?? '').replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]))
+const looksHtml = (s) => /<\/?(p|div|br|h[1-6]|ul|ol|li|strong|b|em|span|table)\b/i.test(s)
+const cleanHtml = (s) => String(s)
+  .replace(/<(script|style|iframe|object|embed|form|noscript)\b[\s\S]*?<\/\1\s*>/gi, '')
+  .replace(/<(script|style|iframe|object|embed|form|link|meta|base)\b[^>]*>/gi, '')
+  .replace(/\s(on\w+|style|class|id)\s*=\s*("[^"]*"|'[^']*'|[^\s>]+)/gi, '')
+  .replace(/(href|src)\s*=\s*("|')\s*javascript:[^"']*\2/gi, '$1="#"')
+const READER_CSS = 'body{font:15px/1.6 system-ui,-apple-system,"Segoe UI",sans-serif;color:#222;background:#fff;max-width:760px;margin:32px auto;padding:0 24px}'
+  + 'h1{font-size:26px;line-height:1.25;margin:0 0 6px}.meta{color:#666;margin:0 0 24px;padding-bottom:16px;border-bottom:1px solid #eee}'
+  + 'h2,h3,h4{font-size:17px;margin:22px 0 8px}p{margin:0 0 12px}ul,ol{margin:0 0 12px;padding-left:22px}li{margin:3px 0}'
+  + 'a{color:#2a6f4f}.plain{white-space:pre-wrap}img{max-width:100%}'
 const descriptionPage = (j) => {
-  const esc = (s) => String(s ?? '').replace(/[&<>]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;' }[c]))
-  return `<!doctype html><meta charset="utf-8"><body style="font-family:system-ui,sans-serif;line-height:1.55;max-width:760px;margin:24px auto;padding:0 20px;color:#222">`
-    + `<h2 style="margin:0 0 4px">${esc(j.title)}</h2><div style="color:#666;margin-bottom:18px">${esc(j.company)}${j.location ? ' · ' + esc(j.location) : ''}</div>`
-    + `<div style="white-space:pre-wrap">${esc(j.description || 'No description saved.')}</div></body>`
+  const d = j.description || 'No description saved.'
+  const body = looksHtml(d) ? cleanHtml(d) : `<div class="plain">${esc(d)}</div>`
+  return `<!doctype html><meta charset="utf-8"><style>${READER_CSS}</style><body>`
+    + `<h1>${esc(j.title)}</h1><div class="meta">${esc(j.company)}${j.location ? ' · ' + esc(j.location) : ''}</div>`
+    + `${body}</body>`
 }
 
 async function snapshotFor(id) {
@@ -163,8 +176,8 @@ export function register() {
   route('GET', '/jobs/:id/cached-page', async ({ store, params }) => {
     const j = store.find('jobs', params.id)
     if (!j) return notFound('Job')
-    const featured = !!(store.get('prepared') || {})[params.id]
-    const html = featured ? await snapshotFor(params.id) : null
+    const prep = (store.get('prepared') || {})[params.id]
+    const html = prep && prep.snapshot !== false ? await snapshotFor(params.id) : null
     return { data: html || descriptionPage(j) }
   })
 

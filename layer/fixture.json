@@ -4,7 +4,7 @@
   "accounts": [
     {
       "id": "00000000-0000-4000-8000-0000000000a1",
-      "name": "Daniel Reyes",
+      "name": "Daniel Smith",
       "color": "#4f7cac",
       "role": "owner",
       "has_pin": false,
@@ -12,7 +12,7 @@
     },
     {
       "id": "00000000-0000-4000-8000-0000000000a2",
-      "name": "Elena Reyes",
+      "name": "Elena Smith",
       "color": "#b5651d",
       "role": "member",
       "has_pin": false,
@@ -1404,7 +1404,7 @@
       "updated_at": "2026-09-30T10:00:00Z",
       "json_data": {
         "header": {
-          "name": "Daniel Reyes",
+          "name": "Daniel Smith",
           "title": "Product Manager",
           "contact_items": [
             {
@@ -1454,7 +1454,7 @@
       "updated_at": "2026-09-30T10:00:00Z",
       "json_data": {
         "header": {
-          "name": "Daniel Reyes",
+          "name": "Daniel Smith",
           "title": "Product Manager, Platform",
           "contact_items": [
             {
@@ -1494,7 +1494,7 @@
   "persona": {
     "id": 1,
     "contact": {
-      "name": "Daniel Reyes",
+      "name": "Daniel Smith",
       "email": "daniel@example.com"
     },
     "work_auth": {},
@@ -1535,11 +1535,11 @@
         }
       },
       "tailored": {
-        "name": "Daniel Reyes – Lumen Apps",
+        "name": "Daniel Smith – Lumen Apps",
         "base_id": "res-1",
         "json_data": {
           "header": {
-            "name": "Daniel Reyes",
+            "name": "Daniel Smith",
             "title": "Senior Product Manager"
           },
           "summary": "Growth-focused product manager.",
@@ -1578,11 +1578,11 @@
         }
       },
       "tailored": {
-        "name": "Daniel Reyes – Northwind Labs",
+        "name": "Daniel Smith – Northwind Labs",
         "base_id": "res-2",
         "json_data": {
           "header": {
-            "name": "Daniel Reyes"
+            "name": "Daniel Smith"
           },
           "summary": "Platform product manager.",
           "experience": [],

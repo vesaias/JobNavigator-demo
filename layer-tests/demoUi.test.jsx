@@ -16,8 +16,8 @@ const { default: Shell } = await import('../Shell')
 const { default: DemoMarker } = await import('../demo/DemoMarker')
 const { loadStore, getStore } = await import('../demo/store')
 
-const DANIEL = { id: 'a1', name: 'Daniel Reyes', color: '#2f6fed', role: 'owner', has_pin: false }
-const ELENA = { id: 'a2', name: 'Elena Reyes', color: '#2e9e6b', role: 'member', has_pin: false, disabled: true }
+const DANIEL = { id: 'a1', name: 'Daniel Smith', color: '#2f6fed', role: 'owner', has_pin: false }
+const ELENA = { id: 'a2', name: 'Elena Smith', color: '#2e9e6b', role: 'member', has_pin: false, disabled: true }
 
 const mockApi = (settings) => {
   api.get.mockImplementation((path) => {
@@ -64,8 +64,8 @@ describe('Shell account switcher', () => {
   it('lists Elena disabled with the demo note', async () => {
     mockApi({})
     render(<MemoryRouter initialEntries={['/feed']}><Shell /></MemoryRouter>)
-    fireEvent.click(await screen.findByLabelText(/Daniel Reyes, .* switch account/))
-    const item = await screen.findByText(/^Elena Reyes$/)
+    fireEvent.click(await screen.findByLabelText(/Daniel Smith, .* switch account/))
+    const item = await screen.findByText(/^Elena Smith$/)
     const btn = item.closest('[role="menuitem"]') || item.closest('[aria-disabled]')
     expect(btn.getAttribute('aria-disabled')).toBe('true')
   })
@@ -73,7 +73,7 @@ describe('Shell account switcher', () => {
   it('has no demo badge when __DEMO__ is false', async () => {
     mockApi({})
     render(<MemoryRouter initialEntries={['/feed']}><Shell /></MemoryRouter>)
-    await screen.findByLabelText(/Daniel Reyes, .* switch account/)
+    await screen.findByLabelText(/Daniel Smith, .* switch account/)
     expect(screen.queryByText('Sample data')).toBeNull()
   })
 })

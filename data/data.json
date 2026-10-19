@@ -4,7 +4,7 @@
  "accounts": [
   {
    "id": "00000000-0000-4000-8000-0000000000a1",
-   "name": "Daniel Reyes",
+   "name": "Daniel Smith",
    "color": "#4f7cac",
    "role": "owner",
    "has_pin": false,
@@ -12,7 +12,7 @@
   },
   {
    "id": "00000000-0000-4000-8000-0000000000a2",
-   "name": "Elena Reyes",
+   "name": "Elena Smith",
    "color": "#b5651d",
    "role": "member",
    "has_pin": false,
@@ -2703,7 +2703,8 @@
    "h1b_verdict": null,
    "cv_scores": {
     "PM – Consumer Growth": 74,
-    "PM – Platform": 63
+    "PM – Platform": 63,
+    "Tailored": 79
    },
    "best_cv": "PM – Consumer Growth",
    "scoring_report": {
@@ -2869,7 +2870,7 @@
      "ats_tip": "The Consumer Growth resume covers engagement and research; use it for this posting and keep Platform for infrastructure roles."
     }
    },
-   "best_score": 74,
+   "best_score": 79,
    "has_cached_page": true,
    "page_cached_at": "2026-10-17T12:11:00Z",
    "seen": true,
@@ -2881,7 +2882,7 @@
    "in_flight": [],
    "in_flight_detail": [],
    "short_id": "J59",
-   "best_cv_score": 74
+   "best_cv_score": 79
   },
   {
    "id": "43179586-1656-5cd8-abc5-e96ecc0faf0f",
@@ -3044,221 +3045,6 @@
    "short_id": "J55"
   },
   {
-   "id": "0c47f539-1b31-5b8c-ab65-b46599b5bf70",
-   "external_id": "b910a64bba61fab5b955b8ceec9023858704b9d6",
-   "company": "Perplexity",
-   "title": "Product Manager, Mobile Apps",
-   "url": "https://jobs.ashbyhq.com/perplexity/3c9c051f-e6ca-4a70-9abf-1f640e154ee1",
-   "source": "direct",
-   "search_id": null,
-   "description": "In 2026, we launched Computer, the defining product for the new era of agentic AI. We’ve scaled beyond the millions of people using Perplexity every day for research, shopping, investing and curiosity into a new paradigm of using AI to transform knowledge into action.\nProduct Managers at Perplexity work closely with design and engineering, focusing on the native mobile experiences that bring agentic AI and search into people’s everyday lives. The ideal candidate should have strong communication and writing skills, the ability to envision innovative technology, and a willingness to reimagine work to be more efficient and creative. Ideal candidates have deep experience building exceptional mobile products: in the application, please highlight the mobile apps or platform experiences you are most proud of shipping.\nThe Role\nThe Mobile Apps team owns the end-to-end Perplexity experience across iOS and Android. This includes how users discover and onboard into the product, search and take action on the go, use voice, camera, notifications, widgets, and other native capabilities, manage subscriptions and preferences, and return to ongoing work across devices.\nYou will identify the highest-leverage mobile user problems, translate them into clear product direction, and partner closely with design, engineering, data science, and research to deliver experiences that feel fast, intuitive, cohesive, and dependable. This role requires strong product judgment, deep user empathy, analytical rigor, fluency in mobile platform constraints and opportunities, and an exceptional eye for detail.\nWhat You'll Do\nAnticipate opportunities for innovation and value in how people use AI on mobile.\nEnvision new mobile experiences and deliver a long-term vision across iOS and Android.\nUnderstand the levers for mobile product-led growth, engagement, and retention.\nWork closely with engineering and design to align product expectations with native platform capabilities and constraints.\nWork with research to evaluate and steer nondeterministic models into high-value outcomes for mobile users.\nHave conviction to make difficult product decisions in the face of uncertainty.\nDevelop a deep understanding of mobile user needs, behaviors, and friction through direct product use, qualitative research, product data, and experimentation.\nMake complex AI behavior understandable and controllable on small screens through clear interaction models, thoughtful defaults, and well-designed feedback.\nDrive alignment when improvements span iOS, Android, web, backend systems, or multiple teams.\nCommunicate product decisions, tradeoffs, progress, and learnings clearly to leadership and cross-functional partners.\nQualifications\nStrong experience with product management and leadership.\nStrong experience working with data and metrics.\nExperience shipping and scaling high-quality consumer mobile products across iOS or Android.\nDeep understanding of native mobile interaction patterns, platform capabilities, performance, and reliability.\nExperience with rapid mobile prototyping, experimentation, and data visualization.\nExperience building data-driven flywheels for iterative improvement.\nThrives in a small, agile team: has initiative and desire for ownership.\n4+ years of product management experience.\nOur Mission\nPerplexity's mission is to power curiosity. Curious people are the people who drive change in the world. Driving change is a continuous cycle of learning, building, and integrating.\nLearn: curious people constantly learn new things by asking more. They question the status quo in their own expertise and they constantly learn outside of it. Research is essential to them and never ending.\nBuild: curious people make and create things, to show the world their new answers to problems no one else ever questioned. They take action on what they've learned. Makers need tools to create their products, their companies, their reality.\nIntegrate: they must interact with the world as it is to drive change and adoption. True leaders do not simply build something and hope. They must have armies of agents and workers who can constantly work in millions of small ways.\nRepeat. For curious people this is a cycle that never ends.\n\nCompensation: $230K - $330K",
-   "location": "San Francisco",
-   "remote": null,
-   "arr_remote": null,
-   "arr_hybrid": null,
-   "arr_onsite": null,
-   "salary_min": 230000,
-   "salary_max": 330000,
-   "salary_source": "posting",
-   "h1b_company_lca_count": null,
-   "h1b_company_approval_rate": null,
-   "h1b_jd_flag": null,
-   "h1b_jd_snippet": null,
-   "h1b_verdict": null,
-   "cv_scores": {
-    "PM – Consumer Growth": 84,
-    "PM – Platform": 70,
-    "Tailored": 88
-   },
-   "best_cv": "PM – Consumer Growth",
-   "scoring_report": {
-    "PM – Consumer Growth": {
-     "summary": "Strong fit: the role is owning growth, engagement and retention for a consumer mobile app across iOS and Android, which is Daniel's work at Brightpath on a 12M-user app. The main gaps are native capabilities such as voice, camera and widgets, and any experience with AI model behaviour.",
-     "breakdown": {
-      "skills": 17,
-      "experience": 17,
-      "domain": 16,
-      "role": 17,
-      "requirements": 17
-     },
-     "requirement_mapping": [
-      {
-       "requirement": "4+ years of product management experience",
-       "cv_match": "Consumer-apps product manager with 8 years of experience growing mobile products used by millions",
-       "matched": true,
-       "severity": "required"
-      },
-      {
-       "requirement": "Shipping and scaling consumer mobile products across iOS or Android",
-       "cv_match": "Own the growth roadmap for a meditation and sleep app with 12M monthly users across iOS, Android and web",
-       "matched": true,
-       "severity": "required"
-      },
-      {
-       "requirement": "Strong experience working with data and metrics",
-       "cv_match": "SQL, Amplitude, Mixpanel, Looker, funnel and cohort analysis",
-       "matched": true,
-       "severity": "required"
-      },
-      {
-       "requirement": "Levers for mobile product-led growth, engagement and retention",
-       "cv_match": "Rebuilt onboarding ... lifting day-7 retention from 31% to 39%",
-       "matched": true,
-       "severity": "required"
-      },
-      {
-       "requirement": "Rapid prototyping, experimentation and data visualization",
-       "cv_match": "60+ A/B tests per year, with a 38% win rate",
-       "matched": true,
-       "severity": "required"
-      },
-      {
-       "requirement": "Data-driven flywheels for iterative improvement",
-       "cv_match": "Introduced push and email lifecycle messaging with design and data, reactivating 180K dormant users",
-       "matched": true,
-       "severity": "preferred"
-      },
-      {
-       "requirement": "Thrives in a small, agile team with ownership",
-       "cv_match": "Run a 6-person growth squad",
-       "matched": true,
-       "severity": "preferred"
-      },
-      {
-       "requirement": "Deep knowledge of native capabilities such as voice, camera and widgets",
-       "cv_match": "Introduced push and email lifecycle messaging",
-       "matched": false,
-       "severity": "preferred"
-      },
-      {
-       "requirement": "Steering nondeterministic AI models into high-value outcomes",
-       "cv_match": null,
-       "matched": false,
-       "severity": "preferred"
-      }
-     ],
-     "keyword_coverage_pct": 75,
-     "matched_keywords": [
-      "mobile",
-      "iOS",
-      "Android",
-      "retention",
-      "onboarding",
-      "experimentation",
-      "A/B testing",
-      "SQL",
-      "engagement"
-     ],
-     "missing_keywords": [
-      "AI models",
-      "native platform capabilities",
-      "widgets"
-     ],
-     "hard_blockers": [],
-     "ats_tip": "Add 'engagement' and 'product-led growth' to the Brightpath summary line so a keyword match sees them next to the title."
-    },
-    "PM – Platform": {
-     "summary": "Decent match: the experimentation toolkit and notifications platform are relevant to mobile engagement, but the Platform resume says little about onboarding, retention or consumer-facing mobile results, which this posting is built around.",
-     "breakdown": {
-      "skills": 14,
-      "experience": 14,
-      "domain": 14,
-      "role": 14,
-      "requirements": 14
-     },
-     "requirement_mapping": [
-      {
-       "requirement": "4+ years of product management experience",
-       "cv_match": "8 years of turning one-off feature work into platforms that several product teams build on",
-       "matched": true,
-       "severity": "required"
-      },
-      {
-       "requirement": "Shipping and scaling consumer mobile products across iOS or Android",
-       "cv_match": "Own the experimentation and subscription platform used by 5 product squads of a 12M-user meditation and sleep app",
-       "matched": true,
-       "severity": "required"
-      },
-      {
-       "requirement": "Strong experience working with data and metrics",
-       "cv_match": "SQL, REST APIs, event tracking and data modelling",
-       "matched": true,
-       "severity": "required"
-      },
-      {
-       "requirement": "Levers for mobile product-led growth, engagement and retention",
-       "cv_match": "Defined the notifications platform roadmap ... preference centre, throttling and delivery analytics",
-       "matched": false,
-       "severity": "required"
-      },
-      {
-       "requirement": "Rapid prototyping, experimentation and data visualization",
-       "cv_match": "Built a self-serve experiment toolkit that took test setup from 9 days to 2 days",
-       "matched": true,
-       "severity": "required"
-      },
-      {
-       "requirement": "Data-driven flywheels for iterative improvement",
-       "cv_match": "doubled experiments run per quarter",
-       "matched": true,
-       "severity": "preferred"
-      },
-      {
-       "requirement": "Deep knowledge of native capabilities such as voice, camera and widgets",
-       "cv_match": "Defined the notifications platform roadmap with 3 engineering teams",
-       "matched": true,
-       "severity": "preferred"
-      },
-      {
-       "requirement": "Thrives in a small, agile team with ownership",
-       "cv_match": null,
-       "matched": false,
-       "severity": "preferred"
-      },
-      {
-       "requirement": "Steering nondeterministic AI models into high-value outcomes",
-       "cv_match": null,
-       "matched": false,
-       "severity": "preferred"
-      }
-     ],
-     "keyword_coverage_pct": 62,
-     "matched_keywords": [
-      "mobile",
-      "experimentation",
-      "notifications",
-      "SQL",
-      "subscriptions",
-      "event tracking",
-      "Amplitude",
-      "data"
-     ],
-     "missing_keywords": [
-      "retention",
-      "onboarding",
-      "engagement",
-      "AI models",
-      "voice"
-     ],
-     "hard_blockers": [],
-     "ats_tip": "Use the Consumer Growth resume for this posting; the Platform one never mentions onboarding, retention or engagement."
-    }
-   },
-   "best_score": 88,
-   "has_cached_page": true,
-   "page_cached_at": "2026-10-16T15:24:00Z",
-   "seen": true,
-   "saved": false,
-   "status": "new",
-   "discovered_at": "2026-10-16T15:24:00Z",
-   "has_tailored_resume": false,
-   "tailored_resume_id": null,
-   "in_flight": [],
-   "in_flight_detail": [],
-   "short_id": "J54",
-   "best_cv_score": 88
-  },
-  {
    "id": "c3d33a37-30f7-5d0f-8cfe-21ff08379ccf",
    "external_id": "c2be3eec8ef571c3ffb71c34a21e77aafcd7c204",
    "company": "Adobe",
@@ -3297,8 +3083,204 @@
    "tailored_resume_id": null,
    "in_flight": [],
    "in_flight_detail": [],
-   "short_id": "J53",
+   "short_id": "J54",
    "best_cv_score": 57
+  },
+  {
+   "id": "35b2ba7f-17bd-5af5-a8e2-edc2b748017a",
+   "external_id": "17f2c2b53a0fa5501e485d8349074bc40fc8a239",
+   "company": "Anthropic",
+   "title": "Product Manager, Claude",
+   "url": "https://job-boards.greenhouse.io/anthropic/jobs/5448167008",
+   "source": "direct",
+   "search_id": null,
+   "description": "About Anthropic\nAnthropic’s mission is to create reliable, interpretable, and steerable AI systems. We want AI to be safe and beneficial for our users and for society as a whole. Our team is a quickly growing group of committed researchers, engineers, policy experts, and business leaders working together to build beneficial AI systems.\nAbout the Role\nClaude is one of the fastest-growing AI products in the world, with tens of millions of users worldwide relying on Claude across web, mobile, and desktop. As a Product Manager on the App Foundations team, you’ll be responsible for key parts of the product experience spanning the core Claude user-experience, and primitives such as memory, voice mode, and artifacts. You'll be improving and scaling a product that has enormous reach. This requires strong systems thinking, judgement about what to build next, deep care for craft and quality, and the ability to move quickly in a highly cross-functional environment, while maintaining our commitment to safety and beneficial AI.\nKey Responsibilities\nOwn the end-to-end strategy, roadmap and execution for your area\nDesign capabilities as systems that flexibly extend to all Claude products\nTranslate frontier model capabilities into simple, intuitive experiences that a broad consumer audience can understand and love\nAnalyze product metrics and user feedback to identify opportunities and optimize performance\nUse a mix of quantitative data, experimentation, and user research to deeply understand user behavior and make prioritization calls\nSet a high bar for quality and craft — sweat the details of the everyday interactions that millions of people experience\nPartner closely with design, engineering, data science, research, and marketing to ship high-impact product improvements at a fast cadence\nBalance rapid iteration with our commitment to AI safety and ethics\nMinimum Qualifications\nExperience working on products with millions of users\nExceptional product taste and instincts for what makes experiences delightful\nHighly analytical and fluent in experimentation and using data to drive decisions\nExcellent communication and stakeholder management skills\nAbility to thrive in a fast-paced, ambiguous environment\nPassion for AI technology and its potential impact on society\nTechnical background or ability to work effectively with engineering teams\nAbility to translate nascent model capabilities into compelling product experiences\nPreferred Qualifications\n8+ years of product management experience, across both consumer and enterprise\nFounder experience is a plus\nAI product experience is a plus\nWorking on products that were both B2C and B2B is a plus\nThe annual compensation range for this role is listed below.\nFor sales roles, the range provided is the role’s On Target Earnings (\"OTE\") range, meaning that the range includes both the sales commissions/sales bonuses target and annual base salary for the role.\nAnnual Salary:\n$385,000\n—\n$460,000 USD\nLogistics\nMinimum education:\nBachelor’s degree or an equivalent combination of education, training, and/or experience\nRequired field of study:\nA field relevant to the role as demonstrated through coursework, training, or professional experience\nMinimum years of experience:\nYears of experience required will correlate with the internal job level requirements for the position\nLocation-based hybrid policy:\nCurrently, we expect all staff to be in one of our offices at least 25% of the time. However, some roles may require more time in our offices.\nVisa sponsorship:\nWe do sponsor visas! However, we aren't able to successfully sponsor visas for every role and every candidate. But if we make you an offer, we will make every reasonable effort to get you a visa, and we retain an immigration lawyer to help with this.\nWe encourage you to apply even if you do not believe you meet every single qualification.\nNot all strong candidates will meet every single qualification as listed.  Research shows that people who identify as being from underrepresented groups are more prone to experiencing imposter syndrome and doubting the strength of their candidacy, so we urge you not to exclude yourself prematurely and to submit an application if you're interested in this work. We think AI systems like the ones we're building have enormous social and ethical implications. We think this makes representation even more important, and we strive to include a range of diverse perspectives on our team.\nYour safety matters to us.\nTo protect yourself from potential scams, remember that Anthropic recruiters only contact you from @anthropic.com email addresses. In some cases, we may partner with vetted recruiting agencies who will identify themselves as working on behalf of Anthropic. Be cautious of emails from other domains. Legitimate Anthropic recruiters will never ask for money, fees, or banking information before your first day. If you're ever unsure about a communication, don't click any links—visit\nanthropic.com/careers\ndirectly for confirmed position openings.\nHow we're different\nWe believe that the highest-impact AI research will be big science. At Anthropic we work as a single cohesive team on just a few large-scale research efforts. And we value impact — advancing our long-term goals of steerable, trustworthy AI — rather than work on smaller and more specific puzzles. We view AI research as an empirical science, which has as much in common with physics and biology as with traditional efforts in computer science. We're an extremely collaborative group, and we host frequent research discussions to ensure that we are pursuing the highest-impact work at any given time. As such, we greatly value communication skills.\nThe easiest way to understand our research directions is to read our recent research. This research continues many of the directions our team worked on prior to Anthropic, including: GPT-3, Circuit-Based Interpretability, Multimodal Neurons, Scaling Laws, AI & Compute, Concrete Problems in AI Safety, and Learning from Human Preferences.\nCome work with us!\nAnthropic is a public benefit corporation headquartered in San Francisco. We offer competitive compensation and benefits, optional equity donation matching, generous vacation and parental leave, flexible working hours, and a lovely office space in which to collaborate with colleagues.\nGuidance on Candidates' AI Usage:\nLearn about\nour policy\nfor using AI in our application process.",
+   "location": "San Francisco, CA | New York City, NY | Seattle, WA",
+   "remote": false,
+   "arr_remote": false,
+   "arr_hybrid": true,
+   "arr_onsite": false,
+   "salary_min": 385000,
+   "salary_max": 460000,
+   "salary_source": "posting",
+   "h1b_company_lca_count": null,
+   "h1b_company_approval_rate": null,
+   "h1b_jd_flag": null,
+   "h1b_jd_snippet": null,
+   "h1b_verdict": null,
+   "cv_scores": {
+    "PM – Consumer Growth": 82,
+    "PM – Platform": 74,
+    "Tailored": 87
+   },
+   "best_cv": "PM – Consumer Growth",
+   "scoring_report": {
+    "PM – Consumer Growth": {
+     "summary": "Strong fit on the consumer side: millions of users, experimentation and data-led prioritisation are Daniel's daily work at Brightpath on a 12M-user app. The gaps are AI product experience and turning model capabilities into product, both named in the posting, and he is short of the 8+ years preferred across consumer and enterprise.",
+     "breakdown": {
+      "skills": 17,
+      "experience": 16,
+      "domain": 15,
+      "role": 17,
+      "requirements": 17
+     },
+     "requirement_mapping": [
+      {
+       "requirement": "Experience working on products with millions of users",
+       "cv_match": "Own the growth roadmap for a meditation and sleep app with 12M monthly users",
+       "matched": true,
+       "severity": "required"
+      },
+      {
+       "requirement": "Highly analytical and fluent in experimentation and data",
+       "cv_match": "60+ A/B tests per year, with a 38% win rate; SQL, Amplitude, Looker",
+       "matched": true,
+       "severity": "required"
+      },
+      {
+       "requirement": "Exceptional product taste; sweat the details of everyday interactions",
+       "cv_match": "Rebuilt onboarding around a personalised first session, lifting day-7 retention from 31% to 39%",
+       "matched": true,
+       "severity": "required"
+      },
+      {
+       "requirement": "Use quantitative data, experimentation and user research to make prioritisation calls",
+       "cv_match": "Wrote 40+ PRDs and ran weekly user interviews that shaped the mobile checkout rebuild",
+       "matched": true,
+       "severity": "required"
+      },
+      {
+       "requirement": "Partner closely with design, engineering, data science and marketing",
+       "cv_match": "Run a 6-person growth squad with design and data",
+       "matched": true,
+       "severity": "required"
+      },
+      {
+       "requirement": "Ability to translate nascent model capabilities into compelling product experiences",
+       "cv_match": null,
+       "matched": false,
+       "severity": "required"
+      },
+      {
+       "requirement": "8+ years of product management experience, across both consumer and enterprise",
+       "cv_match": "8 years, consumer only",
+       "matched": false,
+       "severity": "preferred"
+      },
+      {
+       "requirement": "AI product experience",
+       "cv_match": null,
+       "matched": false,
+       "severity": "preferred"
+      }
+     ],
+     "keyword_coverage_pct": 71,
+     "matched_keywords": [
+      "millions of users",
+      "experimentation",
+      "user research",
+      "metrics",
+      "roadmap",
+      "mobile",
+      "web",
+      "craft"
+     ],
+     "missing_keywords": [
+      "AI",
+      "model capabilities",
+      "memory",
+      "voice mode",
+      "enterprise"
+     ],
+     "hard_blockers": [],
+     "ats_tip": "Name the AI-assisted features you have shipped, even small ones, in the Brightpath summary line; the posting screens for model-to-product work."
+    },
+    "PM – Platform": {
+     "summary": "Good match on systems thinking: the posting asks for capabilities designed as systems that extend to every Claude product, which is what the experimentation and notifications platforms show. It says less about consumer craft and retention, and nothing about AI products.",
+     "breakdown": {
+      "skills": 15,
+      "experience": 15,
+      "domain": 14,
+      "role": 15,
+      "requirements": 15
+     },
+     "requirement_mapping": [
+      {
+       "requirement": "Experience working on products with millions of users",
+       "cv_match": "Own the experimentation and subscription platform used by 5 product squads of a 12M-user app",
+       "matched": true,
+       "severity": "required"
+      },
+      {
+       "requirement": "Design capabilities as systems that flexibly extend to all products",
+       "cv_match": "Defined the notifications platform roadmap with 3 engineering teams",
+       "matched": true,
+       "severity": "required"
+      },
+      {
+       "requirement": "Technical background or ability to work effectively with engineering",
+       "cv_match": "SQL, REST APIs, event tracking and data modelling",
+       "matched": true,
+       "severity": "required"
+      },
+      {
+       "requirement": "Highly analytical and fluent in experimentation",
+       "cv_match": "Built a self-serve experiment toolkit that took test setup from 9 days to 2 days",
+       "matched": true,
+       "severity": "required"
+      },
+      {
+       "requirement": "Exceptional product taste; sweat the details of everyday interactions",
+       "cv_match": null,
+       "matched": false,
+       "severity": "required"
+      },
+      {
+       "requirement": "Ability to translate nascent model capabilities into compelling product experiences",
+       "cv_match": null,
+       "matched": false,
+       "severity": "required"
+      },
+      {
+       "requirement": "AI product experience",
+       "cv_match": null,
+       "matched": false,
+       "severity": "preferred"
+      }
+     ],
+     "keyword_coverage_pct": 60,
+     "matched_keywords": [
+      "systems",
+      "platform",
+      "experimentation",
+      "engineering",
+      "metrics",
+      "roadmap"
+     ],
+     "missing_keywords": [
+      "consumer",
+      "craft",
+      "AI",
+      "model capabilities",
+      "user research"
+     ],
+     "hard_blockers": [],
+     "ats_tip": "Use the Consumer Growth résumé here; the posting leads with consumer craft and user behaviour, which the Platform one barely covers."
+    }
+   },
+   "best_score": 87,
+   "has_cached_page": true,
+   "page_cached_at": "2026-10-16T10:26:00Z",
+   "seen": true,
+   "saved": false,
+   "status": "new",
+   "discovered_at": "2026-10-16T10:26:00Z",
+   "has_tailored_resume": false,
+   "tailored_resume_id": null,
+   "in_flight": [],
+   "in_flight_detail": [],
+   "short_id": "J53",
+   "best_cv_score": 87
   },
   {
    "id": "cee144db-4cec-5404-b392-8455c2788dc3",
@@ -3324,7 +3306,8 @@
    "h1b_verdict": null,
    "cv_scores": {
     "PM – Consumer Growth": 70,
-    "PM – Platform": 73
+    "PM – Platform": 73,
+    "Tailored": 78
    },
    "best_cv": "PM – Platform",
    "scoring_report": {
@@ -3491,7 +3474,7 @@
      "ats_tip": "Add 'conversion' beside the 81% to 93% link success result, since the posting frames the whole role as owning conversion."
     }
    },
-   "best_score": 73,
+   "best_score": 78,
    "has_cached_page": true,
    "page_cached_at": "2026-10-16T10:15:00Z",
    "seen": true,
@@ -3503,7 +3486,7 @@
    "in_flight": [],
    "in_flight_detail": [],
    "short_id": "J52",
-   "best_cv_score": 73
+   "best_cv_score": 78
   },
   {
    "id": "c937de4a-4667-5e5b-82cd-049de4ee8c72",
@@ -3567,7 +3550,8 @@
    "h1b_verdict": null,
    "cv_scores": {
     "PM – Consumer Growth": 76,
-    "PM – Platform": 64
+    "PM – Platform": 64,
+    "Tailored": 81
    },
    "best_cv": "PM – Consumer Growth",
    "scoring_report": {
@@ -3734,7 +3718,7 @@
      "ats_tip": "Apply with the Consumer Growth resume; it carries the activation and monetization language this posting repeats."
     }
    },
-   "best_score": 76,
+   "best_score": 81,
    "has_cached_page": true,
    "page_cached_at": "2026-10-15T14:36:00Z",
    "seen": true,
@@ -3746,7 +3730,7 @@
    "in_flight": [],
    "in_flight_detail": [],
    "short_id": "J50",
-   "best_cv_score": 76
+   "best_cv_score": 81
   },
   {
    "id": "116c81e9-59a9-58b5-894a-7013d62a0b5c",
@@ -4066,8 +4050,7 @@
    "h1b_verdict": null,
    "cv_scores": {
     "PM – Consumer Growth": 81,
-    "PM – Platform": 66,
-    "Tailored": 85
+    "PM – Platform": 66
    },
    "best_cv": "PM – Consumer Growth",
    "scoring_report": {
@@ -4242,7 +4225,7 @@
      "ats_tip": "Use the Consumer Growth resume here; the Platform one has no consumer growth or mobile-first language to match."
     }
    },
-   "best_score": 85,
+   "best_score": 81,
    "has_cached_page": true,
    "page_cached_at": "2026-10-14T10:31:00Z",
    "seen": true,
@@ -4254,7 +4237,7 @@
    "in_flight": [],
    "in_flight_detail": [],
    "short_id": "J46",
-   "best_cv_score": 85
+   "best_cv_score": 81
   },
   {
    "id": "e34b9dba-d221-58bb-8e15-94d594185dcc",
@@ -4964,8 +4947,7 @@
    "h1b_verdict": null,
    "cv_scores": {
     "PM – Consumer Growth": 88,
-    "PM – Platform": 79,
-    "Tailored": 92
+    "PM – Platform": 79
    },
    "best_cv": "PM – Consumer Growth",
    "scoring_report": {
@@ -5141,7 +5123,7 @@
      "ats_tip": "The Growth resume reads closer to this posting; if you use Platform, move the unified subscription service bullet to the top."
     }
    },
-   "best_score": 92,
+   "best_score": 88,
    "has_cached_page": true,
    "page_cached_at": "2026-10-11T10:16:00Z",
    "seen": true,
@@ -5153,7 +5135,7 @@
    "in_flight": [],
    "in_flight_detail": [],
    "short_id": "J36",
-   "best_cv_score": 92
+   "best_cv_score": 88
   },
   {
    "id": "93de1fd8-fc64-5d0f-83e7-3504d6496d88",
@@ -5221,7 +5203,8 @@
    "h1b_verdict": null,
    "cv_scores": {
     "PM – Platform": 55,
-    "PM – Consumer Growth": 49
+    "PM – Consumer Growth": 49,
+    "Tailored": 60
    },
    "best_cv": "PM – Platform",
    "scoring_report": {
@@ -5390,7 +5373,7 @@
      "ats_tip": "If you apply, lead with the Platform resume; the Growth resume has no fintech or compliance language to match this posting."
     }
    },
-   "best_score": 55,
+   "best_score": 60,
    "has_cached_page": true,
    "page_cached_at": "2026-10-10T11:15:00Z",
    "seen": false,
@@ -5402,7 +5385,7 @@
    "in_flight": [],
    "in_flight_detail": [],
    "short_id": "J34",
-   "best_cv_score": 55
+   "best_cv_score": 60
   },
   {
    "id": "bdfccc0a-7977-5d87-a7be-9cc32ecc450b",
@@ -7747,7 +7730,7 @@
    "job_id": "651d5f41-e3e9-58a7-af14-dc39b6092a2b",
    "status": "interview",
    "applied_at": "2026-10-03T14:23:00Z",
-   "cv_version_used": "Daniel Reyes - WHOOP",
+   "cv_version_used": "Daniel Smith - WHOOP",
    "notes": "Strong match; tailored the resume and wrote a cover letter. Growth team of 4 PMs.",
    "next_action": "Prepare the growth teardown",
    "next_action_date": "2026-10-21T12:00:00Z",
@@ -7781,7 +7764,7 @@
    "has_cached_page": true,
    "discovered_at": "2026-10-08T16:45:00Z",
    "tailored_resume_id": "res-tailored-whoop",
-   "tailored_resume_name": "Daniel Reyes - WHOOP",
+   "tailored_resume_name": "Daniel Smith - WHOOP",
    "has_cover_letter": true,
    "interviews": [
     {
@@ -7809,7 +7792,7 @@
    "job_id": "2ed7d021-9e78-5fc0-889f-5c2e19dff049",
    "status": "interview",
    "applied_at": "2026-10-07T14:10:00Z",
-   "cv_version_used": "Daniel Reyes - Discord",
+   "cv_version_used": "PM – Consumer Growth",
    "notes": "Nitro subscriptions: close to my paywall work at Brightpath.",
    "next_action": "Review the Nitro metrics I know of",
    "next_action_date": "2026-10-21T12:00:00Z",
@@ -7842,9 +7825,9 @@
    "source": "jobright",
    "has_cached_page": true,
    "discovered_at": "2026-10-11T10:16:00Z",
-   "tailored_resume_id": "res-tailored-discord",
-   "tailored_resume_name": "Daniel Reyes - Discord",
-   "has_cover_letter": true,
+   "tailored_resume_id": null,
+   "tailored_resume_name": null,
+   "has_cover_letter": false,
    "interviews": [
     {
      "id": "int-18",
@@ -8703,7 +8686,7 @@
    "job_id": "442d522d-aa76-50fb-a64c-a30f74475227",
    "status": "applied",
    "applied_at": "2026-10-16T13:09:00Z",
-   "cv_version_used": "Daniel Reyes - Twitch",
+   "cv_version_used": "PM – Consumer Growth",
    "notes": "Commerce on stream; tailored resume and cover letter sent.",
    "next_action": "Follow up in a week",
    "next_action_date": "2026-10-23T12:00:00Z",
@@ -8730,9 +8713,9 @@
    "source": "levels_fyi",
    "has_cached_page": true,
    "discovered_at": "2026-10-14T10:31:00Z",
-   "tailored_resume_id": "res-tailored-twitch",
-   "tailored_resume_name": "Daniel Reyes - Twitch",
-   "has_cover_letter": true,
+   "tailored_resume_id": null,
+   "tailored_resume_name": null,
+   "has_cover_letter": false,
    "interviews": []
   }
  ],
@@ -9169,44 +9152,6 @@
    "notes": null
   },
   {
-   "id": "co-perplexity",
-   "name": "Perplexity",
-   "aliases": [],
-   "auto_scoring_depth": null,
-   "active": true,
-   "scrape_urls": [
-    "https://jobs.ashbyhq.com/perplexity"
-   ],
-   "tier": 2,
-   "selected_resume_ids": [],
-   "playwright_enabled": false,
-   "scrape_interval_minutes": 0,
-   "title_include_expr": null,
-   "title_exclude_keywords": [],
-   "wait_for_selector": null,
-   "max_pages": 5,
-   "jobspy_search_term": null,
-   "h1b_slug": null,
-   "detected_scrape_types": {
-    "https://jobs.ashbyhq.com/perplexity": "ashby"
-   },
-   "application_count": 0,
-   "open_jobs": 3,
-   "open_jobs_week": 2,
-   "avg_fit": 71,
-   "last_error": null,
-   "last_run_warning": false,
-   "last_run_at": "2026-10-19T03:12:00Z",
-   "warning_acknowledged_at": null,
-   "warning_acknowledged": false,
-   "h1b_lca_count": null,
-   "h1b_approval_rate": null,
-   "h1b_median_salary": null,
-   "h1b_last_checked": null,
-   "last_scraped_at": "2026-10-19T03:12:00Z",
-   "notes": null
-  },
-  {
    "id": "co-otter",
    "name": "Otter",
    "aliases": [],
@@ -9562,7 +9507,7 @@
    "updated_at": "2026-10-08T14:00:00Z",
    "json_data": {
     "header": {
-     "name": "Daniel Reyes",
+     "name": "Daniel Smith",
      "title": "Product Manager, Consumer Growth",
      "contact_items": [
       {
@@ -9570,8 +9515,8 @@
        "url": ""
       },
       {
-       "text": "daniel.reyes.pm@example.com",
-       "url": "mailto:daniel.reyes.pm@example.com"
+       "text": "daniel.smith.pm@example.com",
+       "url": "mailto:daniel.smith.pm@example.com"
       },
       {
        "text": "(206) 555-0142",
@@ -9659,7 +9604,7 @@
    "updated_at": "2026-10-05T14:00:00Z",
    "json_data": {
     "header": {
-     "name": "Daniel Reyes",
+     "name": "Daniel Smith",
      "title": "Product Manager, Platform and Experimentation",
      "contact_items": [
       {
@@ -9667,8 +9612,8 @@
        "url": ""
       },
       {
-       "text": "daniel.reyes.pm@example.com",
-       "url": "mailto:daniel.reyes.pm@example.com"
+       "text": "daniel.smith.pm@example.com",
+       "url": "mailto:daniel.smith.pm@example.com"
       },
       {
        "text": "(206) 555-0142",
@@ -9754,27 +9699,27 @@
    }
   },
   {
-   "id": "res-tailored-perplexity",
-   "name": "Daniel Reyes - Perplexity",
+   "id": "res-tailored-anthropic",
+   "name": "Daniel Smith - Anthropic",
    "is_base": false,
    "parent_id": "res-growth",
-   "job_id": "0c47f539-1b31-5b8c-ab65-b46599b5bf70",
+   "job_id": "35b2ba7f-17bd-5af5-a8e2-edc2b748017a",
    "template": "inter",
    "page_format": "letter",
-   "created_at": "2026-10-16T15:24:00Z",
-   "updated_at": "2026-10-16T15:24:00Z",
+   "created_at": "2026-10-16T10:26:00Z",
+   "updated_at": "2026-10-16T10:26:00Z",
    "json_data": {
     "header": {
-     "name": "Daniel Reyes",
-     "title": "Product Manager, Mobile Apps",
+     "name": "Daniel Smith",
+     "title": "Product Manager, Claude",
      "contact_items": [
       {
        "text": "Seattle, WA",
        "url": ""
       },
       {
-       "text": "daniel.reyes.pm@example.com",
-       "url": "mailto:daniel.reyes.pm@example.com"
+       "text": "daniel.smith.pm@example.com",
+       "url": "mailto:daniel.smith.pm@example.com"
       },
       {
        "text": "(206) 555-0142",
@@ -9782,7 +9727,7 @@
       }
      ]
     },
-    "summary": "Consumer mobile product manager with 8 years of experience in onboarding, engagement and retention for apps used by millions on iOS and Android. Runs 60+ experiments a year and works closely with design and data science to ship on a weekly cadence.",
+    "summary": "Consumer product manager with 8 years of experience shaping everyday experiences for apps used by millions on web, iOS and Android. Pairs experimentation and user research to make prioritisation calls, and sweats onboarding, habit and quality details with design and data science.",
     "experience": [
      {
       "title": "Senior Product Manager, Growth",
@@ -9791,10 +9736,10 @@
       "date": "2022 - Present",
       "description": "",
       "bullets": [
-       "Own the growth roadmap for the iOS, Android and web experience of a meditation and sleep app with **12M monthly users**",
+       "Own the end-to-end roadmap for the web, iOS and Android experience of a meditation and sleep app with **12M monthly users**",
        "Rebuilt onboarding around a personalised first session, lifting day-7 retention from 31% to **39%** and trial starts by 22%",
        "Launched a family plan and annual-plan paywall tests that added **$9M** in annual recurring revenue",
-       "Run a 6-person growth squad and an experimentation cadence of **60+ A/B tests per year**, with a 38% win rate"
+       "Run a 6-person squad with design, engineering and data science, shipping weekly and running **60+ A/B tests per year** (38% win rate)"
       ]
      },
      {
@@ -9819,7 +9764,7 @@
       "bullets": [
        "Supported a handmade-goods marketplace with **1.2M** monthly shoppers; owned search filters and saved items",
        "Launched wishlists and price-drop alerts that drove **11%** of repeat purchases within a year",
-       "Wrote 40+ PRDs and ran weekly user interviews that shaped the mobile checkout rebuild"
+       "Wrote 40+ PRDs and ran weekly user interviews, turning qualitative findings into the mobile checkout rebuild"
       ]
      }
     ],
@@ -9831,204 +9776,10 @@
      }
     ],
     "skills": {
-     "Product": "Lifecycle and retention, onboarding, experimentation and A/B testing, roadmapping, subscriptions and pricing, user research, PRDs",
+     "Product": "Product strategy and roadmaps, onboarding and habit design, experimentation, user research, prioritisation, PRDs",
      "Analytics": "SQL, Amplitude, Mixpanel, Looker, funnel and cohort analysis, statistical significance",
-     "Tools": "Figma, Braze, Statsig, Optimizely, Jira, Notion",
-     "Domain": "Consumer mobile apps, subscriptions, wellness, consumer fintech, marketplaces"
-    },
-    "projects": [
-     {
-      "name": "Onboarding Experiment Playbook",
-      "url": "",
-      "description": "Internal guide adopted by four product squads",
-      "bullets": [
-       "Documented hypothesis, sample-size and decision-rule templates used in **40+** tests",
-       "Cut the average time from idea to launched test from 3 weeks to **9 days**"
-      ]
-     }
-    ],
-    "publications": []
-   }
-  },
-  {
-   "id": "res-tailored-twitch",
-   "name": "Daniel Reyes - Twitch",
-   "is_base": false,
-   "parent_id": "res-growth",
-   "job_id": "442d522d-aa76-50fb-a64c-a30f74475227",
-   "template": "inter",
-   "page_format": "letter",
-   "created_at": "2026-10-14T10:31:00Z",
-   "updated_at": "2026-10-14T10:31:00Z",
-   "json_data": {
-    "header": {
-     "name": "Daniel Reyes",
-     "title": "Senior Product Manager, Monetization and Growth",
-     "contact_items": [
-      {
-       "text": "Seattle, WA",
-       "url": ""
-      },
-      {
-       "text": "daniel.reyes.pm@example.com",
-       "url": "mailto:daniel.reyes.pm@example.com"
-      },
-      {
-       "text": "(206) 555-0142",
-       "url": ""
-      }
-     ]
-    },
-    "summary": "Consumer product manager with 8 years of experience in mobile apps, subscriptions and monetization for products used by millions. Runs 60+ experiments a year, owns roadmaps end to end and partners with design, engineering and data science.",
-    "experience": [
-     {
-      "title": "Senior Product Manager, Growth",
-      "company": "Brightpath",
-      "location": "Seattle, WA",
-      "date": "2022 - Present",
-      "description": "",
-      "bullets": [
-       "Own the growth and monetization roadmap for a meditation and sleep app with **12M monthly users** across iOS, Android and web",
-       "Rebuilt onboarding around a personalised first session, lifting day-7 retention from 31% to **39%** and trial starts by 22%",
-       "Launched a family plan and ran annual-plan paywall experiments, the monetization work that added **$9M** in annual recurring revenue",
-       "Run a 6-person growth squad and an experimentation cadence of **60+ A/B tests per year**, with a 38% win rate"
-      ]
-     },
-     {
-      "title": "Product Manager",
-      "company": "Tidewell",
-      "location": "Portland, OR",
-      "date": "2019 - 2022",
-      "description": "",
-      "bullets": [
-       "Led the savings and goals experience of a consumer budgeting app with **3M** registered users",
-       "Shipped automated round-up savings, which grew monthly active savers by **47%** in two quarters",
-       "Cut sign-up to first-linked-account drop-off by **28%** through a redesigned bank-linking flow and in-app education",
-       "Introduced push and email lifecycle messaging with design and data, reactivating **180K** dormant users"
-      ]
-     },
-     {
-      "title": "Associate Product Manager",
-      "company": "Marlow Market",
-      "location": "Austin, TX",
-      "date": "2017 - 2019",
-      "description": "",
-      "bullets": [
-       "Supported a handmade-goods marketplace with **1.2M** monthly shoppers; owned search filters and saved items",
-       "Launched wishlists and price-drop alerts that drove **11%** of repeat purchases within a year",
-       "Wrote 40+ PRDs and ran weekly user interviews that shaped the mobile checkout rebuild"
-      ]
-     }
-    ],
-    "education": [
-     {
-      "school": "Pacific State University",
-      "degree": "BS Business Administration, Marketing and Analytics",
-      "location": "Portland, OR"
-     }
-    ],
-    "skills": {
-     "Product": "Subscriptions and pricing, experimentation and A/B testing, roadmapping, lifecycle and retention, onboarding, user research, PRDs",
-     "Analytics": "SQL, Amplitude, Mixpanel, Looker, funnel and cohort analysis, statistical significance",
-     "Tools": "Optimizely, Statsig, Braze, Figma, Jira, Notion",
-     "Domain": "Consumer mobile apps, subscriptions, marketplaces, wellness, consumer fintech"
-    },
-    "projects": [
-     {
-      "name": "Onboarding Experiment Playbook",
-      "url": "",
-      "description": "Internal guide adopted by four product squads",
-      "bullets": [
-       "Documented hypothesis, sample-size and decision-rule templates used in **40+** tests",
-       "Cut the average time from idea to launched test from 3 weeks to **9 days**"
-      ]
-     }
-    ],
-    "publications": []
-   }
-  },
-  {
-   "id": "res-tailored-discord",
-   "name": "Daniel Reyes - Discord",
-   "is_base": false,
-   "parent_id": "res-growth",
-   "job_id": "2ed7d021-9e78-5fc0-889f-5c2e19dff049",
-   "template": "inter",
-   "page_format": "letter",
-   "created_at": "2026-10-11T10:16:00Z",
-   "updated_at": "2026-10-11T10:16:00Z",
-   "json_data": {
-    "header": {
-     "name": "Daniel Reyes",
-     "title": "Senior Product Manager, Subscriptions",
-     "contact_items": [
-      {
-       "text": "Seattle, WA",
-       "url": ""
-      },
-      {
-       "text": "daniel.reyes.pm@example.com",
-       "url": "mailto:daniel.reyes.pm@example.com"
-      },
-      {
-       "text": "(206) 555-0142",
-       "url": ""
-      }
-     ]
-    },
-    "summary": "Consumer subscriptions product manager with 8 years of experience in monetization, retention and experimentation for mobile apps used by millions. Owns roadmaps end to end, runs 60+ A/B tests a year and works closely with engineering, design and data science.",
-    "experience": [
-     {
-      "title": "Senior Product Manager, Growth",
-      "company": "Brightpath",
-      "location": "Seattle, WA",
-      "date": "2022 - Present",
-      "description": "",
-      "bullets": [
-       "Own the growth and subscription roadmap for a meditation and sleep app with **12M monthly users** across iOS, Android and web",
-       "Rebuilt onboarding around a personalised first session, lifting day-7 retention from 31% to **39%** and trial starts by 22%",
-       "Launched a family plan and annual-plan paywall tests that added **$9M** in annual recurring revenue from subscribers",
-       "Run a 6-person growth squad and an experimentation cadence of **60+ A/B tests per year**, with a 38% win rate"
-      ]
-     },
-     {
-      "title": "Product Manager",
-      "company": "Tidewell",
-      "location": "Portland, OR",
-      "date": "2019 - 2022",
-      "description": "",
-      "bullets": [
-       "Led the savings and goals experience of a consumer budgeting app with **3M** registered users",
-       "Shipped automated round-up savings, which grew monthly active savers by **47%** in two quarters",
-       "Cut sign-up to first-linked-account drop-off by **28%** through a redesigned bank-linking flow and in-app education",
-       "Introduced push and email lifecycle messaging with design and data, reactivating **180K** dormant users"
-      ]
-     },
-     {
-      "title": "Associate Product Manager",
-      "company": "Marlow Market",
-      "location": "Austin, TX",
-      "date": "2017 - 2019",
-      "description": "",
-      "bullets": [
-       "Supported a handmade-goods marketplace with **1.2M** monthly shoppers; owned search filters and saved items",
-       "Launched wishlists and price-drop alerts that drove **11%** of repeat purchases within a year",
-       "Wrote 40+ PRDs and ran weekly user interviews that shaped the mobile checkout rebuild"
-      ]
-     }
-    ],
-    "education": [
-     {
-      "school": "Pacific State University",
-      "degree": "BS Business Administration, Marketing and Analytics",
-      "location": "Portland, OR"
-     }
-    ],
-    "skills": {
-     "Product": "Subscriptions and pricing, experimentation and A/B testing, lifecycle and retention, roadmapping, onboarding, user research, PRDs",
-     "Analytics": "SQL, Amplitude, Mixpanel, Looker, funnel and cohort analysis, statistical significance",
-     "Tools": "Statsig, Optimizely, Braze, Figma, Jira, Notion",
-     "Domain": "Subscriptions, consumer mobile apps, marketplaces, wellness, consumer fintech"
+     "Tools": "Figma, Statsig, Optimizely, Braze, Jira, Notion",
+     "Domain": "Consumer apps at scale (web and mobile), subscriptions, wellness, consumer fintech"
     },
     "projects": [
      {
@@ -10046,7 +9797,7 @@
   },
   {
    "id": "res-tailored-whoop",
-   "name": "Daniel Reyes - WHOOP",
+   "name": "Daniel Smith - WHOOP",
    "is_base": false,
    "parent_id": "res-growth",
    "job_id": "651d5f41-e3e9-58a7-af14-dc39b6092a2b",
@@ -10056,7 +9807,7 @@
    "updated_at": "2026-10-08T16:45:00Z",
    "json_data": {
     "header": {
-     "name": "Daniel Reyes",
+     "name": "Daniel Smith",
      "title": "Senior Product Manager, Growth",
      "contact_items": [
       {
@@ -10064,8 +9815,8 @@
        "url": ""
       },
       {
-       "text": "daniel.reyes.pm@example.com",
-       "url": "mailto:daniel.reyes.pm@example.com"
+       "text": "daniel.smith.pm@example.com",
+       "url": "mailto:daniel.smith.pm@example.com"
       },
       {
        "text": "(206) 555-0142",
@@ -10140,32 +9891,438 @@
     ],
     "publications": []
    }
+  },
+  {
+   "id": "res-tailored-otter",
+   "name": "Daniel Smith - Otter",
+   "is_base": false,
+   "parent_id": null,
+   "job_id": "9f38cfd6-7851-5cfd-b856-3ceb055fe0b8",
+   "template": "inter",
+   "page_format": "letter",
+   "created_at": "2026-10-15T14:36:00Z",
+   "updated_at": "2026-10-15T14:36:00Z",
+   "json_data": {
+    "header": {
+     "name": "Daniel Smith",
+     "title": "Product Manager, Growth",
+     "contact_items": [
+      {
+       "text": "Seattle, WA",
+       "url": ""
+      },
+      {
+       "text": "daniel.smith.pm@example.com",
+       "url": "mailto:daniel.smith.pm@example.com"
+      },
+      {
+       "text": "(206) 555-0142",
+       "url": ""
+      }
+     ]
+    },
+    "summary": "Growth product manager with 8 years of experience building self-serve funnels for subscription and consumer apps. Runs 60+ experiments a year across acquisition, activation, monetization and retention, and has added $9M in recurring revenue through pricing and paywall tests.",
+    "experience": [
+     {
+      "title": "Senior Product Manager, Growth",
+      "company": "Brightpath",
+      "location": "Seattle, WA",
+      "date": "2022 - Present",
+      "description": "",
+      "bullets": [
+       "Own the growth roadmap for a meditation and sleep app with **12M monthly users** across iOS, Android and web",
+       "Rebuilt onboarding around a personalised first session, lifting day-7 retention from 31% to **39%** and trial starts by 22%",
+       "Ran pricing and paywall experiments, including a family plan and annual-plan offer, that added **$9M** in annual recurring revenue",
+       "Run a 6-person growth squad and an experimentation cadence of **60+ A/B tests per year**, with a 38% win rate"
+      ]
+     },
+     {
+      "title": "Product Manager",
+      "company": "Tidewell",
+      "location": "Portland, OR",
+      "date": "2019 - 2022",
+      "description": "",
+      "bullets": [
+       "Led the savings and goals experience of a consumer budgeting app with **3M** registered users",
+       "Shipped automated round-up savings, which grew monthly active savers by **47%** in two quarters",
+       "Cut sign-up to first-linked-account drop-off by **28%** through a redesigned bank-linking flow and in-app education",
+       "Introduced push and email lifecycle messaging (CRM) with design and data, reactivating **180K** dormant users"
+      ]
+     },
+     {
+      "title": "Associate Product Manager",
+      "company": "Marlow Market",
+      "location": "Austin, TX",
+      "date": "2017 - 2019",
+      "description": "",
+      "bullets": [
+       "Supported a handmade-goods marketplace with **1.2M** monthly shoppers; owned search filters and saved items",
+       "Launched wishlists and price-drop alerts that drove **11%** of repeat purchases within a year",
+       "Wrote 40+ PRDs and ran weekly user interviews that shaped the mobile checkout rebuild"
+      ]
+     }
+    ],
+    "education": [
+     {
+      "school": "Pacific State University",
+      "degree": "BS Business Administration, Marketing and Analytics",
+      "location": "Portland, OR"
+     }
+    ],
+    "skills": {
+     "Product": "Experimentation and A/B testing, activation and onboarding, subscriptions and pricing, lifecycle and retention, roadmapping, user research, PRDs",
+     "Analytics": "SQL, funnel and cohort analysis, Amplitude, Mixpanel, Looker, statistical significance",
+     "Tools": "Braze, Optimizely, Statsig, Jira, Figma, Notion",
+     "Domain": "Subscriptions, consumer mobile apps, marketplaces, consumer fintech, wellness"
+    },
+    "projects": [
+     {
+      "name": "Onboarding Experiment Playbook",
+      "url": "",
+      "description": "Internal guide adopted by four product squads",
+      "bullets": [
+       "Documented hypothesis, sample-size and decision-rule templates used in **40+** tests",
+       "Cut the average time from idea to launched test from 3 weeks to **9 days**"
+      ]
+     }
+    ],
+    "publications": []
+   }
+  },
+  {
+   "id": "res-tailored-robinhood",
+   "name": "Daniel Smith - Robinhood",
+   "is_base": false,
+   "parent_id": "res-platform",
+   "job_id": "c46e85e0-29db-5af6-84d0-7be425514639",
+   "template": "inter",
+   "page_format": "letter",
+   "created_at": "2026-10-10T11:15:00Z",
+   "updated_at": "2026-10-10T11:15:00Z",
+   "json_data": {
+    "header": {
+     "name": "Daniel Smith",
+     "title": "Senior Product Manager, Consumer Mobile Finance",
+     "contact_items": [
+      {
+       "text": "Seattle, WA",
+       "url": ""
+      },
+      {
+       "text": "daniel.smith.pm@example.com",
+       "url": "mailto:daniel.smith.pm@example.com"
+      },
+      {
+       "text": "(206) 555-0142",
+       "url": ""
+      }
+     ]
+    },
+    "summary": "Product manager with 8 years of experience on consumer mobile apps, including consumer financial data at scale. Uses experimentation and analytics to decide what to build, and works with engineering, design, data science, security and legal to ship products that handle sensitive information.",
+    "experience": [
+     {
+      "title": "Senior Product Manager, Platform",
+      "company": "Brightpath",
+      "location": "Seattle, WA",
+      "date": "2022 - Present",
+      "description": "",
+      "bullets": [
+       "Own the experimentation and subscription platform used by **5 product squads** of a 12M-user meditation and sleep app",
+       "Built a self-serve experiment toolkit that took test setup from 9 days to **2 days** and doubled experiments run per quarter",
+       "Replaced a legacy billing integration with a unified subscription service, cutting failed renewals by **18%** and recovering $2.4M",
+       "Defined the notifications platform roadmap with 3 engineering teams: preference centre, throttling and delivery analytics"
+      ]
+     },
+     {
+      "title": "Product Manager",
+      "company": "Tidewell",
+      "location": "Portland, OR",
+      "date": "2019 - 2022",
+      "description": "",
+      "bullets": [
+       "Led the bank-linking and data platform for a consumer financial app with **3M** users and 6 aggregator integrations",
+       "Moved aggregation to a provider-agnostic API layer, raising link success from 81% to **93%**",
+       "Partnered with security and legal on consent, data retention and SOC 2 evidence for consumer financial data",
+       "Wrote the public API docs and onboarding guide used by 4 internal consumer teams"
+      ]
+     },
+     {
+      "title": "Associate Product Manager",
+      "company": "Marlow Market",
+      "location": "Austin, TX",
+      "date": "2017 - 2019",
+      "description": "",
+      "bullets": [
+       "Owned the search and catalogue services for a marketplace with **1.2M** monthly shoppers",
+       "Shipped faceted search that raised search-to-purchase conversion by **9%**",
+       "Defined event tracking standards adopted by every squad, improving analytics coverage from 60% to 95%"
+      ]
+     }
+    ],
+    "education": [
+     {
+      "school": "Pacific State University",
+      "degree": "BS Business Administration, Marketing and Analytics",
+      "location": "Portland, OR"
+     }
+    ],
+    "skills": {
+     "Product": "Experimentation systems, platform roadmaps, API design and documentation, subscriptions and billing, notifications, internal developer products",
+     "Technical": "SQL, event tracking and data modelling, REST APIs, feature flags, Statsig, Segment, Stripe, RevenueCat",
+     "Tools": "Amplitude, Looker, Jira, Figma, Notion, Postman",
+     "Domain": "Consumer fintech, consumer mobile apps, subscriptions, marketplaces"
+    },
+    "projects": [
+     {
+      "name": "Experiment Toolkit",
+      "url": "",
+      "description": "Self-serve A/B testing platform for five product squads",
+      "bullets": [
+       "Designed the metric catalogue, guardrail checks and automated sample-size calculator",
+       "Doubled experiments run per quarter and removed the data-science bottleneck for routine tests"
+      ]
+     },
+     {
+      "name": "Unified Subscription Service",
+      "url": "",
+      "description": "Single billing and entitlement layer across iOS, Android and web",
+      "bullets": [
+       "Migrated three billing integrations into one service with no downtime for **12M** users",
+       "Cut failed renewals by **18%** through retry and grace-period rules"
+      ]
+     }
+    ],
+    "publications": []
+   }
+  },
+  {
+   "id": "res-tailored-kikoff",
+   "name": "Daniel Smith - Kikoff",
+   "is_base": false,
+   "parent_id": null,
+   "job_id": "1328614d-1578-55f9-a718-50220ca284b9",
+   "template": "inter",
+   "page_format": "letter",
+   "created_at": "2026-10-17T12:11:00Z",
+   "updated_at": "2026-10-17T12:11:00Z",
+   "json_data": {
+    "header": {
+     "name": "Daniel Smith",
+     "title": "Product Manager, Consumer Engagement",
+     "contact_items": [
+      {
+       "text": "Seattle, WA",
+       "url": ""
+      },
+      {
+       "text": "daniel.smith.pm@example.com",
+       "url": "mailto:daniel.smith.pm@example.com"
+      },
+      {
+       "text": "(206) 555-0142",
+       "url": ""
+      }
+     ]
+    },
+    "summary": "Consumer product manager with 8 years of experience building engagement loops for mobile and fintech apps. Pulls own data in SQL, runs 60+ experiments a year, and works with design, data and lifecycle teams on messaging that brings users back.",
+    "experience": [
+     {
+      "title": "Senior Product Manager, Growth",
+      "company": "Brightpath",
+      "location": "Seattle, WA",
+      "date": "2022 - Present",
+      "description": "",
+      "bullets": [
+       "Own the growth roadmap for a meditation and sleep app with **12M monthly users** across iOS, Android and web",
+       "Rebuilt onboarding around a personalised first session, lifting day-7 retention from 31% to **39%** and trial starts by 22%",
+       "Launched a family plan and annual-plan paywall tests that added **$9M** in annual recurring revenue",
+       "Run a 6-person growth squad and an experimentation cadence of **60+ A/B tests per year**, with a 38% win rate"
+      ]
+     },
+     {
+      "title": "Product Manager",
+      "company": "Tidewell",
+      "location": "Portland, OR",
+      "date": "2019 - 2022",
+      "description": "",
+      "bullets": [
+       "Led the savings and goals experience of a consumer fintech budgeting app with **3M** registered users",
+       "Shipped automated round-up savings, which grew monthly active savers by **47%** in two quarters",
+       "Cut sign-up to first-linked-account drop-off by **28%** through a redesigned bank-linking flow and in-app education",
+       "Introduced push and email lifecycle messaging, an engagement loop built with design and data, reactivating **180K** dormant users"
+      ]
+     },
+     {
+      "title": "Associate Product Manager",
+      "company": "Marlow Market",
+      "location": "Austin, TX",
+      "date": "2017 - 2019",
+      "description": "",
+      "bullets": [
+       "Supported a handmade-goods marketplace with **1.2M** monthly shoppers; owned search filters and saved items",
+       "Launched wishlists and price-drop alerts that drove **11%** of repeat purchases within a year",
+       "Wrote 40+ PRDs and ran weekly user interviews that shaped the mobile checkout rebuild"
+      ]
+     }
+    ],
+    "education": [
+     {
+      "school": "Pacific State University",
+      "degree": "BS Business Administration, Marketing and Analytics",
+      "location": "Portland, OR"
+     }
+    ],
+    "skills": {
+     "Product": "Lifecycle and retention, experimentation and A/B testing, onboarding, user research, roadmapping, PRDs, subscriptions and pricing",
+     "Analytics": "SQL, funnel and cohort analysis, Amplitude, Mixpanel, Looker, statistical significance",
+     "Tools": "Braze, Optimizely, Statsig, Figma, Jira, Notion",
+     "Domain": "Consumer fintech, consumer mobile apps, subscriptions, wellness, marketplaces"
+    },
+    "projects": [
+     {
+      "name": "Onboarding Experiment Playbook",
+      "url": "",
+      "description": "Internal guide adopted by four product squads",
+      "bullets": [
+       "Documented hypothesis, sample-size and decision-rule templates used in **40+** tests",
+       "Cut the average time from idea to launched test from 3 weeks to **9 days**"
+      ]
+     }
+    ],
+    "publications": []
+   }
+  },
+  {
+   "id": "res-tailored-plaid",
+   "name": "Daniel Smith - Plaid",
+   "is_base": false,
+   "parent_id": "res-platform",
+   "job_id": "cee144db-4cec-5404-b392-8455c2788dc3",
+   "template": "inter",
+   "page_format": "letter",
+   "created_at": "2026-10-16T10:15:00Z",
+   "updated_at": "2026-10-16T10:15:00Z",
+   "json_data": {
+    "header": {
+     "name": "Daniel Smith",
+     "title": "Product Manager, Link Conversion and Growth",
+     "contact_items": [
+      {
+       "text": "Seattle, WA",
+       "url": ""
+      },
+      {
+       "text": "daniel.smith.pm@example.com",
+       "url": "mailto:daniel.smith.pm@example.com"
+      },
+      {
+       "text": "(206) 555-0142",
+       "url": ""
+      }
+     ]
+    },
+    "summary": "Product manager with 8 years of experience in bank linking, consumer financial data and the shared systems behind consumer apps. Raised link success from 81% to 93% at Tidewell and builds experimentation tooling that lets teams test and learn quickly.",
+    "experience": [
+     {
+      "title": "Senior Product Manager, Platform",
+      "company": "Brightpath",
+      "location": "Seattle, WA",
+      "date": "2022 - Present",
+      "description": "",
+      "bullets": [
+       "Own the experimentation and subscription platform used by **5 product squads** of a 12M-user meditation and sleep app",
+       "Built a self-serve experiment toolkit that took test setup from 9 days to **2 days** and doubled experiments run per quarter",
+       "Replaced a legacy billing integration with a unified subscription service, cutting failed renewals by **18%** and recovering $2.4M",
+       "Defined the notifications platform roadmap with 3 engineering teams: preference centre, throttling and delivery analytics"
+      ]
+     },
+     {
+      "title": "Product Manager",
+      "company": "Tidewell",
+      "location": "Portland, OR",
+      "date": "2019 - 2022",
+      "description": "",
+      "bullets": [
+       "Led the bank-linking and data platform for a budgeting app with **3M** users and 6 aggregator integrations",
+       "Moved aggregation to a provider-agnostic API layer, raising link conversion from 81% to **93%**",
+       "Partnered with security and legal on consent, data retention and SOC 2 evidence for consumer financial data",
+       "Wrote the public API docs and onboarding guide used by 4 internal consumer teams"
+      ]
+     },
+     {
+      "title": "Associate Product Manager",
+      "company": "Marlow Market",
+      "location": "Austin, TX",
+      "date": "2017 - 2019",
+      "description": "",
+      "bullets": [
+       "Owned the search and catalogue services for a marketplace with **1.2M** monthly shoppers",
+       "Shipped faceted search that raised search-to-purchase conversion by **9%**",
+       "Defined event tracking standards adopted by every squad, improving analytics coverage from 60% to 95%"
+      ]
+     }
+    ],
+    "education": [
+     {
+      "school": "Pacific State University",
+      "degree": "BS Business Administration, Marketing and Analytics",
+      "location": "Portland, OR"
+     }
+    ],
+    "skills": {
+     "Product": "Experimentation systems, API design and documentation, platform roadmaps, internal developer products, subscriptions and billing, notifications",
+     "Technical": "SQL, REST APIs, event tracking and data modelling, feature flags, Statsig, Segment, Stripe, RevenueCat",
+     "Tools": "Amplitude, Looker, Figma, Jira, Notion, Postman",
+     "Domain": "Consumer fintech, consumer mobile apps, subscriptions, marketplaces"
+    },
+    "projects": [
+     {
+      "name": "Experiment Toolkit",
+      "url": "",
+      "description": "Self-serve A/B testing platform for five product squads",
+      "bullets": [
+       "Designed the metric catalogue, guardrail checks and automated sample-size calculator",
+       "Doubled experiments run per quarter and removed the data-science bottleneck for routine tests"
+      ]
+     },
+     {
+      "name": "Unified Subscription Service",
+      "url": "",
+      "description": "Single billing and entitlement layer across iOS, Android and web",
+      "bullets": [
+       "Migrated three billing integrations into one service with no downtime for **12M** users",
+       "Cut failed renewals by **18%** through retry and grace-period rules"
+      ]
+     }
+    ],
+    "publications": []
+   }
   }
  ],
  "cover_letters": [
   {
-   "id": "cl-perplexity",
-   "name": "Perplexity cover letter",
-   "job_id": "0c47f539-1b31-5b8c-ab65-b46599b5bf70",
+   "id": "cl-anthropic",
+   "name": "Anthropic cover letter",
+   "job_id": "35b2ba7f-17bd-5af5-a8e2-edc2b748017a",
    "resume_id": "res-growth",
    "template": "inter",
    "page_format": "letter",
    "voice": "professional",
    "length": "standard",
    "from_persona": false,
-   "created_at": "2026-10-16T15:24:00Z",
-   "updated_at": "2026-10-16T15:24:00Z",
+   "created_at": "2026-10-16T10:26:00Z",
+   "updated_at": "2026-10-16T10:26:00Z",
    "json_data": {
     "header": {
-     "name": "Daniel Reyes",
+     "name": "Daniel Smith",
      "contact_items": [
       {
        "text": "Seattle, WA",
        "url": ""
       },
       {
-       "text": "daniel.reyes.pm@example.com",
-       "url": "mailto:daniel.reyes.pm@example.com"
+       "text": "daniel.smith.pm@example.com",
+       "url": "mailto:daniel.smith.pm@example.com"
       },
       {
        "text": "(206) 555-0142",
@@ -10174,102 +10331,16 @@
      ]
     },
     "recipient": {
-     "company": "Perplexity"
+     "company": "Anthropic"
     },
-    "greeting": "Dear Perplexity Hiring Team,",
+    "greeting": "Dear Anthropic Hiring Team,",
     "body_paragraphs": [
-     "Perplexity's mobile apps team is deciding how people use AI on the go, with voice, camera, notifications and widgets all in play. I work on a similar question for a consumer app: how a person goes from a first open to a daily habit on a phone. Since 2022 I have owned that growth roadmap at Brightpath across iOS, Android and web.",
-     "At Brightpath I rebuilt onboarding around a personalised first session and took day-7 retention from 31% to 39%. I run more than 60 experiments a year with a 6-person squad. At Tidewell, push and email lifecycle messaging reactivated 180K dormant users. I read data directly in SQL and Amplitude, and I write the experiment readout myself, so decisions rest on numbers I have checked.",
-     "I have not shipped native voice or camera features, and I would be learning how to steer model behaviour on a small screen. What I would bring is a habit of testing before committing and a clear sense of where mobile users drop off. I would welcome a conversation about the team's current priorities and where mobile retention is hardest today."
+     "The App Foundations team is deciding how memory, voice mode and artifacts feel to tens of millions of people, most of whom never think about the model underneath. That is the kind of problem I like: an everyday experience where small details decide whether something becomes a habit. Since 2022 I have owned that question for a 12M-user consumer app at Brightpath, across web, iOS and Android.",
+     "At Brightpath I rebuilt onboarding around a personalised first session and took day-7 retention from 31% to 39%. I run more than 60 experiments a year with a squad of design, engineering and data science, and I pair the numbers with weekly user interviews before making a call. I read the data myself in SQL and Amplitude, so the prioritisation rests on results I have checked.",
+     "I have not yet shipped a product built on a frontier model, and I would be learning how model capabilities turn into product from people who know them best. What I would bring is care for craft, a habit of testing before committing, and experience scaling consumer products without losing quality. I would welcome a conversation about where App Foundations is focused next."
     ],
     "closing": "Sincerely,",
-    "signature": "Daniel Reyes"
-   }
-  },
-  {
-   "id": "cl-twitch",
-   "name": "Twitch cover letter",
-   "job_id": "442d522d-aa76-50fb-a64c-a30f74475227",
-   "resume_id": "res-growth",
-   "template": "inter",
-   "page_format": "letter",
-   "voice": "professional",
-   "length": "standard",
-   "from_persona": false,
-   "created_at": "2026-10-14T10:31:00Z",
-   "updated_at": "2026-10-14T10:31:00Z",
-   "json_data": {
-    "header": {
-     "name": "Daniel Reyes",
-     "contact_items": [
-      {
-       "text": "Seattle, WA",
-       "url": ""
-      },
-      {
-       "text": "daniel.reyes.pm@example.com",
-       "url": "mailto:daniel.reyes.pm@example.com"
-      },
-      {
-       "text": "(206) 555-0142",
-       "url": ""
-      }
-     ]
-    },
-    "recipient": {
-     "company": "Twitch"
-    },
-    "greeting": "Dear Twitch Hiring Team,",
-    "body_paragraphs": [
-     "Bits sits at a hard point in product design: it has to pay streamers well and still feel fun to viewers on a phone. I have spent my career on that balance for consumer subscriptions, where revenue only counts if people stay. That is why the Commerce role on Twitch's interactive products stands out to me.",
-     "At Brightpath I launched a family plan and ran annual-plan paywall tests that added $9M in recurring revenue, inside a program of 60+ experiments a year. At Tidewell, automated round-up savings grew monthly active savers by 47%, a feature built around a small, repeated action. I work in SQL and Amplitude and set the metrics myself with a 6-person squad.",
-     "I have not worked on live streaming or a virtual currency, and I would start by watching how streamers and viewers use Bits today. I would bring a monetization record, mobile-first habits and a steady experiment cadence. I would be glad to talk through the roadmap you have in mind, the metrics streamers care about most, and where you see the biggest openings for mobile commerce."
-    ],
-    "closing": "Sincerely,",
-    "signature": "Daniel Reyes"
-   }
-  },
-  {
-   "id": "cl-discord",
-   "name": "Discord cover letter",
-   "job_id": "2ed7d021-9e78-5fc0-889f-5c2e19dff049",
-   "resume_id": "res-growth",
-   "template": "inter",
-   "page_format": "letter",
-   "voice": "professional",
-   "length": "standard",
-   "from_persona": false,
-   "created_at": "2026-10-11T10:16:00Z",
-   "updated_at": "2026-10-11T10:16:00Z",
-   "json_data": {
-    "header": {
-     "name": "Daniel Reyes",
-     "contact_items": [
-      {
-       "text": "Seattle, WA",
-       "url": ""
-      },
-      {
-       "text": "daniel.reyes.pm@example.com",
-       "url": "mailto:daniel.reyes.pm@example.com"
-      },
-      {
-       "text": "(206) 555-0142",
-       "url": ""
-      }
-     ]
-    },
-    "recipient": {
-     "company": "Discord"
-    },
-    "greeting": "Dear Discord Hiring Team,",
-    "body_paragraphs": [
-     "Nitro asks a hard question well: what makes a paid tier worth keeping once the novelty wears off? I have worked on that question for subscriptions at Brightpath, and I want to work on it for a product with a community as engaged as Discord's. The Senior Product Manager role on Nitro Value looks like the right place to do that.",
-     "At Brightpath I launched a family plan and ran annual-plan paywall tests that added $9M in recurring revenue, and I run 60+ A/B tests a year with a 38% win rate. I also rebuilt onboarding to lift day-7 retention from 31% to 39%. I pull my own data in SQL and Amplitude and write the experiment readout for design, engineering and data science.",
-     "I have not built a gaming or social product, so I would spend my first weeks listening to your most active subscribers before proposing anything. What I bring is a record in subscription value and a steady testing habit. I would welcome the chance to talk it through, starting with where Nitro value feels strongest and weakest to subscribers today, and what the team has already tried."
-    ],
-    "closing": "Sincerely,",
-    "signature": "Daniel Reyes"
+    "signature": "Daniel Smith"
    }
   },
   {
@@ -10286,15 +10357,15 @@
    "updated_at": "2026-10-08T16:45:00Z",
    "json_data": {
     "header": {
-     "name": "Daniel Reyes",
+     "name": "Daniel Smith",
      "contact_items": [
       {
        "text": "Seattle, WA",
        "url": ""
       },
       {
-       "text": "daniel.reyes.pm@example.com",
-       "url": "mailto:daniel.reyes.pm@example.com"
+       "text": "daniel.smith.pm@example.com",
+       "url": "mailto:daniel.smith.pm@example.com"
       },
       {
        "text": "(206) 555-0142",
@@ -10312,7 +10383,93 @@
      "I have led a 6-person squad but have not formally mentored other product managers, and I would like to grow that side of the craft at WHOOP. I would bring clear written strategy, honest experiment readouts and real interest in the product. I would be glad to talk through your growth priorities and how the team is organised today."
     ],
     "closing": "Sincerely,",
-    "signature": "Daniel Reyes"
+    "signature": "Daniel Smith"
+   }
+  },
+  {
+   "id": "cl-robinhood",
+   "name": "Robinhood cover letter",
+   "job_id": "c46e85e0-29db-5af6-84d0-7be425514639",
+   "resume_id": "res-platform",
+   "template": "inter",
+   "page_format": "letter",
+   "voice": "professional",
+   "length": "standard",
+   "from_persona": false,
+   "created_at": "2026-10-10T11:15:00Z",
+   "updated_at": "2026-10-10T11:15:00Z",
+   "json_data": {
+    "header": {
+     "name": "Daniel Smith",
+     "contact_items": [
+      {
+       "text": "Seattle, WA",
+       "url": ""
+      },
+      {
+       "text": "daniel.smith.pm@example.com",
+       "url": "mailto:daniel.smith.pm@example.com"
+      },
+      {
+       "text": "(206) 555-0142",
+       "url": ""
+      }
+     ]
+    },
+    "recipient": {
+     "company": "Robinhood"
+    },
+    "greeting": "Dear Robinhood Hiring Team,",
+    "body_paragraphs": [
+     "The Trading Tools role asks for someone who can make dense financial information easy for everyday people to use on a phone. I have spent eight years making complex consumer systems simple to use, most recently as a senior product manager at Brightpath, and I would like to bring that to the tools your active traders open every day.",
+     "At Tidewell I led the bank-linking and data platform for a 3M-user consumer finance app, raised link success from 81% to 93% and worked with security and legal on consent and data retention. At Brightpath I built the experiment toolkit that doubled the tests run each quarter, so I make product decisions from measured results.",
+     "I should be clear that I have not worked on investing or trading products, and I am not an active trader. I would spend my first weeks learning the users and the market data, and I would welcome a conversation about what that ramp looks like and which problems on the team I could take on first."
+    ],
+    "closing": "Sincerely,",
+    "signature": "Daniel Smith"
+   }
+  },
+  {
+   "id": "cl-plaid",
+   "name": "Plaid cover letter",
+   "job_id": "cee144db-4cec-5404-b392-8455c2788dc3",
+   "resume_id": "res-platform",
+   "template": "inter",
+   "page_format": "letter",
+   "voice": "professional",
+   "length": "standard",
+   "from_persona": false,
+   "created_at": "2026-10-16T10:15:00Z",
+   "updated_at": "2026-10-16T10:15:00Z",
+   "json_data": {
+    "header": {
+     "name": "Daniel Smith",
+     "contact_items": [
+      {
+       "text": "Seattle, WA",
+       "url": ""
+      },
+      {
+       "text": "daniel.smith.pm@example.com",
+       "url": "mailto:daniel.smith.pm@example.com"
+      },
+      {
+       "text": "(206) 555-0142",
+       "url": ""
+      }
+     ]
+    },
+    "recipient": {
+     "company": "Plaid"
+    },
+    "greeting": "Dear Plaid Hiring Team,",
+    "body_paragraphs": [
+     "Link is the first moment a person trusts an app with their bank account, and a small change in how many people finish it has a large effect downstream. That is why the Link Growth role stands out to me. I have spent several years on exactly that step, from the consumer side, watching where people hesitate, where a bank connection fails and what it takes to bring them back.",
+     "At Tidewell I led bank linking for a budgeting app with 3M users and six aggregator integrations. Moving to a provider-agnostic API layer raised link success from 81% to 93%, and a redesigned flow with in-app education cut sign-up drop-off by 28%. I worked with security and legal on consent and data retention, and at Brightpath I built the experiment toolkit our squads use.",
+     "I have not yet worked on agent-based use cases, and I would like to learn how Link needs to change for them. I would welcome a conversation about where conversion is lowest today, how the team measures it and which experiments are queued next. I am based in Seattle and open to regular time in the San Francisco office."
+    ],
+    "closing": "Sincerely,",
+    "signature": "Daniel Smith"
    }
   }
  ],
@@ -10320,16 +10477,16 @@
   "id": 1,
   "contact": {
    "first_name": "Daniel",
-   "last_name": "Reyes",
-   "email": "daniel.reyes.pm@example.com",
+   "last_name": "Smith",
+   "email": "daniel.smith.pm@example.com",
    "phone": "(206) 555-0142",
    "city": "Seattle",
    "state": "WA",
    "country": "United States",
    "current_company": "Brightpath",
-   "linkedin": "https://www.linkedin.com/in/daniel-reyes-pm-example",
-   "github": "https://github.com/danielreyes-pm-example",
-   "portfolio": "https://danielreyes.example.com"
+   "linkedin": "https://www.linkedin.com/in/daniel-smith-pm-example",
+   "github": "https://github.com/danielsmith-pm-example",
+   "portfolio": "https://danielsmith.example.com"
   },
   "work_auth": {
    "authorized_us": true,
@@ -10363,7 +10520,7 @@
   },
   "resume_content": {
    "header": {
-    "name": "Daniel Reyes",
+    "name": "Daniel Smith",
     "title": "Product Manager, Consumer Growth",
     "contact_items": [
      {
@@ -10371,8 +10528,8 @@
       "url": ""
      },
      {
-      "text": "daniel.reyes.pm@example.com",
-      "url": "mailto:daniel.reyes.pm@example.com"
+      "text": "daniel.smith.pm@example.com",
+      "url": "mailto:daniel.smith.pm@example.com"
      },
      {
       "text": "(206) 555-0142",
@@ -10528,201 +10685,182 @@
   "updated_at": "2026-10-10T14:00:00Z"
  },
  "prepared": {
-  "0c47f539-1b31-5b8c-ab65-b46599b5bf70": {
+  "35b2ba7f-17bd-5af5-a8e2-edc2b748017a": {
    "scores": {
     "PM – Consumer Growth": {
-     "score": 84,
+     "score": 82,
      "report": {
-      "summary": "Strong fit: the role is owning growth, engagement and retention for a consumer mobile app across iOS and Android, which is Daniel's work at Brightpath on a 12M-user app. The main gaps are native capabilities such as voice, camera and widgets, and any experience with AI model behaviour.",
+      "summary": "Strong fit on the consumer side: millions of users, experimentation and data-led prioritisation are Daniel's daily work at Brightpath on a 12M-user app. The gaps are AI product experience and turning model capabilities into product, both named in the posting, and he is short of the 8+ years preferred across consumer and enterprise.",
       "breakdown": {
        "skills": 17,
-       "experience": 17,
-       "domain": 16,
+       "experience": 16,
+       "domain": 15,
        "role": 17,
        "requirements": 17
       },
       "requirement_mapping": [
        {
-        "requirement": "4+ years of product management experience",
-        "cv_match": "Consumer-apps product manager with 8 years of experience growing mobile products used by millions",
+        "requirement": "Experience working on products with millions of users",
+        "cv_match": "Own the growth roadmap for a meditation and sleep app with 12M monthly users",
         "matched": true,
         "severity": "required"
        },
        {
-        "requirement": "Shipping and scaling consumer mobile products across iOS or Android",
-        "cv_match": "Own the growth roadmap for a meditation and sleep app with 12M monthly users across iOS, Android and web",
+        "requirement": "Highly analytical and fluent in experimentation and data",
+        "cv_match": "60+ A/B tests per year, with a 38% win rate; SQL, Amplitude, Looker",
         "matched": true,
         "severity": "required"
        },
        {
-        "requirement": "Strong experience working with data and metrics",
-        "cv_match": "SQL, Amplitude, Mixpanel, Looker, funnel and cohort analysis",
+        "requirement": "Exceptional product taste; sweat the details of everyday interactions",
+        "cv_match": "Rebuilt onboarding around a personalised first session, lifting day-7 retention from 31% to 39%",
         "matched": true,
         "severity": "required"
        },
        {
-        "requirement": "Levers for mobile product-led growth, engagement and retention",
-        "cv_match": "Rebuilt onboarding ... lifting day-7 retention from 31% to 39%",
+        "requirement": "Use quantitative data, experimentation and user research to make prioritisation calls",
+        "cv_match": "Wrote 40+ PRDs and ran weekly user interviews that shaped the mobile checkout rebuild",
         "matched": true,
         "severity": "required"
        },
        {
-        "requirement": "Rapid prototyping, experimentation and data visualization",
-        "cv_match": "60+ A/B tests per year, with a 38% win rate",
+        "requirement": "Partner closely with design, engineering, data science and marketing",
+        "cv_match": "Run a 6-person growth squad with design and data",
         "matched": true,
         "severity": "required"
        },
        {
-        "requirement": "Data-driven flywheels for iterative improvement",
-        "cv_match": "Introduced push and email lifecycle messaging with design and data, reactivating 180K dormant users",
-        "matched": true,
-        "severity": "preferred"
+        "requirement": "Ability to translate nascent model capabilities into compelling product experiences",
+        "cv_match": null,
+        "matched": false,
+        "severity": "required"
        },
        {
-        "requirement": "Thrives in a small, agile team with ownership",
-        "cv_match": "Run a 6-person growth squad",
-        "matched": true,
-        "severity": "preferred"
-       },
-       {
-        "requirement": "Deep knowledge of native capabilities such as voice, camera and widgets",
-        "cv_match": "Introduced push and email lifecycle messaging",
+        "requirement": "8+ years of product management experience, across both consumer and enterprise",
+        "cv_match": "8 years, consumer only",
         "matched": false,
         "severity": "preferred"
        },
        {
-        "requirement": "Steering nondeterministic AI models into high-value outcomes",
+        "requirement": "AI product experience",
         "cv_match": null,
         "matched": false,
         "severity": "preferred"
        }
       ],
-      "keyword_coverage_pct": 75,
+      "keyword_coverage_pct": 71,
       "matched_keywords": [
-       "mobile",
-       "iOS",
-       "Android",
-       "retention",
-       "onboarding",
+       "millions of users",
        "experimentation",
-       "A/B testing",
-       "SQL",
-       "engagement"
+       "user research",
+       "metrics",
+       "roadmap",
+       "mobile",
+       "web",
+       "craft"
       ],
       "missing_keywords": [
-       "AI models",
-       "native platform capabilities",
-       "widgets"
+       "AI",
+       "model capabilities",
+       "memory",
+       "voice mode",
+       "enterprise"
       ],
       "hard_blockers": [],
-      "ats_tip": "Add 'engagement' and 'product-led growth' to the Brightpath summary line so a keyword match sees them next to the title."
+      "ats_tip": "Name the AI-assisted features you have shipped, even small ones, in the Brightpath summary line; the posting screens for model-to-product work."
      }
     },
     "PM – Platform": {
-     "score": 70,
+     "score": 74,
      "report": {
-      "summary": "Decent match: the experimentation toolkit and notifications platform are relevant to mobile engagement, but the Platform resume says little about onboarding, retention or consumer-facing mobile results, which this posting is built around.",
+      "summary": "Good match on systems thinking: the posting asks for capabilities designed as systems that extend to every Claude product, which is what the experimentation and notifications platforms show. It says less about consumer craft and retention, and nothing about AI products.",
       "breakdown": {
-       "skills": 14,
-       "experience": 14,
+       "skills": 15,
+       "experience": 15,
        "domain": 14,
-       "role": 14,
-       "requirements": 14
+       "role": 15,
+       "requirements": 15
       },
       "requirement_mapping": [
        {
-        "requirement": "4+ years of product management experience",
-        "cv_match": "8 years of turning one-off feature work into platforms that several product teams build on",
+        "requirement": "Experience working on products with millions of users",
+        "cv_match": "Own the experimentation and subscription platform used by 5 product squads of a 12M-user app",
         "matched": true,
         "severity": "required"
        },
        {
-        "requirement": "Shipping and scaling consumer mobile products across iOS or Android",
-        "cv_match": "Own the experimentation and subscription platform used by 5 product squads of a 12M-user meditation and sleep app",
+        "requirement": "Design capabilities as systems that flexibly extend to all products",
+        "cv_match": "Defined the notifications platform roadmap with 3 engineering teams",
         "matched": true,
         "severity": "required"
        },
        {
-        "requirement": "Strong experience working with data and metrics",
+        "requirement": "Technical background or ability to work effectively with engineering",
         "cv_match": "SQL, REST APIs, event tracking and data modelling",
         "matched": true,
         "severity": "required"
        },
        {
-        "requirement": "Levers for mobile product-led growth, engagement and retention",
-        "cv_match": "Defined the notifications platform roadmap ... preference centre, throttling and delivery analytics",
-        "matched": false,
-        "severity": "required"
-       },
-       {
-        "requirement": "Rapid prototyping, experimentation and data visualization",
+        "requirement": "Highly analytical and fluent in experimentation",
         "cv_match": "Built a self-serve experiment toolkit that took test setup from 9 days to 2 days",
         "matched": true,
         "severity": "required"
        },
        {
-        "requirement": "Data-driven flywheels for iterative improvement",
-        "cv_match": "doubled experiments run per quarter",
-        "matched": true,
-        "severity": "preferred"
-       },
-       {
-        "requirement": "Deep knowledge of native capabilities such as voice, camera and widgets",
-        "cv_match": "Defined the notifications platform roadmap with 3 engineering teams",
-        "matched": true,
-        "severity": "preferred"
-       },
-       {
-        "requirement": "Thrives in a small, agile team with ownership",
+        "requirement": "Exceptional product taste; sweat the details of everyday interactions",
         "cv_match": null,
         "matched": false,
-        "severity": "preferred"
+        "severity": "required"
        },
        {
-        "requirement": "Steering nondeterministic AI models into high-value outcomes",
+        "requirement": "Ability to translate nascent model capabilities into compelling product experiences",
+        "cv_match": null,
+        "matched": false,
+        "severity": "required"
+       },
+       {
+        "requirement": "AI product experience",
         "cv_match": null,
         "matched": false,
         "severity": "preferred"
        }
       ],
-      "keyword_coverage_pct": 62,
+      "keyword_coverage_pct": 60,
       "matched_keywords": [
-       "mobile",
+       "systems",
+       "platform",
        "experimentation",
-       "notifications",
-       "SQL",
-       "subscriptions",
-       "event tracking",
-       "Amplitude",
-       "data"
+       "engineering",
+       "metrics",
+       "roadmap"
       ],
       "missing_keywords": [
-       "retention",
-       "onboarding",
-       "engagement",
-       "AI models",
-       "voice"
+       "consumer",
+       "craft",
+       "AI",
+       "model capabilities",
+       "user research"
       ],
       "hard_blockers": [],
-      "ats_tip": "Use the Consumer Growth resume for this posting; the Platform one never mentions onboarding, retention or engagement."
+      "ats_tip": "Use the Consumer Growth résumé here; the posting leads with consumer craft and user behaviour, which the Platform one barely covers."
      }
     }
    },
    "tailored": {
-    "name": "Daniel Reyes - Perplexity",
+    "name": "Daniel Smith - Anthropic",
     "base_id": "res-growth",
     "json_data": {
      "header": {
-      "name": "Daniel Reyes",
-      "title": "Product Manager, Mobile Apps",
+      "name": "Daniel Smith",
+      "title": "Product Manager, Claude",
       "contact_items": [
        {
         "text": "Seattle, WA",
         "url": ""
        },
        {
-        "text": "daniel.reyes.pm@example.com",
-        "url": "mailto:daniel.reyes.pm@example.com"
+        "text": "daniel.smith.pm@example.com",
+        "url": "mailto:daniel.smith.pm@example.com"
        },
        {
         "text": "(206) 555-0142",
@@ -10730,7 +10868,7 @@
        }
       ]
      },
-     "summary": "Consumer mobile product manager with 8 years of experience in onboarding, engagement and retention for apps used by millions on iOS and Android. Runs 60+ experiments a year and works closely with design and data science to ship on a weekly cadence.",
+     "summary": "Consumer product manager with 8 years of experience shaping everyday experiences for apps used by millions on web, iOS and Android. Pairs experimentation and user research to make prioritisation calls, and sweats onboarding, habit and quality details with design and data science.",
      "experience": [
       {
        "title": "Senior Product Manager, Growth",
@@ -10739,10 +10877,10 @@
        "date": "2022 - Present",
        "description": "",
        "bullets": [
-        "Own the growth roadmap for the iOS, Android and web experience of a meditation and sleep app with **12M monthly users**",
+        "Own the end-to-end roadmap for the web, iOS and Android experience of a meditation and sleep app with **12M monthly users**",
         "Rebuilt onboarding around a personalised first session, lifting day-7 retention from 31% to **39%** and trial starts by 22%",
         "Launched a family plan and annual-plan paywall tests that added **$9M** in annual recurring revenue",
-        "Run a 6-person growth squad and an experimentation cadence of **60+ A/B tests per year**, with a 38% win rate"
+        "Run a 6-person squad with design, engineering and data science, shipping weekly and running **60+ A/B tests per year** (38% win rate)"
        ]
       },
       {
@@ -10767,7 +10905,7 @@
        "bullets": [
         "Supported a handmade-goods marketplace with **1.2M** monthly shoppers; owned search filters and saved items",
         "Launched wishlists and price-drop alerts that drove **11%** of repeat purchases within a year",
-        "Wrote 40+ PRDs and ran weekly user interviews that shaped the mobile checkout rebuild"
+        "Wrote 40+ PRDs and ran weekly user interviews, turning qualitative findings into the mobile checkout rebuild"
        ]
       }
      ],
@@ -10779,10 +10917,10 @@
       }
      ],
      "skills": {
-      "Product": "Lifecycle and retention, onboarding, experimentation and A/B testing, roadmapping, subscriptions and pricing, user research, PRDs",
+      "Product": "Product strategy and roadmaps, onboarding and habit design, experimentation, user research, prioritisation, PRDs",
       "Analytics": "SQL, Amplitude, Mixpanel, Looker, funnel and cohort analysis, statistical significance",
-      "Tools": "Figma, Braze, Statsig, Optimizely, Jira, Notion",
-      "Domain": "Consumer mobile apps, subscriptions, wellness, consumer fintech, marketplaces"
+      "Tools": "Figma, Statsig, Optimizely, Braze, Jira, Notion",
+      "Domain": "Consumer apps at scale (web and mobile), subscriptions, wellness, consumer fintech"
      },
      "projects": [
       {
@@ -10797,25 +10935,25 @@
      ],
      "publications": []
     },
-    "score": 88
+    "score": 87
    },
    "cover_letter": {
-    "name": "Perplexity cover letter",
+    "name": "Anthropic cover letter",
     "resume_id": "res-growth",
     "template": "inter",
     "voice": "professional",
     "length": "standard",
     "json_data": {
      "header": {
-      "name": "Daniel Reyes",
+      "name": "Daniel Smith",
       "contact_items": [
        {
         "text": "Seattle, WA",
         "url": ""
        },
        {
-        "text": "daniel.reyes.pm@example.com",
-        "url": "mailto:daniel.reyes.pm@example.com"
+        "text": "daniel.smith.pm@example.com",
+        "url": "mailto:daniel.smith.pm@example.com"
        },
        {
         "text": "(206) 555-0142",
@@ -10824,23 +10962,23 @@
       ]
      },
      "recipient": {
-      "company": "Perplexity"
+      "company": "Anthropic"
      },
-     "greeting": "Dear Perplexity Hiring Team,",
+     "greeting": "Dear Anthropic Hiring Team,",
      "body_paragraphs": [
-      "Perplexity's mobile apps team is deciding how people use AI on the go, with voice, camera, notifications and widgets all in play. I work on a similar question for a consumer app: how a person goes from a first open to a daily habit on a phone. Since 2022 I have owned that growth roadmap at Brightpath across iOS, Android and web.",
-      "At Brightpath I rebuilt onboarding around a personalised first session and took day-7 retention from 31% to 39%. I run more than 60 experiments a year with a 6-person squad. At Tidewell, push and email lifecycle messaging reactivated 180K dormant users. I read data directly in SQL and Amplitude, and I write the experiment readout myself, so decisions rest on numbers I have checked.",
-      "I have not shipped native voice or camera features, and I would be learning how to steer model behaviour on a small screen. What I would bring is a habit of testing before committing and a clear sense of where mobile users drop off. I would welcome a conversation about the team's current priorities and where mobile retention is hardest today."
+      "The App Foundations team is deciding how memory, voice mode and artifacts feel to tens of millions of people, most of whom never think about the model underneath. That is the kind of problem I like: an everyday experience where small details decide whether something becomes a habit. Since 2022 I have owned that question for a 12M-user consumer app at Brightpath, across web, iOS and Android.",
+      "At Brightpath I rebuilt onboarding around a personalised first session and took day-7 retention from 31% to 39%. I run more than 60 experiments a year with a squad of design, engineering and data science, and I pair the numbers with weekly user interviews before making a call. I read the data myself in SQL and Amplitude, so the prioritisation rests on results I have checked.",
+      "I have not yet shipped a product built on a frontier model, and I would be learning how model capabilities turn into product from people who know them best. What I would bring is care for craft, a habit of testing before committing, and experience scaling consumer products without losing quality. I would welcome a conversation about where App Foundations is focused next."
      ],
      "closing": "Sincerely,",
-     "signature": "Daniel Reyes"
+     "signature": "Daniel Smith"
     }
    },
    "autofill": {
-    "why do you want to work at perplexity?": "I want to build mobile products where AI helps people act, not only read. Perplexity's mobile team owns discovery, voice, camera and notifications on iOS and Android, and that is close to the habit-building work I do at Brightpath on a 12M-user app. I would like to bring my experiment-first approach to a small team that ships quickly.",
-    "highlight the mobile apps or platform experiences you are most proud of shipping.": "The onboarding rebuild at Brightpath. We replaced a generic first screen with a personalised first session across iOS, Android and web, and day-7 retention rose from 31% to 39% while trial starts grew 22%. A close second is round-up savings at Tidewell, which grew monthly active savers by 47% in two quarters.",
+    "why do you want to work at anthropic?": "I want to work on consumer AI that people can trust, at a company that treats safety as part of the product. Claude's everyday experience, from memory to voice, is the kind of habit-forming, detail-heavy product work I do at Brightpath on a 12M-user app, and I would like to bring that craft to a product with this much reach.",
+    "describe a product experience you improved through attention to detail.": "Brightpath's first session. People opened the app, saw a generic library and left. We rebuilt it around one personalised session chosen from three onboarding answers, and tuned copy, timing and the moment we asked for notifications. Day-7 retention rose from 31% to 39% and trial starts by 22%.",
     "describe a time you used data to make a product decision.": "At Tidewell, drop-off between sign-up and the first linked account was our biggest leak. I broke the funnel down by step, found the bank-linking screen lost the most people, and we redesigned it with in-app education. Drop-off fell by 28%. I like decisions where the metric points at one clear step.",
-    "_default": "I enjoy owning a consumer metric end to end: research, experiments and shipping with a small team. This role is a close match for my mobile growth work at Brightpath, and I would be glad to talk through the details and what the team is trying to solve next."
+    "_default": "I enjoy owning a consumer experience end to end: research, experiments and shipping with design and engineering. This role is a close match for my work at Brightpath, and I would be glad to talk through the details and what the team is solving next."
    }
   },
   "442d522d-aa76-50fb-a64c-a30f74475227": {
@@ -11023,11 +11161,11 @@
     }
    },
    "tailored": {
-    "name": "Daniel Reyes - Twitch",
+    "name": "Daniel Smith - Twitch",
     "base_id": "res-growth",
     "json_data": {
      "header": {
-      "name": "Daniel Reyes",
+      "name": "Daniel Smith",
       "title": "Senior Product Manager, Monetization and Growth",
       "contact_items": [
        {
@@ -11035,8 +11173,8 @@
         "url": ""
        },
        {
-        "text": "daniel.reyes.pm@example.com",
-        "url": "mailto:daniel.reyes.pm@example.com"
+        "text": "daniel.smith.pm@example.com",
+        "url": "mailto:daniel.smith.pm@example.com"
        },
        {
         "text": "(206) 555-0142",
@@ -11121,15 +11259,15 @@
     "length": "standard",
     "json_data": {
      "header": {
-      "name": "Daniel Reyes",
+      "name": "Daniel Smith",
       "contact_items": [
        {
         "text": "Seattle, WA",
         "url": ""
        },
        {
-        "text": "daniel.reyes.pm@example.com",
-        "url": "mailto:daniel.reyes.pm@example.com"
+        "text": "daniel.smith.pm@example.com",
+        "url": "mailto:daniel.smith.pm@example.com"
        },
        {
         "text": "(206) 555-0142",
@@ -11147,7 +11285,7 @@
       "I have not worked on live streaming or a virtual currency, and I would start by watching how streamers and viewers use Bits today. I would bring a monetization record, mobile-first habits and a steady experiment cadence. I would be glad to talk through the roadmap you have in mind, the metrics streamers care about most, and where you see the biggest openings for mobile commerce."
      ],
      "closing": "Sincerely,",
-     "signature": "Daniel Reyes"
+     "signature": "Daniel Smith"
     }
    },
    "autofill": {
@@ -11155,7 +11293,8 @@
     "describe your experience with monetization products.": "At Brightpath I launched a family plan and ran annual-plan paywall tests that added $9M in annual recurring revenue. I design the test, agree the success metric with data science and read the result by cohort. Earlier, I owned round-up savings at Tidewell, which grew monthly active savers by 47% in two quarters.",
     "how do you balance creator earnings with viewer experience?": "I have not worked with creators directly, but the same tension shows up in subscriptions: a paywall that lifts revenue can hurt retention. My approach is to measure both sides of every test, revenue and retention, and ship only when the second does not suffer. I would apply that two-sided measurement to Bits.",
     "_default": "I enjoy owning a consumer metric end to end, from research to experiments to launch. This role combines mobile products, monetization and a lively community, which is a close match for my subscription work at Brightpath, and I would be glad to talk through the details."
-   }
+   },
+   "snapshot": false
   },
   "2ed7d021-9e78-5fc0-889f-5c2e19dff049": {
    "scores": {
@@ -11338,11 +11477,11 @@
     }
    },
    "tailored": {
-    "name": "Daniel Reyes - Discord",
+    "name": "Daniel Smith - Discord",
     "base_id": "res-growth",
     "json_data": {
      "header": {
-      "name": "Daniel Reyes",
+      "name": "Daniel Smith",
       "title": "Senior Product Manager, Subscriptions",
       "contact_items": [
        {
@@ -11350,8 +11489,8 @@
         "url": ""
        },
        {
-        "text": "daniel.reyes.pm@example.com",
-        "url": "mailto:daniel.reyes.pm@example.com"
+        "text": "daniel.smith.pm@example.com",
+        "url": "mailto:daniel.smith.pm@example.com"
        },
        {
         "text": "(206) 555-0142",
@@ -11436,15 +11575,15 @@
     "length": "standard",
     "json_data": {
      "header": {
-      "name": "Daniel Reyes",
+      "name": "Daniel Smith",
       "contact_items": [
        {
         "text": "Seattle, WA",
         "url": ""
        },
        {
-        "text": "daniel.reyes.pm@example.com",
-        "url": "mailto:daniel.reyes.pm@example.com"
+        "text": "daniel.smith.pm@example.com",
+        "url": "mailto:daniel.smith.pm@example.com"
        },
        {
         "text": "(206) 555-0142",
@@ -11462,7 +11601,7 @@
       "I have not built a gaming or social product, so I would spend my first weeks listening to your most active subscribers before proposing anything. What I bring is a record in subscription value and a steady testing habit. I would welcome the chance to talk it through, starting with where Nitro value feels strongest and weakest to subscribers today, and what the team has already tried."
      ],
      "closing": "Sincerely,",
-     "signature": "Daniel Reyes"
+     "signature": "Daniel Smith"
     }
    },
    "autofill": {
@@ -11470,7 +11609,8 @@
     "describe your experience with subscription products and monetization.": "At Brightpath I own subscription growth for a 12M-user app. I launched a family plan, ran annual-plan paywall tests that added $9M in annual recurring revenue, and built lifecycle messaging that supports renewals. I plan each test with data science, agree the success metric up front and report results by cohort.",
     "tell us about a time you ran an experiment that did not go as expected.": "With a 38% win rate across 60+ tests a year, most of my experiments do not win, so I treat a loss as information. When a test misses, I check the segments, write up what we learned and feed it into the next hypothesis. That habit is why our later paywall and onboarding tests improved.",
     "_default": "I like owning a consumer metric end to end and working closely with engineering, design and data science. Nitro combines subscription value, experimentation and a very engaged user base, which matches my work at Brightpath, and I would be glad to discuss the role."
-   }
+   },
+   "snapshot": false
   },
   "d2110009-8703-5a90-a61f-6cfcdd118650": {
    "scores": {
@@ -11658,11 +11798,11 @@
     }
    },
    "tailored": {
-    "name": "Daniel Reyes - Luma",
+    "name": "Daniel Smith - Luma",
     "base_id": "res-growth",
     "json_data": {
      "header": {
-      "name": "Daniel Reyes",
+      "name": "Daniel Smith",
       "title": "Product Manager, Growth and Core Product",
       "contact_items": [
        {
@@ -11670,8 +11810,8 @@
         "url": ""
        },
        {
-        "text": "daniel.reyes.pm@example.com",
-        "url": "mailto:daniel.reyes.pm@example.com"
+        "text": "daniel.smith.pm@example.com",
+        "url": "mailto:daniel.smith.pm@example.com"
        },
        {
         "text": "(206) 555-0142",
@@ -11756,15 +11896,15 @@
     "length": "standard",
     "json_data": {
      "header": {
-      "name": "Daniel Reyes",
+      "name": "Daniel Smith",
       "contact_items": [
        {
         "text": "Seattle, WA",
         "url": ""
        },
        {
-        "text": "daniel.reyes.pm@example.com",
-        "url": "mailto:daniel.reyes.pm@example.com"
+        "text": "daniel.smith.pm@example.com",
+        "url": "mailto:daniel.smith.pm@example.com"
        },
        {
         "text": "(206) 555-0142",
@@ -11782,7 +11922,7 @@
       "I would need to learn creative workflows quickly, and I would begin by spending time inside the product and with your users before proposing changes. If a growth-focused product manager who is upfront about that gap is useful to the team, I would value a conversation about how the team measures activation for professional creators today, and which parts of the funnel you most want fresh eyes on."
      ],
      "closing": "Sincerely,",
-     "signature": "Daniel Reyes"
+     "signature": "Daniel Smith"
     }
    },
    "autofill": {
@@ -11972,11 +12112,11 @@
     }
    },
    "tailored": {
-    "name": "Daniel Reyes - WHOOP",
+    "name": "Daniel Smith - WHOOP",
     "base_id": "res-growth",
     "json_data": {
      "header": {
-      "name": "Daniel Reyes",
+      "name": "Daniel Smith",
       "title": "Senior Product Manager, Growth",
       "contact_items": [
        {
@@ -11984,8 +12124,8 @@
         "url": ""
        },
        {
-        "text": "daniel.reyes.pm@example.com",
-        "url": "mailto:daniel.reyes.pm@example.com"
+        "text": "daniel.smith.pm@example.com",
+        "url": "mailto:daniel.smith.pm@example.com"
        },
        {
         "text": "(206) 555-0142",
@@ -12070,15 +12210,15 @@
     "length": "standard",
     "json_data": {
      "header": {
-      "name": "Daniel Reyes",
+      "name": "Daniel Smith",
       "contact_items": [
        {
         "text": "Seattle, WA",
         "url": ""
        },
        {
-        "text": "daniel.reyes.pm@example.com",
-        "url": "mailto:daniel.reyes.pm@example.com"
+        "text": "daniel.smith.pm@example.com",
+        "url": "mailto:daniel.smith.pm@example.com"
        },
        {
         "text": "(206) 555-0142",
@@ -12096,7 +12236,7 @@
       "I have led a 6-person squad but have not formally mentored other product managers, and I would like to grow that side of the craft at WHOOP. I would bring clear written strategy, honest experiment readouts and real interest in the product. I would be glad to talk through your growth priorities and how the team is organised today."
      ],
      "closing": "Sincerely,",
-     "signature": "Daniel Reyes"
+     "signature": "Daniel Smith"
     }
    },
    "autofill": {
@@ -12278,11 +12418,11 @@
     }
    },
    "tailored": {
-    "name": "Daniel Reyes - MrBeast",
+    "name": "Daniel Smith - MrBeast",
     "base_id": "res-growth",
     "json_data": {
      "header": {
-      "name": "Daniel Reyes",
+      "name": "Daniel Smith",
       "title": "Product Manager, Consumer Mobile",
       "contact_items": [
        {
@@ -12290,8 +12430,8 @@
         "url": ""
        },
        {
-        "text": "daniel.reyes.pm@example.com",
-        "url": "mailto:daniel.reyes.pm@example.com"
+        "text": "daniel.smith.pm@example.com",
+        "url": "mailto:daniel.smith.pm@example.com"
        },
        {
         "text": "(206) 555-0142",
@@ -12376,15 +12516,15 @@
     "length": "standard",
     "json_data": {
      "header": {
-      "name": "Daniel Reyes",
+      "name": "Daniel Smith",
       "contact_items": [
        {
         "text": "Seattle, WA",
         "url": ""
        },
        {
-        "text": "daniel.reyes.pm@example.com",
-        "url": "mailto:daniel.reyes.pm@example.com"
+        "text": "daniel.smith.pm@example.com",
+        "url": "mailto:daniel.smith.pm@example.com"
        },
        {
         "text": "(206) 555-0142",
@@ -12402,7 +12542,7 @@
       "I have not built a product from zero, and I would be learning your audience quickly. I would bring tight specs, a test-first habit and a willingness to work in the details of the build alongside engineers. I would welcome a conversation about which feature area you have in mind and how the team works day to day."
      ],
      "closing": "Sincerely,",
-     "signature": "Daniel Reyes"
+     "signature": "Daniel Smith"
     }
    },
    "autofill": {
@@ -12584,11 +12724,11 @@
     }
    },
    "tailored": {
-    "name": "Daniel Reyes - Otter",
+    "name": "Daniel Smith - Otter",
     "base_id": "res-growth",
     "json_data": {
      "header": {
-      "name": "Daniel Reyes",
+      "name": "Daniel Smith",
       "title": "Product Manager, Growth",
       "contact_items": [
        {
@@ -12596,8 +12736,8 @@
         "url": ""
        },
        {
-        "text": "daniel.reyes.pm@example.com",
-        "url": "mailto:daniel.reyes.pm@example.com"
+        "text": "daniel.smith.pm@example.com",
+        "url": "mailto:daniel.smith.pm@example.com"
        },
        {
         "text": "(206) 555-0142",
@@ -12682,15 +12822,15 @@
     "length": "standard",
     "json_data": {
      "header": {
-      "name": "Daniel Reyes",
+      "name": "Daniel Smith",
       "contact_items": [
        {
         "text": "Seattle, WA",
         "url": ""
        },
        {
-        "text": "daniel.reyes.pm@example.com",
-        "url": "mailto:daniel.reyes.pm@example.com"
+        "text": "daniel.smith.pm@example.com",
+        "url": "mailto:daniel.smith.pm@example.com"
        },
        {
         "text": "(206) 555-0142",
@@ -12708,7 +12848,7 @@
       "My background is consumer rather than B2B, so CAC and lead enrichment would be new to me, and I would partner closely with Sales and Data Science to learn them. I can work from your San Francisco office five days a week, and I would welcome a conversation about the growth roadmap you have in mind for the first six months."
      ],
      "closing": "Sincerely,",
-     "signature": "Daniel Reyes"
+     "signature": "Daniel Smith"
     }
    },
    "autofill": {
@@ -12876,11 +13016,11 @@
     }
    },
    "tailored": {
-    "name": "Daniel Reyes - OnePay",
+    "name": "Daniel Smith - OnePay",
     "base_id": "res-growth",
     "json_data": {
      "header": {
-      "name": "Daniel Reyes",
+      "name": "Daniel Smith",
       "title": "Product Manager, Subscriptions",
       "contact_items": [
        {
@@ -12888,8 +13028,8 @@
         "url": ""
        },
        {
-        "text": "daniel.reyes.pm@example.com",
-        "url": "mailto:daniel.reyes.pm@example.com"
+        "text": "daniel.smith.pm@example.com",
+        "url": "mailto:daniel.smith.pm@example.com"
        },
        {
         "text": "(206) 555-0142",
@@ -12974,15 +13114,15 @@
     "length": "standard",
     "json_data": {
      "header": {
-      "name": "Daniel Reyes",
+      "name": "Daniel Smith",
       "contact_items": [
        {
         "text": "Seattle, WA",
         "url": ""
        },
        {
-        "text": "daniel.reyes.pm@example.com",
-        "url": "mailto:daniel.reyes.pm@example.com"
+        "text": "daniel.smith.pm@example.com",
+        "url": "mailto:daniel.smith.pm@example.com"
        },
        {
         "text": "(206) 555-0142",
@@ -13000,7 +13140,7 @@
       "I have not worked in a small startup before launch, and I would lean on Legal and Compliance early to keep the experience clear. I can start with a launch checklist and a conversion plan, and I would welcome the chance to walk through both with the team and hear where you see the biggest risks."
      ],
      "closing": "Sincerely,",
-     "signature": "Daniel Reyes"
+     "signature": "Daniel Smith"
     }
    },
    "autofill": {
@@ -13184,11 +13324,11 @@
     }
    },
    "tailored": {
-    "name": "Daniel Reyes - Robinhood",
+    "name": "Daniel Smith - Robinhood",
     "base_id": "res-platform",
     "json_data": {
      "header": {
-      "name": "Daniel Reyes",
+      "name": "Daniel Smith",
       "title": "Senior Product Manager, Consumer Mobile Finance",
       "contact_items": [
        {
@@ -13196,8 +13336,8 @@
         "url": ""
        },
        {
-        "text": "daniel.reyes.pm@example.com",
-        "url": "mailto:daniel.reyes.pm@example.com"
+        "text": "daniel.smith.pm@example.com",
+        "url": "mailto:daniel.smith.pm@example.com"
        },
        {
         "text": "(206) 555-0142",
@@ -13291,15 +13431,15 @@
     "length": "standard",
     "json_data": {
      "header": {
-      "name": "Daniel Reyes",
+      "name": "Daniel Smith",
       "contact_items": [
        {
         "text": "Seattle, WA",
         "url": ""
        },
        {
-        "text": "daniel.reyes.pm@example.com",
-        "url": "mailto:daniel.reyes.pm@example.com"
+        "text": "daniel.smith.pm@example.com",
+        "url": "mailto:daniel.smith.pm@example.com"
        },
        {
         "text": "(206) 555-0142",
@@ -13317,7 +13457,7 @@
       "I should be clear that I have not worked on investing or trading products, and I am not an active trader. I would spend my first weeks learning the users and the market data, and I would welcome a conversation about what that ramp looks like and which problems on the team I could take on first."
      ],
      "closing": "Sincerely,",
-     "signature": "Daniel Reyes"
+     "signature": "Daniel Smith"
     }
    },
    "autofill": {
@@ -13498,11 +13638,11 @@
     }
    },
    "tailored": {
-    "name": "Daniel Reyes - Kikoff",
+    "name": "Daniel Smith - Kikoff",
     "base_id": "res-growth",
     "json_data": {
      "header": {
-      "name": "Daniel Reyes",
+      "name": "Daniel Smith",
       "title": "Product Manager, Consumer Engagement",
       "contact_items": [
        {
@@ -13510,8 +13650,8 @@
         "url": ""
        },
        {
-        "text": "daniel.reyes.pm@example.com",
-        "url": "mailto:daniel.reyes.pm@example.com"
+        "text": "daniel.smith.pm@example.com",
+        "url": "mailto:daniel.smith.pm@example.com"
        },
        {
         "text": "(206) 555-0142",
@@ -13596,15 +13736,15 @@
     "length": "standard",
     "json_data": {
      "header": {
-      "name": "Daniel Reyes",
+      "name": "Daniel Smith",
       "contact_items": [
        {
         "text": "Seattle, WA",
         "url": ""
        },
        {
-        "text": "daniel.reyes.pm@example.com",
-        "url": "mailto:daniel.reyes.pm@example.com"
+        "text": "daniel.smith.pm@example.com",
+        "url": "mailto:daniel.smith.pm@example.com"
        },
        {
         "text": "(206) 555-0142",
@@ -13622,7 +13762,7 @@
       "Hands-on copywriting and content have been a smaller part of my work, and I would build that skill with your team. I like to learn from users first, so I would welcome a conversation about the engagement loops you are trying to build and the data you already have on them. I can share examples of readouts I have written."
      ],
      "closing": "Sincerely,",
-     "signature": "Daniel Reyes"
+     "signature": "Daniel Smith"
     }
    },
    "autofill": {
@@ -13806,11 +13946,11 @@
     }
    },
    "tailored": {
-    "name": "Daniel Reyes - Earnin",
+    "name": "Daniel Smith - Earnin",
     "base_id": "res-growth",
     "json_data": {
      "header": {
-      "name": "Daniel Reyes",
+      "name": "Daniel Smith",
       "title": "Senior Product Manager, Consumer App Experience",
       "contact_items": [
        {
@@ -13818,8 +13958,8 @@
         "url": ""
        },
        {
-        "text": "daniel.reyes.pm@example.com",
-        "url": "mailto:daniel.reyes.pm@example.com"
+        "text": "daniel.smith.pm@example.com",
+        "url": "mailto:daniel.smith.pm@example.com"
        },
        {
         "text": "(206) 555-0142",
@@ -13904,15 +14044,15 @@
     "length": "standard",
     "json_data": {
      "header": {
-      "name": "Daniel Reyes",
+      "name": "Daniel Smith",
       "contact_items": [
        {
         "text": "Seattle, WA",
         "url": ""
        },
        {
-        "text": "daniel.reyes.pm@example.com",
-        "url": "mailto:daniel.reyes.pm@example.com"
+        "text": "daniel.smith.pm@example.com",
+        "url": "mailto:daniel.smith.pm@example.com"
        },
        {
         "text": "(206) 555-0142",
@@ -13930,7 +14070,7 @@
       "I have not owned a design system or an ML-driven home screen, and I would be learning that part with your designers and engineers. I would welcome the chance to talk about where the app experience is weakest today and what the team wants to fix first. I am based in Seattle and can work with the Mountain View team two days a week in the office."
      ],
      "closing": "Sincerely,",
-     "signature": "Daniel Reyes"
+     "signature": "Daniel Smith"
     }
    },
    "autofill": {
@@ -14111,11 +14251,11 @@
     }
    },
    "tailored": {
-    "name": "Daniel Reyes - Mudflap",
+    "name": "Daniel Smith - Mudflap",
     "base_id": "res-growth",
     "json_data": {
      "header": {
-      "name": "Daniel Reyes",
+      "name": "Daniel Smith",
       "title": "Senior Product Manager, Growth",
       "contact_items": [
        {
@@ -14123,8 +14263,8 @@
         "url": ""
        },
        {
-        "text": "daniel.reyes.pm@example.com",
-        "url": "mailto:daniel.reyes.pm@example.com"
+        "text": "daniel.smith.pm@example.com",
+        "url": "mailto:daniel.smith.pm@example.com"
        },
        {
         "text": "(206) 555-0142",
@@ -14209,15 +14349,15 @@
     "length": "standard",
     "json_data": {
      "header": {
-      "name": "Daniel Reyes",
+      "name": "Daniel Smith",
       "contact_items": [
        {
         "text": "Seattle, WA",
         "url": ""
        },
        {
-        "text": "daniel.reyes.pm@example.com",
-        "url": "mailto:daniel.reyes.pm@example.com"
+        "text": "daniel.smith.pm@example.com",
+        "url": "mailto:daniel.smith.pm@example.com"
        },
        {
         "text": "(206) 555-0142",
@@ -14235,7 +14375,7 @@
       "I have not worked in trucking, so I would start by riding along with drivers and fleet operators and talking to them directly, as I did with shoppers and savers in past roles. I would welcome a conversation about where onboarding loses people today and which fixes the team has already tried. I am based in Seattle and comfortable with the Palo Alto office."
      ],
      "closing": "Sincerely,",
-     "signature": "Daniel Reyes"
+     "signature": "Daniel Smith"
     }
    },
    "autofill": {
@@ -14417,11 +14557,11 @@
     }
    },
    "tailored": {
-    "name": "Daniel Reyes - Plaid",
+    "name": "Daniel Smith - Plaid",
     "base_id": "res-platform",
     "json_data": {
      "header": {
-      "name": "Daniel Reyes",
+      "name": "Daniel Smith",
       "title": "Product Manager, Link Conversion and Growth",
       "contact_items": [
        {
@@ -14429,8 +14569,8 @@
         "url": ""
        },
        {
-        "text": "daniel.reyes.pm@example.com",
-        "url": "mailto:daniel.reyes.pm@example.com"
+        "text": "daniel.smith.pm@example.com",
+        "url": "mailto:daniel.smith.pm@example.com"
        },
        {
         "text": "(206) 555-0142",
@@ -14524,15 +14664,15 @@
     "length": "standard",
     "json_data": {
      "header": {
-      "name": "Daniel Reyes",
+      "name": "Daniel Smith",
       "contact_items": [
        {
         "text": "Seattle, WA",
         "url": ""
        },
        {
-        "text": "daniel.reyes.pm@example.com",
-        "url": "mailto:daniel.reyes.pm@example.com"
+        "text": "daniel.smith.pm@example.com",
+        "url": "mailto:daniel.smith.pm@example.com"
        },
        {
         "text": "(206) 555-0142",
@@ -14550,7 +14690,7 @@
       "I have not yet worked on agent-based use cases, and I would like to learn how Link needs to change for them. I would welcome a conversation about where conversion is lowest today, how the team measures it and which experiments are queued next. I am based in Seattle and open to regular time in the San Francisco office."
      ],
      "closing": "Sincerely,",
-     "signature": "Daniel Reyes"
+     "signature": "Daniel Smith"
     }
    },
    "autofill": {
@@ -14736,11 +14876,11 @@
     }
    },
    "tailored": {
-    "name": "Daniel Reyes - Glean",
+    "name": "Daniel Smith - Glean",
     "base_id": "res-platform",
     "json_data": {
      "header": {
-      "name": "Daniel Reyes",
+      "name": "Daniel Smith",
       "title": "Product Manager, Growth Platform",
       "contact_items": [
        {
@@ -14748,8 +14888,8 @@
         "url": ""
        },
        {
-        "text": "daniel.reyes.pm@example.com",
-        "url": "mailto:daniel.reyes.pm@example.com"
+        "text": "daniel.smith.pm@example.com",
+        "url": "mailto:daniel.smith.pm@example.com"
        },
        {
         "text": "(206) 555-0142",
@@ -14843,15 +14983,15 @@
     "length": "standard",
     "json_data": {
      "header": {
-      "name": "Daniel Reyes",
+      "name": "Daniel Smith",
       "contact_items": [
        {
         "text": "Seattle, WA",
         "url": ""
        },
        {
-        "text": "daniel.reyes.pm@example.com",
-        "url": "mailto:daniel.reyes.pm@example.com"
+        "text": "daniel.smith.pm@example.com",
+        "url": "mailto:daniel.smith.pm@example.com"
        },
        {
         "text": "(206) 555-0142",
@@ -14869,7 +15009,7 @@
       "The enterprise side, including connectors, admin buyers and team-level expansion, would be new to me, and I would expect to learn it from your customers and go-to-market team. If a growth product manager with strong experimentation habits is useful to you at this stage, I would welcome a conversation about where to start and what the team most needs in the first quarter."
      ],
      "closing": "Sincerely,",
-     "signature": "Daniel Reyes"
+     "signature": "Daniel Smith"
     }
    },
    "autofill": {
@@ -14877,7 +15017,8 @@
     "describe a time you built an experimentation culture.": "At Brightpath, setting up a test took nine days, so squads ran few of them. I built a self-serve experiment toolkit with engineering, wrote the guides and trained the squads. Setup dropped to two days and the number of experiments per quarter doubled. The change that mattered most was clear templates for hypotheses and success metrics.",
     "what is your experience with product-led growth?": "My PLG experience is consumer: onboarding, activation, trials and paywalls at Brightpath, where I rebuilt onboarding and raised day-7 retention from 31% to 39%. I have not worked on team-level expansion in an enterprise product, and I would want to learn how adoption spreads through a company.",
     "_default": "I enjoy building the systems that let teams learn quickly: experiments, notifications and instrumentation. I have done this on consumer apps and would like to bring it to a work-AI product. I know the enterprise side is new to me and would welcome a conversation about how I could contribute."
-   }
+   },
+   "snapshot": false
   },
   "a2b77069-7726-5f1e-a353-874fbe479774": {
    "scores": {
@@ -15056,11 +15197,11 @@
     }
    },
    "tailored": {
-    "name": "Daniel Reyes - Ramp",
+    "name": "Daniel Smith - Ramp",
     "base_id": "res-platform",
     "json_data": {
      "header": {
-      "name": "Daniel Reyes",
+      "name": "Daniel Smith",
       "title": "Product Manager, Growth and Billing Platform",
       "contact_items": [
        {
@@ -15068,8 +15209,8 @@
         "url": ""
        },
        {
-        "text": "daniel.reyes.pm@example.com",
-        "url": "mailto:daniel.reyes.pm@example.com"
+        "text": "daniel.smith.pm@example.com",
+        "url": "mailto:daniel.smith.pm@example.com"
        },
        {
         "text": "(206) 555-0142",
@@ -15163,15 +15304,15 @@
     "length": "standard",
     "json_data": {
      "header": {
-      "name": "Daniel Reyes",
+      "name": "Daniel Smith",
       "contact_items": [
        {
         "text": "Seattle, WA",
         "url": ""
        },
        {
-        "text": "daniel.reyes.pm@example.com",
-        "url": "mailto:daniel.reyes.pm@example.com"
+        "text": "daniel.smith.pm@example.com",
+        "url": "mailto:daniel.smith.pm@example.com"
        },
        {
         "text": "(206) 555-0142",
@@ -15189,7 +15330,7 @@
       "I do not have partner-channel experience or a track record of AI prototyping to point to yet, and I would be building both from a lower base than your ideal candidate. If that is still of interest, I would welcome a conversation. I am based in Seattle and can work from the New York or San Francisco office."
      ],
      "closing": "Sincerely,",
-     "signature": "Daniel Reyes"
+     "signature": "Daniel Smith"
     }
    },
    "autofill": {

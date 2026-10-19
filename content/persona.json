@@ -1,16 +1,16 @@
 {
  "contact": {
   "first_name": "Daniel",
-  "last_name": "Reyes",
-  "email": "daniel.reyes.pm@example.com",
+  "last_name": "Smith",
+  "email": "daniel.smith.pm@example.com",
   "phone": "(206) 555-0142",
   "city": "Seattle",
   "state": "WA",
   "country": "United States",
   "current_company": "Brightpath",
-  "linkedin": "https://www.linkedin.com/in/daniel-reyes-pm-example",
-  "github": "https://github.com/danielreyes-pm-example",
-  "portfolio": "https://danielreyes.example.com"
+  "linkedin": "https://www.linkedin.com/in/daniel-smith-pm-example",
+  "github": "https://github.com/danielsmith-pm-example",
+  "portfolio": "https://danielsmith.example.com"
  },
  "work_auth": {
   "authorized_us": true,

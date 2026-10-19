@@ -21,8 +21,8 @@ function fullUrl(config) {
 
 // Axios adapter: answers every request from the local server.
 export async function demoAdapter(config) {
-  const { status, data } = await handle(config.method, fullUrl(config), parseBody(config.data))
-  const response = { data, status, statusText: String(status), headers: {}, config, request: {} }
+  const { status, data, headers } = await handle(config.method, fullUrl(config), parseBody(config.data))
+  const response = { data, status, statusText: String(status), headers: headers || {}, config, request: {} }
   if (status >= 200 && status < 300) return response
   throw new AxiosError(`Request failed with status code ${status}`,
     status >= 500 ? AxiosError.ERR_BAD_RESPONSE : AxiosError.ERR_BAD_REQUEST, config, response.request, response)

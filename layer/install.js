@@ -5,6 +5,7 @@ import { shiftDates } from './dates.js'
 import { loadStore } from './store.js'
 import { demoAdapter, installFetchShim } from './adapter.js'
 import { registerAll } from './routes/index.js'
+import { installAnalytics } from './analytics.js'
 
 export async function installDemo() {
   const base = import.meta.env.BASE_URL || '/'
@@ -17,4 +18,5 @@ export async function installDemo() {
   api.defaults.adapter = demoAdapter
   axios.defaults.adapter = demoAdapter   // plain axios calls (session sync, login) must not leave the page either
   installFetchShim()
+  installAnalytics()
 }

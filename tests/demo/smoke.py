@@ -15,9 +15,9 @@ from playwright.sync_api import sync_playwright
 BASE = sys.argv[1].rstrip("/")
 ORIGIN = "{0.scheme}://{0.netloc}".format(urlsplit(BASE))
 PATH = urlsplit(BASE).path
-ALLOWED = {urlsplit(BASE).netloc, "fonts.googleapis.com", "fonts.gstatic.com"}
-SCREENS = [("/feed", "Perplexity"), ("/searches", "Consumer PM"), ("/companies", "Duolingo"), ("/applications", "Duolingo"),
-           ("/resumes", "PM – Consumer Growth"), ("/cover-letters", "WHOOP"), ("/persona", "Reyes"), ("/stats", ""), ("/settings", "not affiliated")]
+ALLOWED = {urlsplit(BASE).netloc, "fonts.googleapis.com", "fonts.gstatic.com", "a.viktoresadze.com"}   # Umami (analytics)
+SCREENS = [("/feed", "Anthropic"), ("/searches", "Consumer PM"), ("/companies", "Duolingo"), ("/applications", "Duolingo"),
+           ("/resumes", "PM – Consumer Growth"), ("/cover-letters", "WHOOP"), ("/persona", "Smith"), ("/stats", ""), ("/settings", "not affiliated")]
 fails, requests, console, bad = [], [], [], []
 
 
@@ -109,9 +109,16 @@ with sync_playwright() as pw:
             texts.append(f.inner_text("body"))
         except Exception:
             pass
-    check(any("Daniel Reyes" in t and "Brightpath" in t for t in texts), "the résumé editor renders the template (PDF preview)")
-    dx = ctx.request.get(f"{BASE}/demo-data/docx/{base_id}.docx")
-    check(dx.ok and dx.body()[:2] == b"PK", "pre-made docx is served")
+    check(any("Daniel Smith" in t and "Brightpath" in t for t in texts), "the résumé editor renders the template (PDF preview)")
+    for kind, magic in (("PDF", b"%PDF"), ("Word", b"PK")):
+        try:
+            page.get_by_role("button", name="↓ Download").click()
+            with page.expect_download(timeout=30000) as dl:
+                page.get_by_role("menuitem", name=kind).click()
+            body = open(dl.value.path(), "rb").read()
+            check(body[:len(magic)] == magic and len(body) > 2000, f"{kind} downloads as a file ({dl.value.suggested_filename}, {len(body)} B)")
+        except Exception as e:
+            check(False, f"{kind} download: {e}")
 
     # edit persists across reload, Reset restores
     page.goto(f"{BASE}/feed", wait_until="networkidle")
@@ -127,7 +134,7 @@ with sync_playwright() as pw:
     # network
     check(not bad, f"no failed sub-resource requests {bad[:3]}")
     outside = sorted({u for u in requests if urlsplit(u).scheme in ("http", "https") and urlsplit(u).netloc not in ALLOWED})
-    check(not outside, f"no request leaves the origin or Google Fonts {outside[:3]}")
+    check(not outside, f"no request leaves the origin, Google Fonts or Umami {outside[:3]}")
     browser.close()
 
 print("SMOKE OK" if not fails else f"{len(fails)} FAILED")

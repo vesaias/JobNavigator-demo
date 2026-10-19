@@ -1,5 +1,6 @@
 // The demo "backend": a route table answering what the dashboard asks of /api.
 import { getStore } from './store.js'
+import { onDemoRequest } from './analytics.js'
 
 const routes = []
 
@@ -36,11 +37,13 @@ export async function handle(method, url, body) {
   const hit = match(method, parts)
   if (hit) {
     const out = await hit.r.handler({ params: hit.params, query, body, store: getStore() })
-    return { status: out?.status ?? 200, data: out?.data }
+    onDemoRequest(method, '/' + hit.r.parts.join('/'), out?.status ?? 200)
+    return out?.headers ? { status: out?.status ?? 200, data: out?.data, headers: out.headers } : { status: out?.status ?? 200, data: out?.data }
   }
   if (method === 'GET' || method === 'HEAD') {
     const last = parts[parts.length - 1] || ''
     return { status: 200, data: last.endsWith('s') ? [] : {} }
   }
+  onDemoRequest(method, '/' + parts.map((x) => (/^[0-9a-f-]{8,}$|^\d+$/i.test(x) ? ':id' : x)).join('/'), 403)
   return { status: 403, data: { detail: 'Disabled in the demo' } }
 }
