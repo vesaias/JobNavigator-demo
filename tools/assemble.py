@@ -149,8 +149,8 @@ def main():
 
     # featured: prepared results
     feat_days = {"Anthropic": 3, "Google": 5, "Spotify": 8, "Luma": 2, "WHOOP": 11, "MrBeast": 1, "Otter": 4, "OnePay": 6,
-                 "Robinhood": 9, "Kikoff": 2, "Earnin": 7, "Mudflap": 10, "Plaid": 3, "Glean": 12, "Ramp": 5}
-    feat_status = {"Ramp": "skip", "Glean": "skip",
+                 "Robinhood": 9, "Kikoff": 2, "Earnin": 7, "Mudflap": 10, "Plaid": 3, "Notion": 12, "Ramp": 5}
+    feat_status = {"Ramp": "skip", "Notion": "skip",
                    "Google": "applied", "WHOOP": "applied", "Spotify": "applied"}
     pre = ("Anthropic", "Robinhood", "Plaid", "WHOOP")   # copies with a cover letter already made
     # Two more copies tailored straight from the Persona (no base parent), so every group in

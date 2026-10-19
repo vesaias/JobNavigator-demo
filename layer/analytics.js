@@ -12,7 +12,7 @@
 // Page views come from Umami's own auto-track (History API routes included).
 
 const HOST = 'https://a.viktoresadze.com'
-export const WEBSITE_ID = ''                       // Umami → Settings → Websites → JobNavigator demo
+export const WEBSITE_ID = '2681b199-b634-4789-ab0d-ea87f6211803'                     // Umami → Settings → Websites → JobNavigator demo
 const DOMAINS = 'vesaias.github.io'                 // never report local builds
 const MAX_EVENTS = 400                              // per page load, so a stuck loop can't flood the server
 
