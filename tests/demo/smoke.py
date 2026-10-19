@@ -37,6 +37,9 @@ def api(page, method, url, body=None):
 with sync_playwright() as pw:
     browser = pw.chromium.launch()
     ctx = browser.new_context(viewport={"width": 1440, "height": 950}, locale="en-US", accept_downloads=True)
+    # Test runs must never count as visits: Umami's script is replaced by a no-op stub.
+    ctx.route("https://a.viktoresadze.com/**", lambda r: r.fulfill(status=200, content_type="application/javascript",
+                                                                    body="window.umami={track(){}}"))
     page = ctx.new_page()
     page.on("request", lambda r: requests.append(r.url))
     # a deep link is answered by Pages' 404.html (status 404, page renders): the browser logs that as a console error,
