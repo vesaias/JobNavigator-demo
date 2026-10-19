@@ -101,8 +101,8 @@ def main():
     app_prefix = [a["company"] for a in apps_rows]
     used_ids = set(ok)
 
-    def find_app_job(prefix):
-        for j in featured:
+    def find_app_job(prefix, allow_featured=True):
+        for j in featured if allow_featured else []:
             if j["company"].startswith(prefix):
                 return j
         for j in exp["apps"]:
@@ -111,9 +111,9 @@ def main():
         raise KeyError(prefix)
 
     app_jobs = {}
-    for a in apps_rows:
-        j = find_app_job(a["company"])
-        app_jobs[a["company"]] = j
+    for n, a in enumerate(apps_rows, 1):
+        j = find_app_job(a["company"], a.get("featured", True))
+        app_jobs[n] = j   # by row: two applications can share a company
         used_ids.add(j["id"])
     extras = [j for j in exp["apps"] if j["id"] not in used_ids and not j["company"].startswith(skip_co)
               ][:20]
@@ -148,10 +148,10 @@ def main():
         return j
 
     # featured: prepared results
-    feat_days = {"Anthropic": 3, "Twitch": 5, "Discord": 8, "Luma": 2, "WHOOP": 11, "MrBeast": 1, "Otter": 4, "OnePay": 6,
+    feat_days = {"Anthropic": 3, "Google": 5, "Spotify": 8, "Luma": 2, "WHOOP": 11, "MrBeast": 1, "Otter": 4, "OnePay": 6,
                  "Robinhood": 9, "Kikoff": 2, "Earnin": 7, "Mudflap": 10, "Plaid": 3, "Glean": 12, "Ramp": 5}
     feat_status = {"Ramp": "skip", "Glean": "skip",
-                   "Twitch": "applied", "WHOOP": "applied", "Discord": "applied"}
+                   "Google": "applied", "WHOOP": "applied", "Spotify": "applied"}
     pre = ("Anthropic", "Robinhood", "Plaid", "WHOOP")   # copies with a cover letter already made
     # Two more copies tailored straight from the Persona (no base parent), so every group in
     # Résumés has some (Robinhood and Plaid above are the PM – Platform ones).
@@ -198,7 +198,7 @@ def main():
     applications = []
     interview_n = 0
     for n, a in enumerate(apps_rows, 1):
-        src = app_jobs[a["company"]]
+        src = app_jobs[n]
         is_feat = src["id"] in prepared
         if is_feat:
             row = jobs_by_id[src["id"]]
@@ -311,8 +311,7 @@ def main():
         company("co-duolingo", "Duolingo", "https://boards.greenhouse.io/duolingo", "greenhouse", 1, 3, 77),
         company("co-airbnb", "Airbnb", "https://boards.greenhouse.io/airbnb", "greenhouse", 1, 5, 74),
         company("co-whoop", "WHOOP", "https://jobs.ashbyhq.com/whoop", "ashby", 1, 2, 83),
-        company("co-discord", "Discord", "https://boards.greenhouse.io/discord", "greenhouse", 1, 4, 80),
-        company("co-twitch", "Twitch", "https://boards.greenhouse.io/twitch", "greenhouse", 2, 2, 72),
+        company("co-spotify", "Spotify", "https://jobs.lever.co/spotify", "lever", 1, 4, 80),
         company("co-otter", "Otter", "https://boards.greenhouse.io/otter", "greenhouse", 2, 1, 70),
         company("co-onepay", "OnePay", "https://jobs.ashbyhq.com/oneapp", "ashby", 2, 2, 74),
         company("co-robinhood", "Robinhood", "https://boards.greenhouse.io/robinhood", "greenhouse", 3, 6, 58),
@@ -328,7 +327,7 @@ def main():
 
     activity = [
         ("scrape", "Scrape finished: 14 new postings", None, 0.2), ("score", "Scored 9 new postings", None, 0.2),
-        ("email", "Interview invitation detected", "Discord", 4), ("email", "Interview invitation detected", "WHOOP", 7),
+        ("email", "Interview invitation detected", "Spotify", 4), ("email", "Interview invitation detected", "WHOOP", 7),
         ("email", "Offer received", "Duolingo", 5), ("email", "Rejection detected", "Realtor.com", 10),
         ("status", "Moved to interview", "Chewy", 8), ("scrape", "Scrape finished: 11 new postings", None, 1.2),
         ("email", "Rejection detected", "EBG", 6), ("scrape", "Scrape finished: 9 new postings", None, 2.2),

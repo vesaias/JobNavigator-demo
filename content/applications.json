@@ -31,14 +31,14 @@
    "notes": "Strong match; tailored the resume and wrote a cover letter. Growth team of 4 PMs.",
    "email": [7, "Thanks for applying to the Growth PM role. We would like to schedule an intro call."],
    "interviews": [["Intro call", 6, "Video", "done"], ["Growth teardown presentation", -3, "Video", "scheduled"]]},
-  {"company": "Discord", "applied": 12, "best": "growth", "score": 88, "path": [["interview", 4, "email"]], "next_action": "Review the Nitro metrics I know of", "next_days": -2,
+  {"company": "Spotify", "applied": 12, "best": "growth", "score": 88, "path": [["interview", 4, "email"]], "next_action": "Re-read the audiobooks conversion funnel", "next_days": -2,
    "notes": "Nitro subscriptions: close to my paywall work at Brightpath.",
    "email": [4, "We would love to chat about the Senior Product Manager, Nitro role. Are you free this week?"],
    "interviews": [["Recruiter screen", 3, "Video", "done"], ["Hiring manager interview", -4, "Video", "scheduled"]]},
 
   {"company": "Amazon", "applied": 52, "best": "growth", "score": 70, "path": [["rejected", 38, "email"]], "notes": "Generic commerce role; low expectations.",
    "email": [38, "After careful consideration, we have decided not to move forward with your application at this time."]},
-  {"company": "Google", "applied": 45, "best": "platform", "score": 72, "path": [["interview", 33, "email"], ["rejected", 20, "email"]], "notes": "Pixel connectivity. Made it to the final round; feedback said they wanted deeper hardware experience.",
+  {"company": "Google", "featured": false, "applied": 45, "best": "platform", "score": 72, "path": [["interview", 33, "email"], ["rejected", 20, "email"]], "notes": "Pixel connectivity. Made it to the final round; feedback said they wanted deeper hardware experience.",
    "email": [20, "Thank you for taking the time to interview. Unfortunately we will not be moving forward."],
    "interviews": [["Recruiter screen", 31, "Phone", "done"], ["Interview loop", 24, "Video, 4 interviews", "done"]]},
   {"company": "Meta", "applied": 40, "best": "growth", "score": 71, "path": [["rejected", 30, "email"]], "notes": "Applied through the careers site; no referral.",
@@ -66,5 +66,5 @@
   {"company": "EA SPORTS", "applied": 11, "best": "growth", "score": 65, "path": [], "notes": "Game product manager; fun but outside my domain."},
   {"company": "Superhuman", "applied": 8, "best": "growth", "score": 80, "path": [], "next_action": "Check for a reply next week", "next_days": 5, "notes": "Growth PM for the mail app."},
   {"company": "NBCUniversal", "applied": 6, "best": "growth", "score": 69, "path": [], "notes": "Streaming-adjacent product role."},
-  {"company": "Twitch", "applied": 3, "best": "growth", "score": 81, "path": [], "next_action": "Follow up in a week", "next_days": 4, "notes": "Commerce on stream; tailored resume and cover letter sent."}
+  {"company": "Google", "applied": 3, "best": "growth", "score": 81, "path": [], "next_action": "Follow up in a week", "next_days": 4, "notes": "YouTube Partner Program; tailored résumé sent."}
 ]
