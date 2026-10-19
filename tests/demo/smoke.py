@@ -18,7 +18,7 @@ PATH = urlsplit(BASE).path
 ALLOWED = {urlsplit(BASE).netloc, "fonts.googleapis.com", "fonts.gstatic.com"}
 SCREENS = [("/feed", "Perplexity"), ("/searches", "Consumer PM"), ("/companies", "Duolingo"), ("/applications", "Duolingo"),
            ("/resumes", "PM – Consumer Growth"), ("/cover-letters", "WHOOP"), ("/persona", "Reyes"), ("/stats", ""), ("/settings", "not affiliated")]
-fails, requests, console = [], [], []
+fails, requests, console, bad = [], [], [], []
 
 
 def check(ok, msg):
@@ -39,7 +39,10 @@ with sync_playwright() as pw:
     ctx = browser.new_context(viewport={"width": 1440, "height": 950}, locale="en-US", accept_downloads=True)
     page = ctx.new_page()
     page.on("request", lambda r: requests.append(r.url))
-    page.on("console", lambda m: console.append(m.text) if m.type == "error" and "favicon" not in m.text.lower() else None)
+    # a deep link is answered by Pages' 404.html (status 404, page renders): the browser logs that as a console error,
+    # so failed *resources* are checked through their responses instead
+    page.on("console", lambda m: console.append(m.text) if m.type == "error" and "Failed to load resource" not in m.text else None)
+    page.on("response", lambda r: bad.append(f"{r.status} {r.url}") if r.status >= 400 and r.request.resource_type != "document" else None)
     page.on("pageerror", lambda e: console.append(f"pageerror: {e}"))
     page.on("dialog", lambda d: d.dismiss())
 
@@ -122,6 +125,7 @@ with sync_playwright() as pw:
     check(api(page, "GET", "/api/applications")["data"]["total"] == n_apps, f"{n_apps} applications after reset")
 
     # network
+    check(not bad, f"no failed sub-resource requests {bad[:3]}")
     outside = sorted({u for u in requests if urlsplit(u).scheme in ("http", "https") and urlsplit(u).netloc not in ALLOWED})
     check(not outside, f"no request leaves the origin or Google Fonts {outside[:3]}")
     browser.close()
