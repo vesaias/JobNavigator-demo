@@ -35,12 +35,6 @@ jobs:
         with:
           node-version: 22
 
-      # Until the demo hooks are in a JobNavigator release, a ref without them gets them from hooks.patch.
-      - name: Add the demo hooks if the ref lacks them
-        working-directory: jn
-        run: |
-          if [ ! -f frontend/src/demoHooks.js ]; then git apply "$GITHUB_WORKSPACE/hooks.patch"; fi
-
       - name: Add the demo layer
         run: |
           mkdir -p jn/frontend/src/demo

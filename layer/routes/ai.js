@@ -68,7 +68,8 @@ function applyTailored(store, jobId, baseId, prep) {
   })
   if (typeof t.score === 'number') {
     const job = store.find('jobs', jobId)
-    if (job) store.put('jobs', jobId, { ...job, cv_scores: { ...(job.cv_scores || {}), Tailored: t.score } })
+    if (job) store.put('jobs', jobId, { ...job, cv_scores: { ...(job.cv_scores || {}), Tailored: t.score },
+      ...(t.report ? { scoring_report: { ...(job.scoring_report || {}), Tailored: t.report } } : {}) })
   }
 }
 

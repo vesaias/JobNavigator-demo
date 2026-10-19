@@ -76,6 +76,34 @@ def tailored_json(base_key, t):
     return d
 
 
+def tailored_report(base_report, t, tj):
+    """The tailored copy's report: the base résumé's report re-read against the tailored text.
+    Missing keywords that the copy now contains move to matched; the score is the copy's own."""
+    r = copy.deepcopy(base_report)
+    text = json.dumps(tj, ensure_ascii=False).lower()
+    import re
+    gained = [k for k in r.get("missing_keywords", []) if re.search(r"\b" + re.escape(k.lower()) + r"\b", text)]
+    r["matched_keywords"] = r.get("matched_keywords", []) + gained
+    r["missing_keywords"] = [k for k in r.get("missing_keywords", []) if k not in gained]
+    n = len(r["matched_keywords"]) + len(r["missing_keywords"])
+    r["keyword_coverage_pct"] = max(r.get("keyword_coverage_pct", 0), round(100 * len(r["matched_keywords"]) / n) if n else 0) + 6
+    r["keyword_coverage_pct"] = min(r["keyword_coverage_pct"], 96)
+    keys = list(r.get("breakdown", {}))
+    if keys:   # spread the copy's score over the five criteria
+        each, extra = divmod(t["score"], len(keys))
+        r["breakdown"] = {k: each + (1 if i < extra else 0) for i, k in enumerate(keys)}
+    still = [m["requirement"] for m in r.get("requirement_mapping", []) if not m.get("matched")]
+    r["summary"] = (f"Tailored copy: the summary, bullets and skills now use the posting's own terms, so the match reads "
+                    f"{t['score'] - max(0, base_report_score(base_report))} points stronger than the base."
+                    + (f" Still not covered: {still[0].rstrip('.').lower()}." if still else " Every listed requirement is covered."))
+    r["ats_tip"] = "Ready to send. Keep the job title line as written; it matches the posting word for word."
+    return r
+
+
+def base_report_score(rep):
+    return sum((rep.get("breakdown") or {}).values())
+
+
 def letter_json(base_key, c):
     h = RES[base_key]["json_data"]["header"]
     return {"header": {"name": h["name"], "contact_items": copy.deepcopy(h["contact_items"])},
@@ -168,7 +196,8 @@ def main():
         cl = c["cover_letter"]
         prepared[j["id"]] = {
             "scores": {RES_NAME[k]: {"score": v["score"], "report": v["report"]} for k, v in c["scores"].items()},
-            "tailored": {"name": t["name"], "base_id": RES_ID[t["base"]], "json_data": tj, "score": t["score"]},
+            "tailored": {"name": t["name"], "base_id": RES_ID[t["base"]], "json_data": tj, "score": t["score"],
+                         "report": tailored_report(c["scores"][t["base"]]["report"], t, tj)},
             "cover_letter": {"name": cl["name"], "resume_id": RES_ID[cl["resume"]], "template": "inter", "voice": "professional",
                              "length": "standard", "json_data": letter_json(cl["resume"], cl)},
             "autofill": c["autofill"],
@@ -185,6 +214,8 @@ def main():
                             "template": "inter", "page_format": "letter", "created_at": row["discovered_at"], "updated_at": row["discovered_at"],
                             "json_data": tj})
             row["cv_scores"]["Tailored"] = t["score"]
+            row.setdefault("scoring_report", {})
+            row["scoring_report"] = {**(row["scoring_report"] or {}), "Tailored": prepared[j["id"]]["tailored"]["report"]}
             row["best_score"] = max(row["best_score"], t["score"])
             row["best_cv_score"] = row["best_score"]
         if key in pre:
