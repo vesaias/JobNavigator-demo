@@ -125,7 +125,7 @@ def main():
             content[item["job_id"]] = item
     apps_rows = load("content/applications.json")
 
-    skip_co = ("Hex Technologies", "JPMorgan", "Crossing", "hackajob", "Citi", "Randstad", "Gametime")   # duplicates or off-level titles
+    skip_co = ("Hex Technologies", "JPMorgan", "Crossing", "hackajob", "Citi", "Randstad", "Gametime", "Atlassian", "Radius")   # duplicates or off-level titles
     app_prefix = [a["company"] for a in apps_rows]
     used_ids = set(ok)
 
@@ -288,8 +288,8 @@ def main():
     ignored("hackajob", 4)                                                          # company exclude: recruiter
     ignored("Randstad Digital Americas", 2, h1b_jd_flag=True, h1b_verdict="unlikely",
             h1b_jd_snippet="...candidates must be authorized to work in the U.S.; no visa sponsorship is available...")  # body exclusion
-    ignored("Citi", 5, title="Principal PM, Ads (Clearance required)")              # title exclude: "principal"
-    ignored("Gametime", 6, title="Product Marketing Manager, Consumer")             # title exclude: "marketing"
+    ignored("Atlassian", 5)                                                         # title exclude: "principal"
+    ignored("Radius", 6)                                                            # title exclude: "marketing"
 
     # short ids by discovery order
     for n, j in enumerate(sorted(jobs, key=lambda x: x["discovered_at"]), 1):
