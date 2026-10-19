@@ -98,7 +98,7 @@ with sync_playwright() as pw:
     check(len(res) == n_resumes + 1, f"tailoring added a résumé ({len(res)} vs {n_resumes})")
     other = next(j["id"] for j in data["jobs"] if j["id"] not in data["prepared"])
     r = api(page, "POST", f"/api/analyze/{other}?depth=full", {})
-    check(r["status"] == 200 and "featured jobs only" in json.dumps(r["data"]), "a non-featured job gets the friendly message")
+    check(r["status"] == 400 and "featured jobs only" in json.dumps(r["data"]), "a non-featured job gets the friendly message")
 
     # PDF: the editor previews the rendered template; the print button hands the same HTML to the browser
     page.goto(f"{BASE}/resumes/{base_id}", wait_until="networkidle")

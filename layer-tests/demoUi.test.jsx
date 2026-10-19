@@ -46,7 +46,7 @@ describe('demo marker', () => {
     const first = getStore().get('resumes')[0]
     getStore().put('resumes', first.id, { ...first, name: 'Edited' })
     render(<DemoMarker open />)
-    expect(screen.getByText('DEMO · sample data')).toBeTruthy()
+    expect(screen.getByText('Sample data')).toBeTruthy()
     fireEvent.click(screen.getByText('Reset demo'))
     expect(getStore().find('resumes', first.id).name).toBe('Edited')   // not yet
     fireEvent.click(screen.getByText('Reset'))
@@ -65,7 +65,7 @@ describe('Shell account switcher', () => {
     mockApi({})
     render(<MemoryRouter initialEntries={['/feed']}><Shell /></MemoryRouter>)
     fireEvent.click(await screen.findByLabelText(/Daniel Reyes, .* switch account/))
-    const item = await screen.findByText(/Elena Reyes — Demo shows one account/)
+    const item = await screen.findByText(/^Elena Reyes$/)
     const btn = item.closest('[role="menuitem"]') || item.closest('[aria-disabled]')
     expect(btn.getAttribute('aria-disabled')).toBe('true')
   })
@@ -74,7 +74,7 @@ describe('Shell account switcher', () => {
     mockApi({})
     render(<MemoryRouter initialEntries={['/feed']}><Shell /></MemoryRouter>)
     await screen.findByLabelText(/Daniel Reyes, .* switch account/)
-    expect(screen.queryByText('DEMO · sample data')).toBeNull()
+    expect(screen.queryByText('Sample data')).toBeNull()
   })
 })
 
@@ -94,6 +94,14 @@ describe('Settings in the demo', () => {
     expect(inputs.length).toBeGreaterThan(0)
     expect(inputs.every((c) => c.disabled)).toBe(true)
     expect(controls().length).toBeGreaterThan(0)
+  })
+
+  it('keeps the Display section (appearance, theme) live', async () => {
+    await renderSettings({ ...fixture.settings, _demo: true })
+    const display = document.querySelector('[data-sec="sec-appearance"]')?.parentElement
+    expect(display).toBeTruthy()
+    expect(display.querySelectorAll('[data-locked="true"]').length).toBe(0)
+    expect(display.querySelectorAll('button, [role="radio"], [role="button"]').length).toBeGreaterThan(0)
   })
 
   it('leaves them enabled otherwise', async () => {

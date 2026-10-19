@@ -12,8 +12,8 @@ export default function DemoMarker({ open }) {
   if (!open) return null
   const reset = () => { setAsking(false); resetStore(); window.location.reload() }
   return (
-    <div data-demo-marker="" style={{ flex: '0 0 auto', display: 'flex', alignItems: 'center', gap: 8, padding: '8px 20px', flexWrap: 'wrap' }}>
-      <Tag tone="accent" title={NOT_AFFILIATED}>DEMO · sample data</Tag>
+    <div data-demo-marker="" style={{ flex: '0 0 auto', display: 'flex', alignItems: 'center', gap: 8, padding: '8px 20px', whiteSpace: 'nowrap' }}>
+      <Tag tone="accent" title={NOT_AFFILIATED}>Sample data</Tag>
       <Button variant="secondary" size="sm" onClick={() => setAsking(true)}>Reset demo</Button>
       {asking && <ConfirmDialog title="Reset the demo?" body="Your changes in this browser are discarded and the sample data comes back."
         label="Reset" danger onConfirm={reset} onCancel={() => setAsking(false)} />}

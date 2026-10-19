@@ -1,5 +1,5 @@
 // Prepared AI actions. Scoring, tailoring, cover letters and autofill answer 202 {run_id}, show up on
-// /monitor/active under the same scope key the real endpoint uses for 1.5-3 s, then write the
+// /monitor/active under the same scope key the real endpoint uses for 1.5 s, then write the
 // prepared result (seed `prepared[job_id]`) into the store and clear the entry.
 //
 // prepared[job_id] = {
@@ -13,12 +13,13 @@ import { addRun, endRun, activeRuns } from './monitor.js'
 import { newId, nowIso } from './util.js'
 
 export const NOT_PREPARED = 'Prepared for the featured jobs only'
-const MIN_MS = 1500
-const MAX_MS = 3000
-
-const delay = () => MIN_MS + Math.floor(Math.random() * (MAX_MS - MIN_MS + 1))
+// One fixed latency for every action. The screens notice a finished run on their own poll (3 s), so
+// the felt time is 1.5-4.5 s wherever the action starts; a random delay on top made it uneven.
+export const RUN_MS = 1500
+const delay = () => RUN_MS
 const preparedFor = (store, jobId) => (store.get('prepared') || {})[jobId]
-const noPrep = () => ({ status: 200, data: { detail: NOT_PREPARED } })
+// Answered at once, as a 400: the screens treat any 2xx as "started" and would wait for a run that never registers.
+const noPrep = () => ({ status: 400, data: { detail: NOT_PREPARED } })
 
 // Starts a prepared run; `finish()` writes the result when the timer fires.
 function start({ jobType, scopeKey, jobId, meta = null, finish, extra = {} }) {

@@ -10,12 +10,14 @@ from __future__ import annotations
 import copy
 import hashlib
 import json
+import os
 import sys
+import uuid
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-JN = Path(sys.argv[1]).resolve() if len(sys.argv) > 1 else Path("V:/JTrakProject")
+JN = Path(sys.argv[1] if len(sys.argv) > 1 else os.environ.get("JN_CHECKOUT", "")).resolve()   # path to a JobNavigator checkout (argument or $JN_CHECKOUT)
 sys.path.insert(0, str(JN))
 
 REF = date.today()
@@ -229,6 +231,25 @@ def main():
         status = "saved" if k in (1, 6, 11) else ("skip" if k in (4, 9, 15) else "new")
         finish_job(j, 1 + (k * 7) % 13, status, scores)
 
+    # ignored: filtered out by the searches' rules; real pool rows, text only
+    ign_src = {j["company"]: j for j in exp["apps"]}
+    def ignored(company, days, title=None, **kw):
+        j = copy.deepcopy(ign_src[company])
+        if title:
+            j["title"] = title
+            j["id"] = str(uuid.uuid5(uuid.NAMESPACE_URL, "ignored:" + company + title))
+            j["external_id"] = hashlib.sha1(j["id"].encode()).hexdigest()
+            j["url"] = j["url"].split("?")[0] + "?ignored=" + j["id"][:8]
+        j.update(kw)
+        finish_job(j, days, "ignored")
+    ignored("JPMorgan Chase", 1)                                                    # title exclude: "vice president"
+    ignored("Crossing Hurdles", 3)                                                  # company exclude: staffing firm
+    ignored("hackajob", 4)                                                          # company exclude: recruiter
+    ignored("Randstad Digital Americas", 2, h1b_jd_flag=True, h1b_verdict="unlikely",
+            h1b_jd_snippet="...candidates must be authorized to work in the U.S.; no visa sponsorship is available...")  # body exclusion
+    ignored("Citi", 5, title="Principal PM, Ads (Clearance required)")              # title exclude: "principal"
+    ignored("Gametime", 6, title="Product Marketing Manager, Consumer")             # title exclude: "marketing"
+
     # short ids by discovery order
     for n, j in enumerate(sorted(jobs, key=lambda x: x["discovered_at"]), 1):
         j["short_id"] = f"J{n}"
@@ -270,10 +291,10 @@ def main():
         search("search-jobright", "Jobright.ai", "jobright", False, [], [], [], 6, 0, 0, location=None, auto_scoring_depth="off", last_duration=None),
     ]
 
-    def company(id_, name, url, kind, tier, opens, fit, active=True):
+    def company(id_, name, url, kind, tier, opens, fit, active=True, interval=0):
         c = copy.deepcopy(fixture["companies"][0])
         c.update({"id": id_, "name": name, "tier": tier, "active": active, "scrape_urls": [url], "detected_scrape_types": {url: kind},
-                  "open_jobs": opens, "open_jobs_week": min(opens, 2), "avg_fit": fit, "last_run_at": ts(0.2, 8), "last_scraped_at": ts(0.2, 8)})
+                  "open_jobs": opens, "open_jobs_week": min(opens, 2), "avg_fit": fit, "scrape_interval_minutes": interval, "last_run_at": ts(0.2, 8), "last_scraped_at": ts(0.2, 8)})
         return c
 
     companies = [
@@ -288,6 +309,9 @@ def main():
         company("co-robinhood", "Robinhood", "https://boards.greenhouse.io/robinhood", "greenhouse", 3, 6, 58),
         company("co-plaid", "Plaid", "https://jobs.lever.co/plaid", "lever", 2, 3, 66),
         company("co-mudflap", "Mudflap", "https://jobs.ashbyhq.com/mudflap", "ashby", 3, 1, 65, active=False),
+        company("co-google", "Google", "https://www.google.com/about/careers/applications/jobs/results/?q=product%20manager", "google", 1, 6, 68, interval=240),
+        company("co-microsoft", "Microsoft", "https://jobs.careers.microsoft.com/global/en/search?q=product%20manager", "playwright", 1, 5, 66, interval=240),
+        company("co-anthropic", "Anthropic", "https://job-boards.greenhouse.io/anthropic", "greenhouse", 1, 4, 72, interval=240),
         company("co-pinterest", "Pinterest", "https://www.pinterestcareers.com/jobs/", "playwright", 2, 4, 75, active=False),
     ]
     for c in companies:

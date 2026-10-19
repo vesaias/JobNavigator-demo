@@ -5,6 +5,9 @@ const OFF = { status: 403, data: { detail: 'Disabled in the demo' } }
 
 const publicAccount = (a) => ({ id: String(a.id), name: a.name, color: a.color, role: a.role, has_pin: !!a.has_pin, ...(a.disabled ? { disabled: true } : {}) })
 
+// Plausible fake counts for Elena's account (the demo has no second set of rows).
+const MOCK_COUNTS = { jobs: 184, applications: 23, resumes: 5, cover_letters: 9, searches: 4, companies: 11 }
+
 export function register() {
   route('GET', '/health', () => ({
     data: {
@@ -29,7 +32,7 @@ export function register() {
       ? { jobs: store.get('jobs').length, applications: store.get('applications').length,
           resumes: store.get('resumes').length, cover_letters: store.get('cover_letters').length,
           searches: store.get('searches').length, companies: store.get('companies').length }
-      : { jobs: 0, applications: 0, resumes: 0, cover_letters: 0, searches: 0, companies: 0 })
+      : MOCK_COUNTS)   // sample numbers for the second (disabled) account; not derived from any data
     return {
       data: {
         accounts: accounts.map((a) => ({ ...publicAccount(a), created_at: a.created_at || null, last_active_at: a.last_active_at || null, counts: counts(a), is_self: a === me })),

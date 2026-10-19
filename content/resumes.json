@@ -1,138 +1,193 @@
 [
-  {
-    "key": "growth",
-    "name": "PM – Consumer Growth",
-    "template": "inter",
-    "json_data": {
-      "header": {
-        "name": "Daniel Reyes",
-        "title": "Product Manager, Consumer Growth",
-        "contact_items": [
-          {"text": "Seattle, WA", "url": ""},
-          {"text": "daniel.reyes.pm@example.com", "url": "mailto:daniel.reyes.pm@example.com"},
-          {"text": "(206) 555-0142", "url": ""}
-        ]
-      },
-      "summary": "Consumer-apps product manager with 8 years of experience growing mobile products used by millions. Owns activation, retention and subscription revenue end to end: runs 60+ experiments a year, partners closely with design and data science, and ships on a weekly cadence.",
-      "experience": [
-        {
-          "title": "Senior Product Manager, Growth",
-          "company": "Brightpath",
-          "location": "Seattle, WA",
-          "date": "2022 - Present",
-          "description": "",
-          "bullets": [
-            "Own the growth roadmap for a meditation and sleep app with **12M monthly users** across iOS, Android and web",
-            "Rebuilt onboarding around a personalised first session, lifting day-7 retention from 31% to **39%** and trial starts by 22%",
-            "Launched a family plan and annual-plan paywall tests that added **$9M** in annual recurring revenue",
-            "Run a 6-person growth squad and an experimentation cadence of **60+ A/B tests per year**, with a 38% win rate"
-          ]
-        },
-        {
-          "title": "Product Manager",
-          "company": "Tidewell",
-          "location": "Portland, OR",
-          "date": "2019 - 2022",
-          "description": "",
-          "bullets": [
-            "Led the savings and goals experience of a consumer budgeting app with **3M** registered users",
-            "Shipped automated round-up savings, which grew monthly active savers by **47%** in two quarters",
-            "Cut sign-up to first-linked-account drop-off by **28%** through a redesigned bank-linking flow and in-app education",
-            "Introduced push and email lifecycle messaging with design and data, reactivating **180K** dormant users"
-          ]
-        },
-        {
-          "title": "Associate Product Manager",
-          "company": "Marlow Market",
-          "location": "Austin, TX",
-          "date": "2017 - 2019",
-          "description": "",
-          "bullets": [
-            "Supported a handmade-goods marketplace with **1.2M** monthly shoppers; owned search filters and saved items",
-            "Launched wishlists and price-drop alerts that drove **11%** of repeat purchases within a year",
-            "Wrote 40+ PRDs and ran weekly user interviews that shaped the mobile checkout rebuild"
-          ]
-        }
-      ],
-      "education": [
-        {"school": "Pacific State University", "degree": "BS Business Administration, Marketing and Analytics", "location": "Portland, OR"}
-      ],
-      "skills": {
-        "Product": "Roadmapping, experimentation and A/B testing, lifecycle and retention, onboarding, subscriptions and pricing, user research, PRDs",
-        "Analytics": "SQL, Amplitude, Mixpanel, Looker, funnel and cohort analysis, statistical significance",
-        "Tools": "Jira, Figma, Notion, Braze, Optimizely, Statsig",
-        "Domain": "Consumer mobile apps, subscriptions, wellness, consumer fintech, marketplaces"
-      },
-      "projects": [],
-      "publications": []
+ {
+  "key": "growth",
+  "name": "PM – Consumer Growth",
+  "template": "inter",
+  "json_data": {
+   "header": {
+    "name": "Daniel Reyes",
+    "title": "Product Manager, Consumer Growth",
+    "contact_items": [
+     {
+      "text": "Seattle, WA",
+      "url": ""
+     },
+     {
+      "text": "daniel.reyes.pm@example.com",
+      "url": "mailto:daniel.reyes.pm@example.com"
+     },
+     {
+      "text": "(206) 555-0142",
+      "url": ""
+     }
+    ]
+   },
+   "summary": "Consumer-apps product manager with 8 years of experience growing mobile products used by millions. Owns activation, retention and subscription revenue end to end: runs 60+ experiments a year, partners closely with design and data science, and ships on a weekly cadence.",
+   "experience": [
+    {
+     "title": "Senior Product Manager, Growth",
+     "company": "Brightpath",
+     "location": "Seattle, WA",
+     "date": "2022 - Present",
+     "description": "",
+     "bullets": [
+      "Own the growth roadmap for a meditation and sleep app with **12M monthly users** across iOS, Android and web",
+      "Rebuilt onboarding around a personalised first session, lifting day-7 retention from 31% to **39%** and trial starts by 22%",
+      "Launched a family plan and annual-plan paywall tests that added **$9M** in annual recurring revenue",
+      "Run a 6-person growth squad and an experimentation cadence of **60+ A/B tests per year**, with a 38% win rate"
+     ]
+    },
+    {
+     "title": "Product Manager",
+     "company": "Tidewell",
+     "location": "Portland, OR",
+     "date": "2019 - 2022",
+     "description": "",
+     "bullets": [
+      "Led the savings and goals experience of a consumer budgeting app with **3M** registered users",
+      "Shipped automated round-up savings, which grew monthly active savers by **47%** in two quarters",
+      "Cut sign-up to first-linked-account drop-off by **28%** through a redesigned bank-linking flow and in-app education",
+      "Introduced push and email lifecycle messaging with design and data, reactivating **180K** dormant users"
+     ]
+    },
+    {
+     "title": "Associate Product Manager",
+     "company": "Marlow Market",
+     "location": "Austin, TX",
+     "date": "2017 - 2019",
+     "description": "",
+     "bullets": [
+      "Supported a handmade-goods marketplace with **1.2M** monthly shoppers; owned search filters and saved items",
+      "Launched wishlists and price-drop alerts that drove **11%** of repeat purchases within a year",
+      "Wrote 40+ PRDs and ran weekly user interviews that shaped the mobile checkout rebuild"
+     ]
     }
-  },
-  {
-    "key": "platform",
-    "name": "PM – Platform",
-    "template": "inter",
-    "json_data": {
-      "header": {
-        "name": "Daniel Reyes",
-        "title": "Product Manager, Platform and Experimentation",
-        "contact_items": [
-          {"text": "Seattle, WA", "url": ""},
-          {"text": "daniel.reyes.pm@example.com", "url": "mailto:daniel.reyes.pm@example.com"},
-          {"text": "(206) 555-0142", "url": ""}
-        ]
-      },
-      "summary": "Product manager for the shared systems behind consumer apps: experimentation, billing and subscriptions, notifications and identity. 8 years of turning one-off feature work into platforms that several product teams build on.",
-      "experience": [
-        {
-          "title": "Senior Product Manager, Platform",
-          "company": "Brightpath",
-          "location": "Seattle, WA",
-          "date": "2022 - Present",
-          "description": "",
-          "bullets": [
-            "Own the experimentation and subscription platform used by **5 product squads** of a 12M-user meditation and sleep app",
-            "Built a self-serve experiment toolkit that took test setup from 9 days to **2 days** and doubled experiments run per quarter",
-            "Replaced a legacy billing integration with a unified subscription service, cutting failed renewals by **18%** and recovering $2.4M",
-            "Defined the notifications platform roadmap with 3 engineering teams: preference centre, throttling and delivery analytics"
-          ]
-        },
-        {
-          "title": "Product Manager",
-          "company": "Tidewell",
-          "location": "Portland, OR",
-          "date": "2019 - 2022",
-          "description": "",
-          "bullets": [
-            "Led the bank-linking and data platform for a budgeting app with **3M** users and 6 aggregator integrations",
-            "Moved aggregation to a provider-agnostic API layer, raising link success from 81% to **93%**",
-            "Partnered with security and legal on consent, data retention and SOC 2 evidence for consumer financial data",
-            "Wrote the public API docs and onboarding guide used by 4 internal consumer teams"
-          ]
-        },
-        {
-          "title": "Associate Product Manager",
-          "company": "Marlow Market",
-          "location": "Austin, TX",
-          "date": "2017 - 2019",
-          "description": "",
-          "bullets": [
-            "Owned the search and catalogue services for a marketplace with **1.2M** monthly shoppers",
-            "Shipped faceted search that raised search-to-purchase conversion by **9%**",
-            "Defined event tracking standards adopted by every squad, improving analytics coverage from 60% to 95%"
-          ]
-        }
-      ],
-      "education": [
-        {"school": "Pacific State University", "degree": "BS Business Administration, Marketing and Analytics", "location": "Portland, OR"}
-      ],
-      "skills": {
-        "Product": "Platform roadmaps, internal developer products, API design and documentation, experimentation systems, subscriptions and billing, notifications",
-        "Technical": "SQL, REST APIs, event tracking and data modelling, feature flags, Statsig, Segment, Stripe, RevenueCat",
-        "Tools": "Jira, Figma, Notion, Amplitude, Looker, Postman",
-        "Domain": "Consumer mobile apps, subscriptions, consumer fintech, marketplaces"
-      },
-      "projects": [],
-      "publications": []
+   ],
+   "education": [
+    {
+     "school": "Pacific State University",
+     "degree": "BS Business Administration, Marketing and Analytics",
+     "location": "Portland, OR"
     }
+   ],
+   "skills": {
+    "Product": "Roadmapping, experimentation and A/B testing, lifecycle and retention, onboarding, subscriptions and pricing, user research, PRDs",
+    "Analytics": "SQL, Amplitude, Mixpanel, Looker, funnel and cohort analysis, statistical significance",
+    "Tools": "Jira, Figma, Notion, Braze, Optimizely, Statsig",
+    "Domain": "Consumer mobile apps, subscriptions, wellness, consumer fintech, marketplaces"
+   },
+   "projects": [
+    {
+     "name": "Onboarding Experiment Playbook",
+     "url": "",
+     "description": "Internal guide adopted by four product squads",
+     "bullets": [
+      "Documented hypothesis, sample-size and decision-rule templates used in **40+** tests",
+      "Cut the average time from idea to launched test from 3 weeks to **9 days**"
+     ]
+    }
+   ],
+   "publications": []
   }
+ },
+ {
+  "key": "platform",
+  "name": "PM – Platform",
+  "template": "inter",
+  "json_data": {
+   "header": {
+    "name": "Daniel Reyes",
+    "title": "Product Manager, Platform and Experimentation",
+    "contact_items": [
+     {
+      "text": "Seattle, WA",
+      "url": ""
+     },
+     {
+      "text": "daniel.reyes.pm@example.com",
+      "url": "mailto:daniel.reyes.pm@example.com"
+     },
+     {
+      "text": "(206) 555-0142",
+      "url": ""
+     }
+    ]
+   },
+   "summary": "Product manager for the shared systems behind consumer apps: experimentation, billing and subscriptions, notifications and identity. 8 years of turning one-off feature work into platforms that several product teams build on, with a track record of measurable adoption and reliability gains.",
+   "experience": [
+    {
+     "title": "Senior Product Manager, Platform",
+     "company": "Brightpath",
+     "location": "Seattle, WA",
+     "date": "2022 - Present",
+     "description": "",
+     "bullets": [
+      "Own the experimentation and subscription platform used by **5 product squads** of a 12M-user meditation and sleep app",
+      "Built a self-serve experiment toolkit that took test setup from 9 days to **2 days** and doubled experiments run per quarter",
+      "Replaced a legacy billing integration with a unified subscription service, cutting failed renewals by **18%** and recovering $2.4M",
+      "Defined the notifications platform roadmap with 3 engineering teams: preference centre, throttling and delivery analytics"
+     ]
+    },
+    {
+     "title": "Product Manager",
+     "company": "Tidewell",
+     "location": "Portland, OR",
+     "date": "2019 - 2022",
+     "description": "",
+     "bullets": [
+      "Led the bank-linking and data platform for a budgeting app with **3M** users and 6 aggregator integrations",
+      "Moved aggregation to a provider-agnostic API layer, raising link success from 81% to **93%**",
+      "Partnered with security and legal on consent, data retention and SOC 2 evidence for consumer financial data",
+      "Wrote the public API docs and onboarding guide used by 4 internal consumer teams"
+     ]
+    },
+    {
+     "title": "Associate Product Manager",
+     "company": "Marlow Market",
+     "location": "Austin, TX",
+     "date": "2017 - 2019",
+     "description": "",
+     "bullets": [
+      "Owned the search and catalogue services for a marketplace with **1.2M** monthly shoppers",
+      "Shipped faceted search that raised search-to-purchase conversion by **9%**",
+      "Defined event tracking standards adopted by every squad, improving analytics coverage from 60% to 95%"
+     ]
+    }
+   ],
+   "education": [
+    {
+     "school": "Pacific State University",
+     "degree": "BS Business Administration, Marketing and Analytics",
+     "location": "Portland, OR"
+    }
+   ],
+   "skills": {
+    "Product": "Platform roadmaps, internal developer products, API design and documentation, experimentation systems, subscriptions and billing, notifications",
+    "Technical": "SQL, REST APIs, event tracking and data modelling, feature flags, Statsig, Segment, Stripe, RevenueCat",
+    "Tools": "Jira, Figma, Notion, Amplitude, Looker, Postman",
+    "Domain": "Consumer mobile apps, subscriptions, consumer fintech, marketplaces"
+   },
+   "projects": [
+    {
+     "name": "Experiment Toolkit",
+     "url": "",
+     "description": "Self-serve A/B testing platform for five product squads",
+     "bullets": [
+      "Designed the metric catalogue, guardrail checks and automated sample-size calculator",
+      "Doubled experiments run per quarter and removed the data-science bottleneck for routine tests"
+     ]
+    },
+    {
+     "name": "Unified Subscription Service",
+     "url": "",
+     "description": "Single billing and entitlement layer across iOS, Android and web",
+     "bullets": [
+      "Migrated three billing integrations into one service with no downtime for **12M** users",
+      "Cut failed renewals by **18%** through retry and grace-period rules"
+     ]
+    }
+   ],
+   "publications": []
+  }
+ }
 ]

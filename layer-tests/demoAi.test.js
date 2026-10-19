@@ -61,11 +61,25 @@ describe('prepared AI actions', () => {
     expect(list[0]).toMatchObject({ job_id: 'job-2', company: 'Northwind Labs', source_name: 'PM – Platform' })
   })
 
+  it('every action on the second featured job finishes in the same fixed time and clears its monitor entry', async () => {
+    const starts = [['/api/analyze/job-2', null], ['/api/resumes/tailor', { base_resume_id: 'res-2', job_id: 'job-2' }],
+      ['/api/cover-letters/generate', { resume_id: 'res-2', job_id: 'job-2' }]]
+    for (const [url, body] of starts) expect((await handle('POST', url, body)).status).toBe(202)
+    expect(await active()).toHaveLength(3)
+    await vi.advanceTimersByTimeAsync(1499)
+    expect(await active()).toHaveLength(3)
+    await vi.advanceTimersByTimeAsync(1)
+    expect(await active()).toEqual([])
+    const job = (await handle('GET', '/api/jobs/job-2')).data
+    expect(job.tailored_resume_id).toBeTruthy()
+    expect(Object.keys(job.cv_scores)).toContain('PM – Platform')
+  })
+
   it('answers a non-featured job with the friendly message and no monitor entry', async () => {
     for (const [url, body] of [['/api/analyze/job-3', null], ['/api/resumes/tailor', { base_resume_id: 'res-1', job_id: 'job-3' }],
       ['/api/cover-letters/generate', { resume_id: 'res-1', job_id: 'job-3' }], ['/api/resumes/tailor', { base_resume_id: 'res-1', job_description: 'pasted' }]]) {
       const r = await handle('POST', url, body)
-      expect(r).toEqual({ status: 200, data: { detail: 'Prepared for the featured jobs only' } })
+      expect(r).toEqual({ status: 400, data: { detail: 'Prepared for the featured jobs only' } })
     }
     expect(await active()).toEqual([])
   })

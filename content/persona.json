@@ -1,27 +1,112 @@
 {
-  "contact": {
-    "first_name": "Daniel", "last_name": "Reyes", "email": "daniel.reyes.pm@example.com", "phone": "(206) 555-0142",
-    "city": "Seattle", "state": "WA", "country": "United States", "current_company": "Brightpath",
-    "linkedin": "", "github": "", "portfolio": ""
+ "contact": {
+  "first_name": "Daniel",
+  "last_name": "Reyes",
+  "email": "daniel.reyes.pm@example.com",
+  "phone": "(206) 555-0142",
+  "city": "Seattle",
+  "state": "WA",
+  "country": "United States",
+  "current_company": "Brightpath",
+  "linkedin": "https://www.linkedin.com/in/daniel-reyes-pm-example",
+  "github": "https://github.com/danielreyes-pm-example",
+  "portfolio": "https://danielreyes.example.com"
+ },
+ "work_auth": {
+  "authorized_us": true,
+  "requires_sponsorship_now": false,
+  "requires_sponsorship_future": false,
+  "over_18": true,
+  "work_auth_type": "citizen"
+ },
+ "demographics": {
+  "veteran_status": "not_protected_veteran",
+  "disability_status": "no",
+  "decline_demographics": true
+ },
+ "compensation": {
+  "desired_salary": "$170,000 - $195,000 base, open to a total-compensation conversation"
+ },
+ "preferences": {
+  "willing_to_relocate": false,
+  "willing_remote": true,
+  "notice_period": "2 weeks",
+  "earliest_start": "Within 3 weeks of an offer",
+  "referral_source": "Former colleague, where one exists",
+  "how_did_you_hear": "Company careers page",
+  "preferred_locations": [
+   "Seattle, WA",
+   "Remote (US)",
+   "Portland, OR"
+  ],
+  "values": "Small, senior product teams; real ownership of a metric; consumer products people use daily; direct, written communication.",
+  "cover_letter_notes": "Lead with the metric I owned, keep it to three short paragraphs, no buzzwords."
+ },
+ "resume_content": null,
+ "qa_bank": [
+  {
+   "question": "Why are you interested in this company?",
+   "answer": "I use consumer products every day and I have a short list of teams I would want to build for. Yours ships often, measures what it ships, and has users who notice when a product gets better; that is the environment where I do my best work."
   },
-  "work_auth": {"authorized_us": true, "requires_sponsorship_now": false, "requires_sponsorship_future": false, "over_18": true, "work_auth_type": "citizen"},
-  "demographics": {"decline_demographics": true},
-  "compensation": {"desired_salary": "$170,000 - $195,000 base, open to a total-compensation conversation"},
-  "preferences": {
-    "willing_to_relocate": false, "willing_remote": true, "notice_period": "2 weeks", "earliest_start": "Within 3 weeks of an offer",
-    "referral_source": "", "how_did_you_hear": "Company careers page",
-    "preferred_locations": ["Seattle, WA", "Remote (US)"],
-    "values": "Small, senior product teams; real ownership of a metric; consumer products people use daily; direct, written communication."
+  {
+   "question": "What is your experience with experimentation and A/B testing?",
+   "answer": "At Brightpath I run a 60+ test per year program with a 38 percent win rate. I write the hypothesis and the decision rule before launch, size tests with data science, and judge results on retained revenue, not just the first metric to move."
   },
-  "resume_content": null,
-  "qa_bank": [
-    {"question": "Why are you interested in this role?", "answer": "I like owning one number and the whole loop around it. At Brightpath I own growth for a 12M-user app, and I want to bring that same mix of experiments, research and shipping to a product whose users I would use myself."},
-    {"question": "Describe a product you launched end to end.", "answer": "At Tidewell I launched automated round-up savings. I interviewed 30 users, wrote the PRD, ran a fake-door test, shipped to 10 percent of users, and rolled it out after monthly active savers grew 47 percent over two quarters."},
-    {"question": "Tell us about a time you used data to change a decision.", "answer": "Our Brightpath paywall test showed a higher trial-start rate but lower week-4 retention. I proposed we judge on retained revenue instead, re-cut the results by cohort, and we shipped the variant that lost on trial starts and won on revenue by 6 percent."},
-    {"question": "How do you work with engineering and design?", "answer": "I write short briefs that start with the user problem and the metric, agree the scope with the engineering lead before design starts, and review work in progress weekly so nothing surprises anyone at launch."},
-    {"question": "What is your biggest weakness?", "answer": "I take on too much analysis myself. I now hand routine cuts to our data scientist, and I keep my own time for the decisions that need product judgment."},
-    {"question": "What are your salary expectations?", "answer": "I am looking for $170,000 to $195,000 base, and I am open to discussing total compensation for the right role."},
-    {"question": "Are you legally authorized to work in the United States?", "answer": "Yes. I am a U.S. citizen and do not need sponsorship now or in the future."},
-    {"question": "Where do you see yourself in three years?", "answer": "Leading a product area with a small team, still close to the users and the numbers, and having built something that moved a company-level metric."}
-  ]
+  {
+   "question": "Describe a time you disagreed with engineering or design.",
+   "answer": "Design wanted a longer onboarding to explain the product; engineering wanted to cut it. I proposed testing both against day-7 retention. The short flow won on trial starts and the long one on retention, so we shipped a version that moved the explanation into the first session."
+  },
+  {
+   "question": "How do you prioritize a roadmap?",
+   "answer": "I start from the one metric the team owns, list the bets that could move it, and score them on expected impact, confidence and cost. I review the ranking with engineering monthly and cut anything that has not earned its place."
+  },
+  {
+   "question": "Tell us about a product you shipped that did not work.",
+   "answer": "A streak-reminder push campaign at Brightpath raised opens but lowered next-day retention for light users. I pulled it within a week, wrote up what we learned, and rebuilt it with frequency caps that now run for the whole app."
+  },
+  {
+   "question": "How do you work with data science and analytics?",
+   "answer": "I bring the question and the decision it informs, they bring the method. I ask for the uncertainty, not only the lift, and I share results in a written note the team can reread later."
+  },
+  {
+   "question": "What does your ideal team look like?",
+   "answer": "A small senior team with a clear metric, a weekly shipping rhythm, and direct written communication. I like teams where engineers talk to users and product managers read the code review comments."
+  },
+  {
+   "question": "Are you willing to relocate?",
+   "answer": "I am based in Seattle and would prefer to stay. I am open to remote roles in the US and to occasional travel to a team office."
+  },
+  {
+   "question": "What are your salary expectations?",
+   "answer": "I am looking for $170,000 to $195,000 base, and I am open to discussing total compensation for the right role."
+  },
+  {
+   "question": "Are you legally authorized to work in the United States?",
+   "answer": "Yes. I am a U.S. citizen and do not need sponsorship now or in the future."
+  },
+  {
+   "question": "When can you start?",
+   "answer": "Within three weeks of an offer; my notice period is two weeks."
+  },
+  {
+   "question": "What is your biggest weakness?",
+   "answer": "I take on too much analysis myself. I now hand routine cuts to our data scientist, and I keep my own time for the decisions that need product judgment."
+  },
+  {
+   "question": "Describe a product you launched end to end.",
+   "answer": "At Tidewell I launched automated round-up savings. I interviewed 30 users, wrote the PRD, ran a fake-door test, shipped to 10 percent of users, and rolled it out after monthly active savers grew 47 percent over two quarters."
+  },
+  {
+   "question": "Where do you see yourself in three years?",
+   "answer": "Leading a product area with a small team, still close to the users and the numbers, and having built something that moved a company-level metric."
+  },
+  {
+   "question": "How do you handle a missed goal?",
+   "answer": "I say so early, with the data, and bring a revised plan. At Brightpath I flagged a missed retention target in week three of the quarter and re-planned onboarding work around it; we recovered most of the gap."
+  },
+  {
+   "question": "Why are you leaving your current role?",
+   "answer": "I have taken Brightpath's growth work as far as one squad can, and I want a larger problem and a team with a longer product horizon."
+  }
+ ]
 }
