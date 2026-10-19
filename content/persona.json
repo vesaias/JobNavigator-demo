@@ -1,0 +1,27 @@
+{
+  "contact": {
+    "first_name": "Daniel", "last_name": "Reyes", "email": "daniel.reyes.pm@example.com", "phone": "(206) 555-0142",
+    "city": "Seattle", "state": "WA", "country": "United States", "current_company": "Brightpath",
+    "linkedin": "", "github": "", "portfolio": ""
+  },
+  "work_auth": {"authorized_us": true, "requires_sponsorship_now": false, "requires_sponsorship_future": false, "over_18": true, "work_auth_type": "citizen"},
+  "demographics": {"decline_demographics": true},
+  "compensation": {"desired_salary": "$170,000 - $195,000 base, open to a total-compensation conversation"},
+  "preferences": {
+    "willing_to_relocate": false, "willing_remote": true, "notice_period": "2 weeks", "earliest_start": "Within 3 weeks of an offer",
+    "referral_source": "", "how_did_you_hear": "Company careers page",
+    "preferred_locations": ["Seattle, WA", "Remote (US)"],
+    "values": "Small, senior product teams; real ownership of a metric; consumer products people use daily; direct, written communication."
+  },
+  "resume_content": null,
+  "qa_bank": [
+    {"question": "Why are you interested in this role?", "answer": "I like owning one number and the whole loop around it. At Brightpath I own growth for a 12M-user app, and I want to bring that same mix of experiments, research and shipping to a product whose users I would use myself."},
+    {"question": "Describe a product you launched end to end.", "answer": "At Tidewell I launched automated round-up savings. I interviewed 30 users, wrote the PRD, ran a fake-door test, shipped to 10 percent of users, and rolled it out after monthly active savers grew 47 percent over two quarters."},
+    {"question": "Tell us about a time you used data to change a decision.", "answer": "Our Brightpath paywall test showed a higher trial-start rate but lower week-4 retention. I proposed we judge on retained revenue instead, re-cut the results by cohort, and we shipped the variant that lost on trial starts and won on revenue by 6 percent."},
+    {"question": "How do you work with engineering and design?", "answer": "I write short briefs that start with the user problem and the metric, agree the scope with the engineering lead before design starts, and review work in progress weekly so nothing surprises anyone at launch."},
+    {"question": "What is your biggest weakness?", "answer": "I take on too much analysis myself. I now hand routine cuts to our data scientist, and I keep my own time for the decisions that need product judgment."},
+    {"question": "What are your salary expectations?", "answer": "I am looking for $170,000 to $195,000 base, and I am open to discussing total compensation for the right role."},
+    {"question": "Are you legally authorized to work in the United States?", "answer": "Yes. I am a U.S. citizen and do not need sponsorship now or in the future."},
+    {"question": "Where do you see yourself in three years?", "answer": "Leading a product area with a small team, still close to the users and the numbers, and having built something that moved a company-level metric."}
+  ]
+}

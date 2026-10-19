@@ -1,0 +1,500 @@
+[
+  {
+    "job_id": "f060a7b7-0724-5bec-9f6d-38868ddbba41",
+    "scores": {
+      "growth": {
+        "score": 67,
+        "report": {
+          "summary": "Decent fit: Daniel has the consumer mobile experience, metrics habits and experiment cadence the role asks for. The gaps are zero-to-one product building, an AI-first workflow and compliance-heavy mechanics such as age eligibility and prize rules.",
+          "breakdown": {"skills": 13, "experience": 14, "domain": 12, "role": 15, "requirements": 13},
+          "requirement_mapping": [
+            {"requirement": "5+ years of product management shipping consumer mobile products at scale", "cv_match": "Senior Product Manager, Growth at Brightpath: 12M monthly users across iOS, Android and web", "matched": true, "severity": "required"},
+            {"requirement": "Defines success metrics for activation, retention and conversion", "cv_match": "Rebuilt onboarding ... lifting day-7 retention from 31% to 39% and trial starts by 22%", "matched": true, "severity": "required"},
+            {"requirement": "Writes requirements and specs engineering can build against", "cv_match": "Wrote 40+ PRDs and ran weekly user interviews that shaped the mobile checkout rebuild", "matched": true, "severity": "required"},
+            {"requirement": "Uses data and experiments to decide what to build next", "cv_match": "experimentation cadence of 60+ A/B tests per year, with a 38% win rate", "matched": true, "severity": "required"},
+            {"requirement": "Builds AI into daily workflow and finds AI opportunities in the product", "cv_match": null, "matched": false, "severity": "required"},
+            {"requirement": "Zero-to-one build with a small team", "cv_match": "Run a 6-person growth squad (existing product, not a new build)", "matched": false, "severity": "required"},
+            {"requirement": "Fluent in APIs, data models and system architecture for design reviews", "cv_match": "SQL, Amplitude, Mixpanel, Looker (analytics depth, little systems architecture)", "matched": false, "severity": "preferred"},
+            {"requirement": "Handles compliance-sensitive mechanics such as age eligibility and sweepstakes", "cv_match": null, "matched": false, "severity": "preferred"}
+          ],
+          "keyword_coverage_pct": 62,
+          "matched_keywords": ["consumer mobile", "activation", "retention", "conversion", "metrics", "experimentation", "user research", "PRDs", "iOS", "Android"],
+          "missing_keywords": ["zero-to-one", "AI-first", "sweepstakes", "age-based eligibility", "technical design review"],
+          "hard_blockers": [],
+          "ats_tip": "Add 'requirements' and 'acceptance criteria' to the PRD bullet so the spec-writing duty is visible to keyword filters."
+        }
+      },
+      "platform": {
+        "score": 58,
+        "report": {
+          "summary": "Moderate fit: the Platform resume shows technical fluency with APIs and data models, which the posting values, but it leads with internal tooling instead of the consumer engagement outcomes this role is measured on.",
+          "breakdown": {"skills": 12, "experience": 12, "domain": 10, "role": 12, "requirements": 12},
+          "requirement_mapping": [
+            {"requirement": "5+ years of product management shipping consumer mobile products at scale", "cv_match": "Senior Product Manager, Platform at Brightpath: 12M-user meditation and sleep app", "matched": true, "severity": "required"},
+            {"requirement": "Defines success metrics for activation, retention and conversion", "cv_match": "Built a self-serve experiment toolkit ... doubled experiments run per quarter (tooling, not consumer metrics)", "matched": false, "severity": "required"},
+            {"requirement": "Writes requirements and specs engineering can build against", "cv_match": "Wrote the public API docs and onboarding guide used by 4 internal consumer teams", "matched": true, "severity": "required"},
+            {"requirement": "Uses data and experiments to decide what to build next", "cv_match": "self-serve experiment toolkit that took test setup from 9 days to 2 days", "matched": true, "severity": "required"},
+            {"requirement": "Builds AI into daily workflow and finds AI opportunities in the product", "cv_match": null, "matched": false, "severity": "required"},
+            {"requirement": "Zero-to-one build with a small team", "cv_match": null, "matched": false, "severity": "required"},
+            {"requirement": "Fluent in APIs, data models and system architecture for design reviews", "cv_match": "Moved aggregation to a provider-agnostic API layer, raising link success from 81% to 93%", "matched": true, "severity": "preferred"},
+            {"requirement": "Handles compliance-sensitive mechanics such as age eligibility and sweepstakes", "cv_match": "Partnered with security and legal on consent, data retention and SOC 2 evidence", "matched": true, "severity": "preferred"}
+          ],
+          "keyword_coverage_pct": 52,
+          "matched_keywords": ["consumer mobile", "APIs", "data models", "experimentation", "legal", "compliance", "event tracking", "subscriptions"],
+          "missing_keywords": ["zero-to-one", "AI-first", "activation", "retention", "member experience"],
+          "hard_blockers": [],
+          "ats_tip": "Use the Consumer Growth resume here; the Platform resume never mentions activation or retention, which the posting names directly."
+        }
+      }
+    },
+    "tailored": {
+      "base": "growth",
+      "name": "Daniel Reyes - MrBeast",
+      "title": "Product Manager, Consumer Mobile",
+      "summary": "Consumer mobile product manager with 8 years of experience owning features from requirements to launch to the metrics that show whether they worked. Runs 60+ experiments a year with design and data science, and defines activation, retention and conversion targets before building.",
+      "bullets": [
+        [
+          "Own the growth roadmap and success metrics for a meditation and sleep app with **12M monthly users** across iOS, Android and web",
+          "Rebuilt onboarding around a personalised first session, lifting day-7 retention from 31% to **39%** and trial starts by 22%",
+          "Launched a family plan and annual-plan paywall tests that added **$9M** in annual recurring revenue",
+          "Run a 6-person growth squad and an experimentation cadence of **60+ A/B tests per year**, with a 38% win rate"
+        ],
+        [
+          "Led the savings and goals experience of a consumer budgeting app with **3M** registered users",
+          "Shipped automated round-up savings, which grew monthly active savers by **47%** in two quarters",
+          "Cut sign-up to first-linked-account drop-off by **28%** through a redesigned bank-linking flow and in-app education",
+          "Introduced push and email lifecycle messaging with design and data, reactivating **180K** dormant users"
+        ],
+        [
+          "Supported a handmade-goods marketplace with **1.2M** monthly shoppers; owned search filters and saved items",
+          "Launched wishlists and price-drop alerts that drove **11%** of repeat purchases within a year",
+          "Wrote 40+ PRDs with clear requirements and ran weekly user interviews that shaped the mobile checkout rebuild"
+        ]
+      ],
+      "skills": {
+        "Product": "Roadmapping, experimentation and A/B testing, lifecycle and retention, onboarding, user research, PRDs, subscriptions and pricing",
+        "Analytics": "Funnel and cohort analysis, SQL, Amplitude, Mixpanel, Looker, statistical significance",
+        "Tools": "Figma, Jira, Notion, Statsig, Optimizely, Braze",
+        "Domain": "Consumer mobile apps, subscriptions, wellness, consumer fintech, marketplaces"
+      },
+      "score": 71
+    },
+    "cover_letter": {
+      "resume": "growth",
+      "name": "MrBeast cover letter",
+      "recipient": {"company": "MrBeast"},
+      "greeting": "Dear MrBeast Hiring Team,",
+      "body_paragraphs": [
+        "A new mobile product with no legacy roadmap, built around one of the largest audiences online, is the kind of work I want to do next. I am a consumer product manager in Seattle, and owning a feature area from first spec to the metric that tells you whether it worked is exactly how I like to operate.",
+        "At Brightpath I own growth for an app with 12M monthly users and run more than 60 A/B tests a year, so I set success metrics before anything ships. I rebuilt onboarding and moved day-7 retention from 31% to 39%. At Tidewell I redesigned bank linking for consumer financial data and cut drop-off by 28%, working daily with design and engineering.",
+        "I have not built a product from zero, and I would be learning your audience quickly. I would bring tight specs, a test-first habit and a willingness to work in the details of the build alongside engineers. I would welcome a conversation about which feature area you have in mind and how the team works day to day."
+      ],
+      "closing": "Sincerely,",
+      "signature": "Daniel Reyes"
+    },
+    "autofill": {
+      "why do you want to work at mrbeast?": "I want to build a consumer mobile product from the ground up, and an interactive community around an audience this size is a rare chance to do it. At Brightpath I own a 12M-user app and I know how engagement behaves at scale. I would like to apply that to a new build with a small, fast team.",
+      "describe how you use data to decide what to build next.": "I define the metric before I build. At Brightpath I run 60+ A/B tests a year with a 38% win rate, and I read results by cohort rather than headline lift. When I rebuilt onboarding, the cohort view showed the personalised first session was driving day-7 retention from 31% to 39%, so we invested further there.",
+      "tell us about a product you shipped on mobile from concept to launch.": "At Tidewell I shipped automated round-up savings for a budgeting app with 3M users. I interviewed users, wrote the requirements with design and engineering, and launched it in stages. Monthly active savers grew 47% in two quarters, and we used the same metrics to decide what to iterate on next.",
+      "_default": "I enjoy owning a consumer product end to end, from user research and specs to launch metrics. This role matches my mobile growth work at Brightpath, and the zero-to-one scope is what draws me most. I would be glad to talk through how I would approach a feature area."
+    }
+  },
+  {
+    "job_id": "9f38cfd6-7851-5cfd-b856-3ceb055fe0b8",
+    "scores": {
+      "growth": {
+        "score": 76,
+        "report": {
+          "summary": "Good fit: the role is a self-serve growth engine covering acquisition, activation, monetization and retention, which maps closely to Daniel's growth work at Brightpath. Gaps are restaurant or SaaS domain experience and any direct CAC or lead-enrichment work.",
+          "breakdown": {"skills": 16, "experience": 15, "domain": 14, "role": 16, "requirements": 15},
+          "requirement_mapping": [
+            {"requirement": "3+ years of product management experience", "cv_match": "8 years: Senior Product Manager, Growth at Brightpath; Product Manager at Tidewell", "matched": true, "severity": "required"},
+            {"requirement": "Track record building and scaling growth-focused product experiences", "cv_match": "Own the growth roadmap for a meditation and sleep app with 12M monthly users", "matched": true, "severity": "required"},
+            {"requirement": "Strong quantitative skills: SQL, experimentation, growth modeling", "cv_match": "SQL, Amplitude, Looker, funnel and cohort analysis; 60+ A/B tests per year", "matched": true, "severity": "required"},
+            {"requirement": "Pricing experiments and upsell opportunities that expand LTV", "cv_match": "Launched a family plan and annual-plan paywall tests that added $9M in ARR", "matched": true, "severity": "required"},
+            {"requirement": "CRM-driven campaigns and lifecycle messaging", "cv_match": "Introduced push and email lifecycle messaging ... reactivating 180K dormant users", "matched": true, "severity": "preferred"},
+            {"requirement": "Reduce CAC and improve lead-to-customer conversion with Sales and Marketing", "cv_match": "Trial starts up 22% (consumer funnel, no B2B lead or CAC ownership)", "matched": false, "severity": "required"},
+            {"requirement": "Work with Data Science to enrich leads and improve attribution", "cv_match": null, "matched": false, "severity": "preferred"},
+            {"requirement": "Experience in SaaS, marketplaces, or restaurant/commerce technology", "cv_match": "Associate PM at Marlow Market, a handmade-goods marketplace", "matched": true, "severity": "preferred"}
+          ],
+          "keyword_coverage_pct": 74,
+          "matched_keywords": ["growth", "activation", "retention", "monetization", "experimentation", "SQL", "pricing", "LTV", "conversion", "marketplace"],
+          "missing_keywords": ["CAC", "lead enrichment", "attribution", "SaaS", "restaurant technology"],
+          "hard_blockers": [],
+          "ats_tip": "Mention 'conversion' and 'LTV' by name in the Brightpath paywall bullet so the monetization match is explicit."
+        }
+      },
+      "platform": {
+        "score": 64,
+        "report": {
+          "summary": "Decent match on experimentation tooling and subscription billing, but the posting asks for someone who runs the growth experiments, and the Platform resume describes building the tools others use. Retention and activation results are missing.",
+          "breakdown": {"skills": 13, "experience": 12, "domain": 13, "role": 12, "requirements": 14},
+          "requirement_mapping": [
+            {"requirement": "3+ years of product management experience", "cv_match": "8 years across Brightpath, Tidewell and Marlow Market", "matched": true, "severity": "required"},
+            {"requirement": "Track record building and scaling growth-focused product experiences", "cv_match": "Built a self-serve experiment toolkit ... doubled experiments run per quarter", "matched": false, "severity": "required"},
+            {"requirement": "Strong quantitative skills: SQL, experimentation, growth modeling", "cv_match": "SQL, Amplitude, Looker, Statsig, event tracking and data modelling", "matched": true, "severity": "required"},
+            {"requirement": "Pricing experiments and upsell opportunities that expand LTV", "cv_match": "Unified subscription service, cutting failed renewals by 18% and recovering $2.4M", "matched": true, "severity": "required"},
+            {"requirement": "CRM-driven campaigns and lifecycle messaging", "cv_match": "Defined the notifications platform roadmap: preference centre, throttling and delivery analytics", "matched": true, "severity": "preferred"},
+            {"requirement": "Reduce CAC and improve lead-to-customer conversion with Sales and Marketing", "cv_match": null, "matched": false, "severity": "required"},
+            {"requirement": "Work with Data Science to enrich leads and improve attribution", "cv_match": "Defined event tracking standards adopted by every squad, coverage from 60% to 95%", "matched": true, "severity": "preferred"},
+            {"requirement": "Experience in SaaS, marketplaces, or restaurant/commerce technology", "cv_match": "Owned the search and catalogue services for a marketplace with 1.2M monthly shoppers", "matched": true, "severity": "preferred"}
+          ],
+          "keyword_coverage_pct": 60,
+          "matched_keywords": ["experimentation", "SQL", "subscriptions", "billing", "attribution", "event tracking", "marketplace", "notifications"],
+          "missing_keywords": ["growth", "CAC", "activation", "LTV", "SaaS"],
+          "hard_blockers": [],
+          "ats_tip": "Apply with the Consumer Growth resume; it carries the activation and monetization language this posting repeats."
+        }
+      }
+    },
+    "tailored": {
+      "base": "growth",
+      "name": "Daniel Reyes - Otter",
+      "title": "Product Manager, Growth",
+      "summary": "Growth product manager with 8 years of experience building self-serve funnels for subscription and consumer apps. Runs 60+ experiments a year across acquisition, activation, monetization and retention, and has added $9M in recurring revenue through pricing and paywall tests.",
+      "bullets": [
+        [
+          "Own the growth roadmap for a meditation and sleep app with **12M monthly users** across iOS, Android and web",
+          "Rebuilt onboarding around a personalised first session, lifting day-7 retention from 31% to **39%** and trial starts by 22%",
+          "Ran pricing and paywall experiments, including a family plan and annual-plan offer, that added **$9M** in annual recurring revenue",
+          "Run a 6-person growth squad and an experimentation cadence of **60+ A/B tests per year**, with a 38% win rate"
+        ],
+        [
+          "Led the savings and goals experience of a consumer budgeting app with **3M** registered users",
+          "Shipped automated round-up savings, which grew monthly active savers by **47%** in two quarters",
+          "Cut sign-up to first-linked-account drop-off by **28%** through a redesigned bank-linking flow and in-app education",
+          "Introduced push and email lifecycle messaging (CRM) with design and data, reactivating **180K** dormant users"
+        ],
+        [
+          "Supported a handmade-goods marketplace with **1.2M** monthly shoppers; owned search filters and saved items",
+          "Launched wishlists and price-drop alerts that drove **11%** of repeat purchases within a year",
+          "Wrote 40+ PRDs and ran weekly user interviews that shaped the mobile checkout rebuild"
+        ]
+      ],
+      "skills": {
+        "Product": "Experimentation and A/B testing, activation and onboarding, subscriptions and pricing, lifecycle and retention, roadmapping, user research, PRDs",
+        "Analytics": "SQL, funnel and cohort analysis, Amplitude, Mixpanel, Looker, statistical significance",
+        "Tools": "Braze, Optimizely, Statsig, Jira, Figma, Notion",
+        "Domain": "Subscriptions, consumer mobile apps, marketplaces, consumer fintech, wellness"
+      },
+      "score": 81
+    },
+    "cover_letter": {
+      "resume": "growth",
+      "name": "Otter cover letter",
+      "recipient": {"company": "Otter"},
+      "greeting": "Dear Otter Hiring Team,",
+      "body_paragraphs": [
+        "Restaurants that run delivery on Otter need the product to sell itself: easy to try, easy to pay for, hard to leave. Building that kind of self-serve growth engine is what I do at Brightpath, and the Product-Led Growth role in San Francisco is the closest match to my work I have seen this year.",
+        "At Brightpath I run 60+ experiments a year and rebuilt onboarding to take day-7 retention from 31% to 39%. My paywall and pricing tests, including a family plan and an annual offer, added $9M in recurring revenue. At Tidewell, lifecycle messaging that I scoped with design and data reactivated 180K dormant users. I write my own SQL for the readouts.",
+        "My background is consumer rather than B2B, so CAC and lead enrichment would be new to me, and I would partner closely with Sales and Data Science to learn them. I can work from your San Francisco office five days a week, and I would welcome a conversation about the growth roadmap you have in mind for the first six months."
+      ],
+      "closing": "Sincerely,",
+      "signature": "Daniel Reyes"
+    },
+    "autofill": {
+      "why do you want to work at otter?": "Otter sells to restaurants where a better funnel turns into real revenue for small operators, and a self-serve growth engine is the work I am best at. At Brightpath I improved activation and added $9M in recurring revenue through pricing tests. I would like to apply that to a market that is still moving online.",
+      "describe an experiment that improved monetization.": "At Brightpath I tested a family plan and annual-plan paywall variants against the existing offer. The headline conversion lift was small, but the cohort view showed higher retained revenue, so we shipped it. Together the changes added $9M in annual recurring revenue. I wrote the SQL for the readout and presented it to finance.",
+      "how do you approach reducing acquisition cost and improving conversion?": "I start with the funnel and find the largest drop. At Tidewell, sign-up to first-linked-account drop-off was the biggest leak, so I redesigned the bank-linking flow and added in-app education, cutting drop-off by 28%. I then test one change at a time, so we know what moved the number.",
+      "_default": "I like growth work that sits inside the product: onboarding, pricing and lifecycle, measured through experiments. This role covers the full funnel from acquisition to expansion, which matches my work at Brightpath, and I would enjoy applying it to restaurant technology."
+    }
+  },
+  {
+    "job_id": "418c364f-b2f0-5aa5-834a-b96fc44dc4df",
+    "scores": {
+      "growth": {
+        "score": 78,
+        "report": {
+          "summary": "Strong-to-good fit: the role owns a new consumer subscription from signup through retention, and Daniel has done subscription growth at Brightpath plus consumer fintech at Tidewell. The gaps are regulated-product compliance depth and any pre-launch work at a small startup.",
+          "breakdown": {"skills": 16, "experience": 16, "domain": 15, "role": 16, "requirements": 15},
+          "requirement_mapping": [
+            {"requirement": "4-7 years of product management, ideally on consumer-facing products", "cv_match": "8 years on consumer apps: Brightpath, Tidewell, Marlow Market", "matched": true, "severity": "required"},
+            {"requirement": "Direct experience on a subscription product: acquisition, retention, engagement", "cv_match": "Launched a family plan and annual-plan paywall tests that added $9M in ARR", "matched": true, "severity": "required"},
+            {"requirement": "Background in fintech or finance products at scale", "cv_match": "Led the savings and goals experience of a consumer budgeting app with 3M registered users", "matched": true, "severity": "required"},
+            {"requirement": "Owns signup, account setup and ongoing management experience", "cv_match": "Cut sign-up to first-linked-account drop-off by 28% through a redesigned bank-linking flow", "matched": true, "severity": "required"},
+            {"requirement": "Conversion tuning and segment targeting after launch", "cv_match": "Run ... 60+ A/B tests per year, with a 38% win rate", "matched": true, "severity": "preferred"},
+            {"requirement": "Works with Legal, Compliance and Risk to launch compliant experiences", "cv_match": null, "matched": false, "severity": "required"},
+            {"requirement": "Track record of shipping autonomously at a startup or smaller company", "cv_match": "6-person growth squad inside a 12M-user company", "matched": false, "severity": "preferred"}
+          ],
+          "keyword_coverage_pct": 76,
+          "matched_keywords": ["subscription", "retention", "consumer", "fintech", "signup", "conversion", "experimentation", "go-to-market", "engagement"],
+          "missing_keywords": ["compliance", "risk", "customer operations", "startup"],
+          "hard_blockers": [],
+          "ats_tip": "Spell out 'subscription mechanics' and 'retention' in the summary so they appear near the title."
+        }
+      },
+      "platform": {
+        "score": 74,
+        "report": {
+          "summary": "Good fit: the unified subscription service and the Tidewell legal and security partnership cover the billing, compliance and fintech parts of the posting. It is weaker on the user-facing signup and retention outcomes that make up most of the role.",
+          "breakdown": {"skills": 15, "experience": 15, "domain": 15, "role": 14, "requirements": 15},
+          "requirement_mapping": [
+            {"requirement": "4-7 years of product management, ideally on consumer-facing products", "cv_match": "8 years on consumer apps: Brightpath, Tidewell, Marlow Market", "matched": true, "severity": "required"},
+            {"requirement": "Direct experience on a subscription product: acquisition, retention, engagement", "cv_match": "Replaced a legacy billing integration with a unified subscription service, cutting failed renewals by 18%", "matched": true, "severity": "required"},
+            {"requirement": "Background in fintech or finance products at scale", "cv_match": "Led the bank-linking and data platform for a budgeting app with 3M users and 6 aggregator integrations", "matched": true, "severity": "required"},
+            {"requirement": "Owns signup, account setup and ongoing management experience", "cv_match": "Moved aggregation to a provider-agnostic API layer, raising link success from 81% to 93%", "matched": true, "severity": "required"},
+            {"requirement": "Conversion tuning and segment targeting after launch", "cv_match": null, "matched": false, "severity": "preferred"},
+            {"requirement": "Works with Legal, Compliance and Risk to launch compliant experiences", "cv_match": "Partnered with security and legal on consent, data retention and SOC 2 evidence", "matched": true, "severity": "required"},
+            {"requirement": "Track record of shipping autonomously at a startup or smaller company", "cv_match": null, "matched": false, "severity": "preferred"}
+          ],
+          "keyword_coverage_pct": 66,
+          "matched_keywords": ["subscription", "billing", "fintech", "compliance", "legal", "consumer", "renewals", "account", "data retention"],
+          "missing_keywords": ["retention", "conversion", "go-to-market", "startup"],
+          "hard_blockers": [],
+          "ats_tip": "Either resume works; Platform covers compliance and billing, Growth covers retention and conversion, so pick based on which duty you want to lead with."
+        }
+      }
+    },
+    "tailored": {
+      "base": "growth",
+      "name": "Daniel Reyes - OnePay",
+      "title": "Product Manager, Subscriptions",
+      "summary": "Consumer product manager with 8 years of experience in subscription growth and consumer fintech. Owns signup, conversion and retention end to end, and has added $9M in annual recurring revenue through plan and paywall design.",
+      "bullets": [
+        [
+          "Own the growth roadmap for a meditation and sleep app with **12M monthly users** across iOS, Android and web",
+          "Rebuilt onboarding around a personalised first session, lifting day-7 retention from 31% to **39%** and trial starts by 22%",
+          "Launched a family plan and annual-plan paywall tests that grew subscription revenue, adding **$9M** in annual recurring revenue",
+          "Run a 6-person growth squad and an experimentation cadence of **60+ A/B tests per year**, with a 38% win rate"
+        ],
+        [
+          "Led the savings and goals experience of a consumer fintech budgeting app with **3M** registered users",
+          "Shipped automated round-up savings, which grew monthly active savers by **47%** in two quarters",
+          "Cut sign-up to first-linked-account drop-off by **28%** through a redesigned bank-linking flow and in-app education",
+          "Introduced push and email lifecycle messaging with design and data, reactivating **180K** dormant users"
+        ],
+        [
+          "Supported a handmade-goods marketplace with **1.2M** monthly shoppers; owned search filters and saved items",
+          "Launched wishlists and price-drop alerts that drove **11%** of repeat purchases within a year",
+          "Wrote 40+ PRDs and ran weekly user interviews that shaped the mobile checkout rebuild"
+        ]
+      ],
+      "skills": {
+        "Product": "Subscriptions and pricing, lifecycle and retention, onboarding, experimentation and A/B testing, roadmapping, user research, PRDs",
+        "Analytics": "SQL, funnel and cohort analysis, Amplitude, Mixpanel, Looker, statistical significance",
+        "Tools": "Braze, Optimizely, Statsig, Jira, Figma, Notion",
+        "Domain": "Subscriptions, consumer fintech, consumer mobile apps, wellness, marketplaces"
+      },
+      "score": 83
+    },
+    "cover_letter": {
+      "resume": "growth",
+      "name": "OnePay cover letter",
+      "recipient": {"company": "OnePay"},
+      "greeting": "Dear OnePay Hiring Team,",
+      "body_paragraphs": [
+        "A new subscription product inside a consumer financial app has to get three things right: a clear signup, a fair price and a reason to stay. I have spent the last two years on exactly those problems at Brightpath, and owning them for OnePay's new subscription, from launch through optimization, is the role I have been looking for.",
+        "At Brightpath I ran the paywall tests behind a family plan and an annual offer that added $9M in recurring revenue, and I rebuilt onboarding to lift day-7 retention from 31% to 39%. At Tidewell, a consumer fintech app with 3M users, I redesigned bank linking and cut sign-up drop-off by 28%, working with design and engineering on every release.",
+        "I have not worked in a small startup before launch, and I would lean on Legal and Compliance early to keep the experience clear. I can start with a launch checklist and a conversion plan, and I would welcome the chance to walk through both with the team and hear where you see the biggest risks."
+      ],
+      "closing": "Sincerely,",
+      "signature": "Daniel Reyes"
+    },
+    "autofill": {
+      "why do you want to work at onepay?": "I want to own a consumer subscription from launch to growth inside a fintech product. At Brightpath I added $9M in recurring revenue through plan and paywall design, and at Tidewell I worked on consumer money flows. OnePay combines both, and the small, builder-style team is how I do my best work.",
+      "describe your experience with subscription retention and engagement.": "At Brightpath I own the subscription funnel from trial to renewal. I rebuilt onboarding around a personalised first session, which lifted day-7 retention from 31% to 39% and trial starts by 22%. I also ran lifecycle messaging tests to support renewals, and I review retention by cohort every week.",
+      "how have you balanced customer experience with regulatory or compliance requirements?": "At Tidewell I redesigned the bank-linking flow for a 3M-user budgeting app, where consent wording and data handling had to stay accurate. I brought the clearest user-facing copy to the review, took the feedback on wording and shipped. Sign-up drop-off fell 28% without changing the required disclosures.",
+      "_default": "I like owning a consumer product from signup to retention and measuring it with experiments. This role fits my subscription work at Brightpath and my consumer fintech experience at Tidewell, and I would enjoy taking a new subscription from launch into steady growth."
+    }
+  },
+  {
+    "job_id": "c46e85e0-29db-5af6-84d0-7be425514639",
+    "scores": {
+      "platform": {
+        "score": 55,
+        "report": {
+          "summary": "Moderate-to-weak fit: Daniel has the product management years, mobile consumer scale and compliance partnership, but no investing, brokerage or trading tools experience. The role is about charts, watchlists and shareholder voting, which the Platform resume only touches through consumer financial data work at Tidewell.",
+          "breakdown": {"skills": 11, "experience": 11, "domain": 10, "role": 11, "requirements": 12},
+          "requirement_mapping": [
+            {"requirement": "4+ years of product management on high-quality consumer mobile products", "cv_match": "Senior Product Manager, Platform at Brightpath: 12M-user meditation and sleep app", "matched": true, "severity": "required"},
+            {"requirement": "Uses research, experimentation and analytics to guide decisions", "cv_match": "Built a self-serve experiment toolkit ... doubled experiments run per quarter", "matched": true, "severity": "required"},
+            {"requirement": "Leads a cross-functional team of engineers, designers and data scientists", "cv_match": "Defined the notifications platform roadmap with 3 engineering teams", "matched": true, "severity": "required"},
+            {"requirement": "Partners with compliance, legal and operations on regulated products", "cv_match": "Partnered with security and legal on consent, data retention and SOC 2 evidence for consumer financial data", "matched": true, "severity": "preferred"},
+            {"requirement": "Interest in markets and how retail investors trade", "cv_match": null, "matched": false, "severity": "required"},
+            {"requirement": "Experience in fintech, brokerage or investing products", "cv_match": "Consumer budgeting app with 3M users (personal finance, not investing)", "matched": false, "severity": "preferred"},
+            {"requirement": "Product strategy for research and analysis tools such as charts and watchlists", "cv_match": null, "matched": false, "severity": "required"},
+            {"requirement": "Bachelor's or Master's degree", "cv_match": "BS Business Administration, Marketing and Analytics", "matched": true, "severity": "required"}
+          ],
+          "keyword_coverage_pct": 48,
+          "matched_keywords": ["consumer mobile", "experimentation", "analytics", "cross-functional", "compliance", "legal", "roadmap", "data", "financial data"],
+          "missing_keywords": ["trading", "brokerage", "charts", "watchlists", "retail investors", "prediction markets"],
+          "hard_blockers": [],
+          "ats_tip": "Name 'consumer financial data' and 'mobile' in the Tidewell headline bullet, since fintech is the closest keyword you can honestly claim."
+        }
+      },
+      "growth": {
+        "score": 49,
+        "report": {
+          "summary": "Moderate-to-weak fit: the growth experience is strong on mobile consumer products, but the role is built around investor tools, market data and shareholder rights, and the Growth resume has none of that. Experimentation and metrics are the main overlap.",
+          "breakdown": {"skills": 10, "experience": 10, "domain": 9, "role": 10, "requirements": 10},
+          "requirement_mapping": [
+            {"requirement": "4+ years of product management on high-quality consumer mobile products", "cv_match": "Senior Product Manager, Growth at Brightpath: 12M monthly users across iOS, Android and web", "matched": true, "severity": "required"},
+            {"requirement": "Uses research, experimentation and analytics to guide decisions", "cv_match": "60+ A/B tests per year, with a 38% win rate", "matched": true, "severity": "required"},
+            {"requirement": "Leads a cross-functional team of engineers, designers and data scientists", "cv_match": "Run a 6-person growth squad", "matched": true, "severity": "required"},
+            {"requirement": "Partners with compliance, legal and operations on regulated products", "cv_match": null, "matched": false, "severity": "preferred"},
+            {"requirement": "Interest in markets and how retail investors trade", "cv_match": null, "matched": false, "severity": "required"},
+            {"requirement": "Experience in fintech, brokerage or investing products", "cv_match": "Consumer budgeting app with 3M registered users (personal finance, not investing)", "matched": false, "severity": "preferred"},
+            {"requirement": "Product strategy for research and analysis tools such as charts and watchlists", "cv_match": "Wishlists and price-drop alerts at Marlow Market (shopping, not market data)", "matched": false, "severity": "required"},
+            {"requirement": "Bachelor's or Master's degree", "cv_match": "BS Business Administration, Marketing and Analytics", "matched": true, "severity": "required"}
+          ],
+          "keyword_coverage_pct": 40,
+          "matched_keywords": ["consumer mobile", "experimentation", "analytics", "A/B testing", "cross-functional", "roadmap", "iOS", "Android"],
+          "missing_keywords": ["trading", "brokerage", "investing", "charts", "watchlists", "retail investors", "compliance"],
+          "hard_blockers": [],
+          "ats_tip": "If you apply, lead with the Platform resume; the Growth resume has no fintech or compliance language to match this posting."
+        }
+      }
+    },
+    "tailored": {
+      "base": "platform",
+      "name": "Daniel Reyes - Robinhood",
+      "title": "Senior Product Manager, Consumer Mobile Finance",
+      "summary": "Product manager with 8 years of experience on consumer mobile apps, including consumer financial data at scale. Uses experimentation and analytics to decide what to build, and works with engineering, design, data science, security and legal to ship products that handle sensitive information.",
+      "bullets": [
+        [
+          "Own the experimentation and subscription platform used by **5 product squads** of a 12M-user meditation and sleep app",
+          "Built a self-serve experiment toolkit that took test setup from 9 days to **2 days** and doubled experiments run per quarter",
+          "Replaced a legacy billing integration with a unified subscription service, cutting failed renewals by **18%** and recovering $2.4M",
+          "Defined the notifications platform roadmap with 3 engineering teams: preference centre, throttling and delivery analytics"
+        ],
+        [
+          "Led the bank-linking and data platform for a consumer financial app with **3M** users and 6 aggregator integrations",
+          "Moved aggregation to a provider-agnostic API layer, raising link success from 81% to **93%**",
+          "Partnered with security and legal on consent, data retention and SOC 2 evidence for consumer financial data",
+          "Wrote the public API docs and onboarding guide used by 4 internal consumer teams"
+        ],
+        [
+          "Owned the search and catalogue services for a marketplace with **1.2M** monthly shoppers",
+          "Shipped faceted search that raised search-to-purchase conversion by **9%**",
+          "Defined event tracking standards adopted by every squad, improving analytics coverage from 60% to 95%"
+        ]
+      ],
+      "skills": {
+        "Product": "Experimentation systems, platform roadmaps, API design and documentation, subscriptions and billing, notifications, internal developer products",
+        "Technical": "SQL, event tracking and data modelling, REST APIs, feature flags, Statsig, Segment, Stripe, RevenueCat",
+        "Tools": "Amplitude, Looker, Jira, Figma, Notion, Postman",
+        "Domain": "Consumer fintech, consumer mobile apps, subscriptions, marketplaces"
+      },
+      "score": 60
+    },
+    "cover_letter": {
+      "resume": "platform",
+      "name": "Robinhood cover letter",
+      "recipient": {"company": "Robinhood"},
+      "greeting": "Dear Robinhood Hiring Team,",
+      "body_paragraphs": [
+        "The Trading Tools role asks for someone who can make dense financial information easy for everyday people to use on a phone. I have spent eight years making complex consumer systems simple to use, most recently as a senior product manager at Brightpath, and I would like to bring that to the tools your active traders open every day.",
+        "At Tidewell I led the bank-linking and data platform for a 3M-user consumer finance app, raised link success from 81% to 93% and worked with security and legal on consent and data retention. At Brightpath I built the experiment toolkit that doubled the tests run each quarter, so I make product decisions from measured results.",
+        "I should be clear that I have not worked on investing or trading products, and I am not an active trader. I would spend my first weeks learning the users and the market data, and I would welcome a conversation about what that ramp looks like and which problems on the team I could take on first."
+      ],
+      "closing": "Sincerely,",
+      "signature": "Daniel Reyes"
+    },
+    "autofill": {
+      "why do you want to work at robinhood?": "I want to apply my consumer finance and platform experience to tools that millions of people use to manage their money. At Tidewell I improved link success from 81% to 93% on a 3M-user finance app. I do not have investing experience yet, but I want to learn the market and build useful tools for retail users.",
+      "describe a time you used experimentation to decide what to build.": "At Brightpath I built a self-serve experiment toolkit that cut test setup from 9 days to 2 days and doubled experiments run per quarter. The faster cycle let squads kill weak ideas early. I also reviewed readouts with data science, and several features we planned were dropped when the results did not hold up.",
+      "tell us about working with compliance or legal on a product.": "At Tidewell I worked with security and legal on consent, data retention and SOC 2 evidence for consumer financial data. I turned their guidance into concrete product rules and requirements, and we reviewed each release against them. That meant fewer late surprises and a cleaner audit trail when the evidence was requested.",
+      "_default": "I am interested in this role because it combines consumer mobile product work, data-driven decisions and a regulated environment, all of which I have worked with at Brightpath and Tidewell. I would be learning the trading domain, and I would bring strong habits around experiments and specs."
+    }
+  },
+  {
+    "job_id": "1328614d-1578-55f9-a718-50220ca284b9",
+    "scores": {
+      "growth": {
+        "score": 74,
+        "report": {
+          "summary": "Good fit: the role is about engagement loops, lifecycle content and data-driven discovery for a consumer fintech app, which matches Daniel's lifecycle messaging at Tidewell and growth work at Brightpath. The gaps are hands-on copywriting and content, and reading code.",
+          "breakdown": {"skills": 15, "experience": 15, "domain": 14, "role": 15, "requirements": 15},
+          "requirement_mapping": [
+            {"requirement": "2+ years on successful digital consumer products", "cv_match": "8 years: Brightpath (12M users), Tidewell (3M users), Marlow Market (1.2M shoppers)", "matched": true, "severity": "required"},
+            {"requirement": "Builds engagement loops using product, comms and alert touch points", "cv_match": "Introduced push and email lifecycle messaging ... reactivating 180K dormant users", "matched": true, "severity": "required"},
+            {"requirement": "Extremely data driven; pulls the data yourself with SQL", "cv_match": "SQL, Amplitude, Mixpanel, Looker, funnel and cohort analysis", "matched": true, "severity": "required"},
+            {"requirement": "Experiments on experiences and content to improve engagement", "cv_match": "Run ... 60+ A/B tests per year, with a 38% win rate", "matched": true, "severity": "required"},
+            {"requirement": "History working on modern consumer financial tools", "cv_match": "Led the savings and goals experience of a consumer budgeting app with 3M registered users", "matched": true, "severity": "preferred"},
+            {"requirement": "Drives discovery with user interviews and research", "cv_match": "ran weekly user interviews that shaped the mobile checkout rebuild", "matched": true, "severity": "preferred"},
+            {"requirement": "Hands-on with copy and the content journey, from writing to measuring results", "cv_match": null, "matched": false, "severity": "required"},
+            {"requirement": "Technical background such as reading code", "cv_match": "SQL only; no code-reading experience listed", "matched": false, "severity": "preferred"}
+          ],
+          "keyword_coverage_pct": 72,
+          "matched_keywords": ["engagement", "consumer", "fintech", "data driven", "SQL", "experiments", "user interviews", "lifecycle messaging", "push", "segments"],
+          "missing_keywords": ["content", "copywriting", "reading code", "alerts"],
+          "hard_blockers": [],
+          "ats_tip": "Use the word 'engagement' in the Tidewell lifecycle bullet, since the posting repeats it and the bullet currently says 'reactivating'."
+        }
+      },
+      "platform": {
+        "score": 63,
+        "report": {
+          "summary": "Decent match for the technical and fintech side (SQL, data modelling, consumer financial data), but the posting is about engagement and content experiments, and the Platform resume focuses on tools and integrations rather than engagement outcomes.",
+          "breakdown": {"skills": 13, "experience": 12, "domain": 13, "role": 12, "requirements": 13},
+          "requirement_mapping": [
+            {"requirement": "2+ years on successful digital consumer products", "cv_match": "8 years across Brightpath, Tidewell and Marlow Market", "matched": true, "severity": "required"},
+            {"requirement": "Builds engagement loops using product, comms and alert touch points", "cv_match": "Defined the notifications platform roadmap: preference centre, throttling and delivery analytics", "matched": true, "severity": "required"},
+            {"requirement": "Extremely data driven; pulls the data yourself with SQL", "cv_match": "SQL, event tracking and data modelling, Amplitude, Looker", "matched": true, "severity": "required"},
+            {"requirement": "Experiments on experiences and content to improve engagement", "cv_match": "Built a self-serve experiment toolkit ... doubled experiments run per quarter", "matched": false, "severity": "required"},
+            {"requirement": "History working on modern consumer financial tools", "cv_match": "Led the bank-linking and data platform for a budgeting app with 3M users", "matched": true, "severity": "preferred"},
+            {"requirement": "Drives discovery with user interviews and research", "cv_match": null, "matched": false, "severity": "preferred"},
+            {"requirement": "Hands-on with copy and the content journey, from writing to measuring results", "cv_match": null, "matched": false, "severity": "required"},
+            {"requirement": "Technical background such as reading code", "cv_match": "REST APIs, feature flags, Postman, public API docs", "matched": true, "severity": "preferred"}
+          ],
+          "keyword_coverage_pct": 58,
+          "matched_keywords": ["consumer", "fintech", "SQL", "data modelling", "notifications", "experimentation", "REST APIs", "analytics"],
+          "missing_keywords": ["engagement", "content", "user research", "copywriting", "segments"],
+          "hard_blockers": [],
+          "ats_tip": "The Consumer Growth resume covers engagement and research; use it for this posting and keep Platform for infrastructure roles."
+        }
+      }
+    },
+    "tailored": {
+      "base": "growth",
+      "name": "Daniel Reyes - Kikoff",
+      "title": "Product Manager, Consumer Engagement",
+      "summary": "Consumer product manager with 8 years of experience building engagement loops for mobile and fintech apps. Pulls own data in SQL, runs 60+ experiments a year, and works with design, data and lifecycle teams on messaging that brings users back.",
+      "bullets": [
+        [
+          "Own the growth roadmap for a meditation and sleep app with **12M monthly users** across iOS, Android and web",
+          "Rebuilt onboarding around a personalised first session, lifting day-7 retention from 31% to **39%** and trial starts by 22%",
+          "Launched a family plan and annual-plan paywall tests that added **$9M** in annual recurring revenue",
+          "Run a 6-person growth squad and an experimentation cadence of **60+ A/B tests per year**, with a 38% win rate"
+        ],
+        [
+          "Led the savings and goals experience of a consumer fintech budgeting app with **3M** registered users",
+          "Shipped automated round-up savings, which grew monthly active savers by **47%** in two quarters",
+          "Cut sign-up to first-linked-account drop-off by **28%** through a redesigned bank-linking flow and in-app education",
+          "Introduced push and email lifecycle messaging, an engagement loop built with design and data, reactivating **180K** dormant users"
+        ],
+        [
+          "Supported a handmade-goods marketplace with **1.2M** monthly shoppers; owned search filters and saved items",
+          "Launched wishlists and price-drop alerts that drove **11%** of repeat purchases within a year",
+          "Wrote 40+ PRDs and ran weekly user interviews that shaped the mobile checkout rebuild"
+        ]
+      ],
+      "skills": {
+        "Product": "Lifecycle and retention, experimentation and A/B testing, onboarding, user research, roadmapping, PRDs, subscriptions and pricing",
+        "Analytics": "SQL, funnel and cohort analysis, Amplitude, Mixpanel, Looker, statistical significance",
+        "Tools": "Braze, Optimizely, Statsig, Figma, Jira, Notion",
+        "Domain": "Consumer fintech, consumer mobile apps, subscriptions, wellness, marketplaces"
+      },
+      "score": 79
+    },
+    "cover_letter": {
+      "resume": "growth",
+      "name": "Kikoff cover letter",
+      "recipient": {"company": "Kikoff"},
+      "greeting": "Dear Kikoff Hiring Team,",
+      "body_paragraphs": [
+        "Kikoff helps people build financial security with affordable tools, and the product team is asked to find what keeps those users coming back. Engagement built on real data and real conversations is the part of product work I enjoy most, so the Product Manager role in San Francisco reads like a description of my best projects.",
+        "At Tidewell, a consumer fintech app with 3M users, I introduced push and email lifecycle messaging that reactivated 180K dormant users, and I cut sign-up drop-off by 28% with a clearer bank-linking flow. At Brightpath I run 60+ experiments a year and pull the cuts myself in SQL, which is how I found that a personalised first session lifted day-7 retention from 31% to 39%.",
+        "Hands-on copywriting and content have been a smaller part of my work, and I would build that skill with your team. I like to learn from users first, so I would welcome a conversation about the engagement loops you are trying to build and the data you already have on them. I can share examples of readouts I have written."
+      ],
+      "closing": "Sincerely,",
+      "signature": "Daniel Reyes"
+    },
+    "autofill": {
+      "why do you want to work at kikoff?": "I want to work on consumer finance products that help people become more secure, and engagement is the part I know best. At Tidewell, lifecycle messaging reactivated 180K dormant users of a budgeting app, and I saw how much it mattered to them. Kikoff's focus on affordable tools and data-driven product work is a strong match.",
+      "describe how you find insights in data to drive engagement.": "I start by cutting the data into segments, then look for the behavior that separates retained users from lapsed ones. At Brightpath I pulled this in SQL and found that users who finished a personalised first session came back far more often. We rebuilt onboarding around it, and day-7 retention went from 31% to 39%.",
+      "tell us about a time you talked to users to shape a product.": "At Marlow Market I ran weekly user interviews with shoppers and sellers, and the same checkout complaints came up repeatedly. I wrote them into 40+ PRDs and the findings shaped the mobile checkout rebuild. I still start most projects with five to ten conversations before I look at a single dashboard.",
+      "_default": "I am drawn to this role because it centers on understanding users through data and conversations and then building engagement around what I learn. It matches my lifecycle and growth work at Tidewell and Brightpath, and I would enjoy applying it to consumer finance."
+    }
+  }
+]

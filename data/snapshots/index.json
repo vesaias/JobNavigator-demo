@@ -1,0 +1,71 @@
+{
+ "ok": [
+  "0c47f539-1b31-5b8c-ab65-b46599b5bf70",
+  "442d522d-aa76-50fb-a64c-a30f74475227",
+  "2ed7d021-9e78-5fc0-889f-5c2e19dff049",
+  "d2110009-8703-5a90-a61f-6cfcdd118650",
+  "651d5f41-e3e9-58a7-af14-dc39b6092a2b",
+  "f060a7b7-0724-5bec-9f6d-38868ddbba41",
+  "9f38cfd6-7851-5cfd-b856-3ceb055fe0b8",
+  "418c364f-b2f0-5aa5-834a-b96fc44dc4df",
+  "c46e85e0-29db-5af6-84d0-7be425514639",
+  "1328614d-1578-55f9-a718-50220ca284b9",
+  "1d5da35f-7a95-5d73-9fbc-be5eb092d7ae",
+  "bdfccc0a-7977-5d87-a7be-9cc32ecc450b",
+  "cee144db-4cec-5404-b392-8455c2788dc3",
+  "4946d136-ba94-5122-8f8b-033d8bedb480",
+  "a2b77069-7726-5f1e-a353-874fbe479774"
+ ],
+ "failed": [
+  {
+   "id": "7b786bdd-277a-5037-830e-ff84d68ac334",
+   "company": "Scribd, Inc.",
+   "reason": "page does not show the posting (expired, redirected or blocked)"
+  },
+  {
+   "id": "5a91d41d-418e-5cbc-9c71-9025cc57fe81",
+   "company": "Nectar Social",
+   "reason": "page does not show the posting (expired, redirected or blocked)"
+  },
+  {
+   "id": "ddb4487e-4dce-5614-82dd-b68acb2cac62",
+   "company": "Coinflow",
+   "reason": "page does not show the posting (expired, redirected or blocked)"
+  },
+  {
+   "id": "3e3d0794-8118-55be-a3a3-03f6fd41f518",
+   "company": "Cohere",
+   "reason": "page does not show the posting (expired, redirected or blocked)"
+  },
+  {
+   "id": "6eba287c-5ad6-516c-b888-6f06cf31ccce",
+   "company": "OpenAI",
+   "reason": "page does not show the posting (expired, redirected or blocked)"
+  },
+  {
+   "id": "60a138b3-ed63-587a-a6de-ffc45f657427",
+   "company": "Dave",
+   "reason": "page does not show the posting (expired, redirected or blocked)"
+  },
+  {
+   "id": "a0dc39c7-e5e5-5dc5-997b-ef8aca0e0e5b",
+   "company": "Match Group",
+   "reason": "page does not show the posting (expired, redirected or blocked)"
+  },
+  {
+   "id": "dd309f25-afa4-5ba2-9bf7-dfe1cdb1defc",
+   "company": "SoFi",
+   "reason": "page does not show the posting (expired, redirected or blocked)"
+  },
+  {
+   "id": "6940ada5-d5c6-54fc-923f-a2455756b745",
+   "company": "Snowflake",
+   "reason": "page does not show the posting (expired, redirected or blocked)"
+  },
+  {
+   "id": "7fe12c51-dba0-505a-b8d7-2404b2f26daf",
+   "company": "Hiya Inc.",
+   "reason": "page does not show the posting (expired, redirected or blocked)"
+  }
+ ]
+}
