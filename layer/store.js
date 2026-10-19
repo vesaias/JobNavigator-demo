@@ -59,3 +59,23 @@ export function loadStore(seed, version) {
 
 export const getStore = () => current
 export function resetStore() { if (current) current.reset() }
+
+// The app's own browser keys (theme, filters, sort, panels, welcome tour, rail…). Other Pages sites share
+// this origin (vesaias.github.io), so only these prefixes are removed, never everything.
+const APP_KEY = /^(jn[:_]|jobnavigator_|jobhunter_|v2_|company_)/
+export function clearBrowserState() {
+  for (const st of [() => window.localStorage, () => window.sessionStorage]) {
+    try {
+      const s = st()
+      for (const k of Object.keys(s)) if (APP_KEY.test(k)) s.removeItem(k)
+    } catch { /* storage blocked */ }
+  }
+  try {
+    const paths = ['/', (import.meta.env && import.meta.env.BASE_URL) || '/']
+    for (const c of document.cookie.split(';')) {
+      const name = c.split('=')[0].trim()
+      if (!name) continue
+      for (const path of paths) document.cookie = `${name}=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=${path}`
+    }
+  } catch { /* cookies blocked */ }
+}

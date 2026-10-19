@@ -3,14 +3,14 @@
 import React, { useState } from 'react'
 import { Helper } from '../ui'
 import ConfirmDialog from '../ConfirmDialog'
-import { resetStore } from './store.js'
+import { resetStore, clearBrowserState } from './store.js'
 
 export const NOT_AFFILIATED = 'Job postings are snapshots for this demo; not affiliated with the companies.'
 
 export default function DemoMarker({ open }) {
   const [asking, setAsking] = useState(false)
   if (!open) return null
-  const reset = () => { setAsking(false); resetStore(); window.location.reload() }
+  const reset = () => { setAsking(false); resetStore(); clearBrowserState(); window.location.reload() }
   return (
     <>
       {/* Same shape as the rail's health row: 20px inset, 11.5px dim text, rail tokens only. */}
@@ -25,7 +25,7 @@ export default function DemoMarker({ open }) {
           style={{ fontSize: 11.5, lineHeight: '18px', color: 'var(--rail-text)', textDecoration: 'underline', textUnderlineOffset: 3, textDecorationColor: 'var(--rail-line)' }}>Reset demo</span>
       </div>
       {/* Outside the nowrap row so the dialog text wraps. */}
-      {asking && <ConfirmDialog title="Reset the demo?" body="Your changes in this browser are discarded and the sample data comes back."
+      {asking && <ConfirmDialog title="Reset the demo?" body="Your changes and settings in this browser are discarded, and the demo starts over like a first visit."
         label="Reset" danger onConfirm={reset} onCancel={() => setAsking(false)} />}
     </>
   )
